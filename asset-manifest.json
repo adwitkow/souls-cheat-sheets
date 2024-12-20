@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/souls-cheat-sheets/static/css/main.f855e6bc.css",
+    "main.js": "/souls-cheat-sheets/static/js/main.fdb8bdd8.js",
+    "static/media/logo.svg": "/souls-cheat-sheets/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/souls-cheat-sheets/index.html",
+    "main.f855e6bc.css.map": "/souls-cheat-sheets/static/css/main.f855e6bc.css.map",
+    "main.fdb8bdd8.js.map": "/souls-cheat-sheets/static/js/main.fdb8bdd8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.fdb8bdd8.js"
+  ]
+}
