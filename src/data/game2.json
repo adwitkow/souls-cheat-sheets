@@ -1,0 +1,13 @@
+{
+  "name": "game2",
+  "sections": [
+    {
+      "name": "game2-section1",
+      "steps": [
+        "game2-section1: step 1",
+        "game2-section1: step 2",
+        "game2-section1: step 3"
+      ]
+    }
+  ]
+}

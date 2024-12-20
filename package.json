@@ -1,14 +1,19 @@
 {
   "name": "souls-cheat-sheets",
   "version": "0.1.0",
+  "homepage": "https://adwitkow.github.io/souls-cheat-sheets",
   "private": true,
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "cra-template-typescript": "1.2.0",
     "react": "^19.0.0",
+    "react-bootstrap": "^2.10.7",
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,6 +39,8 @@
   },
   "devDependencies": {
     "@types/react": "^19.0.2",
-    "@types/react-dom": "^19.0.2"
+    "@types/react-dom": "^19.0.2",
+    "gh-pages": "^6.2.0",
+    "sass": "^1.83.0"
   }
 }

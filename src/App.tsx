@@ -1,24 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from 'react';
+import './App.scss';
+import { Dropdown, DropdownButton, Form, Spinner } from 'react-bootstrap';
+import GamePage from './components/GamePage';
 
-function App() {
+const App = () => {
+  const games = [
+    'game1', 'game2'
+  ];
+
+  const [currentGame, setCurrentGame] = useState<string>(games[0]);
+
+  const handleClick = async (e: any) => {
+    e.preventDefault();
+    const name: string = e.target.text;
+    setCurrentGame(name);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <DropdownButton id="dropdown-basic-button" title={currentGame}>
+        {games.map(game => (
+          <Dropdown.Item key={game} onClick={handleClick}>{game}</Dropdown.Item>
+        ))}
+      </DropdownButton>
+      <GamePage game={currentGame} />
     </div>
   );
 }
