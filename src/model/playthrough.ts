@@ -1,6 +1,6 @@
 import { Section } from "./section";
 
 export interface Playthrough {
-    name: string;
+    game: string;
     sections: Section[];
 }

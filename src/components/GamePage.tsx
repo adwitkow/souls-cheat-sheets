@@ -1,6 +1,7 @@
 import React from "react";
-import game1 from '../data/game1.json';
-import game2 from '../data/game2.json';
+import das1 from '../data/das1.json';
+import das2 from '../data/das2.json';
+import das3 from '../data/das3.json';
 import { Playthrough } from "../model/playthrough";
 import { Form } from "react-bootstrap";
 
@@ -13,27 +14,27 @@ interface Dictionary<T> {
 }
 
 const gameMap: Dictionary<Playthrough> = {
-  'game1': game1,
-  'game2': game2
+  'Dark Souls': das1,
+  'Dark Souls II: SOTFS': das2,
+  'Dark Souls III': das3
 }
 
 const GamePage = ({ game }: GamePageProps) => {
   var gameData: Playthrough = gameMap[game];
-  console.log(gameData);
   return (
     <div>
       {gameData.sections.map((section, sectionIndex) => (
         <>
-          <h1>{section.name}</h1>
+          <h1>{section.displayName}</h1>
           {section.steps.map((step, stepIndex) => (
-            <Form.Check // prettier-ignore
+            <Form.Check
               type='checkbox'
               id={`${section}-${stepIndex}`}
-              label={step}
+              label={step.content}
             />
           ))}
         </>
-      ))};
+      ))}
     </div>
   )
 }

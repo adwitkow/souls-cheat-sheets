@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import './App.scss';
-import { Dropdown, DropdownButton, Form, Spinner } from 'react-bootstrap';
+import { Dropdown, DropdownButton } from 'react-bootstrap';
 import GamePage from './components/GamePage';
 
 const App = () => {
   const games = [
-    'game1', 'game2'
+    'Dark Souls', 'Dark Souls II: SOTFS', 'Dark Souls III'
   ];
 
   const [currentGame, setCurrentGame] = useState<string>(games[0]);
@@ -18,7 +18,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <DropdownButton id="dropdown-basic-button" title={currentGame}>
+      <DropdownButton id="dropdown-basic-button" title={currentGame} className="float-right">
         {games.map(game => (
           <Dropdown.Item key={game} onClick={handleClick}>{game}</Dropdown.Item>
         ))}

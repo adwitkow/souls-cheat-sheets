@@ -1,4 +1,9 @@
+import { Step } from "./step";
+
 export interface Section {
+    id: number;
     name: string;
-    steps: string[];
+    displayName: string;
+    wikiUrl: string;
+    steps: Step[];
 }
