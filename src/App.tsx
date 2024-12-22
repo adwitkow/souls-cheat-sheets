@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import './App.scss';
-import { Dropdown, DropdownButton } from 'react-bootstrap';
+import { Container, Dropdown, DropdownButton, Navbar } from 'react-bootstrap';
 import GamePage from './components/GamePage';
+import Footer from './components/Footer';
 
 const App = () => {
   const games = [
@@ -17,14 +18,22 @@ const App = () => {
   }
 
   return (
-    <div className="container">
-      <DropdownButton id="dropdown-basic-button" title={currentGame} className="float-right">
-        {games.map(game => (
-          <Dropdown.Item key={game} onClick={handleClick}>{game}</Dropdown.Item>
-        ))}
-      </DropdownButton>
-      <GamePage game={currentGame} />
-    </div>
+    <>
+      <Navbar expand='lg' className='bg-body-tertiary'>
+        <Container>
+          <Navbar.Brand href='#'>Souls Cheat Sheets</Navbar.Brand>
+          <DropdownButton id='dropdown-basic-button' title={currentGame} className='justify-content-end'>
+          {games.map(game => (
+            <Dropdown.Item key={game} onClick={handleClick}>{game}</Dropdown.Item>
+          ))}
+        </DropdownButton>
+        </Container>
+      </Navbar>
+      <Container>
+        <GamePage game={currentGame} />
+      </Container>
+      <Footer />
+    </>
   );
 }
 
