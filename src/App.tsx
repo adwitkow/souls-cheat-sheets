@@ -10,7 +10,7 @@ import { routesConfig } from './config/routesConfig';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/souls-cheat-sheets'>
       <ProfileProvider>
         <GameProvider>
           <NavigationBar />
