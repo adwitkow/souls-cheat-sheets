@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/souls-cheat-sheets/static/css/main.94ef9dae.css",
-    "main.js": "/souls-cheat-sheets/static/js/main.d6c6df49.js",
+    "main.css": "/souls-cheat-sheets/static/css/main.31a7b3ee.css",
+    "main.js": "/souls-cheat-sheets/static/js/main.63844b26.js",
     "index.html": "/souls-cheat-sheets/index.html",
-    "main.94ef9dae.css.map": "/souls-cheat-sheets/static/css/main.94ef9dae.css.map",
-    "main.d6c6df49.js.map": "/souls-cheat-sheets/static/js/main.d6c6df49.js.map"
+    "main.31a7b3ee.css.map": "/souls-cheat-sheets/static/css/main.31a7b3ee.css.map",
+    "main.63844b26.js.map": "/souls-cheat-sheets/static/js/main.63844b26.js.map"
   },
   "entrypoints": [
-    "static/css/main.94ef9dae.css",
-    "static/js/main.d6c6df49.js"
+    "static/css/main.31a7b3ee.css",
+    "static/js/main.63844b26.js"
   ]
 }
