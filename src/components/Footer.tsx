@@ -5,7 +5,7 @@ import { Container, Row } from 'react-bootstrap';
 
 const Footer = () => {
   return (
-    <footer className="bg-body-tertiary p-3 border-top">
+    <footer className='bg-body-tertiary p-3 border-top'>
       <Container>
         <Row>
           <span>

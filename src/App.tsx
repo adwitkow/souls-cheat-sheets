@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.scss';
 import { Container } from 'react-bootstrap';
-import PlaythroughPage from './components/PlaythroughPage';
 import Footer from './components/Footer';
 import NavigationBar from './components/NavigationBar';
 import { ProfileProvider } from './contexts/ProfileContext';

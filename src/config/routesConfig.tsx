@@ -1,5 +1,5 @@
 import React from 'react';
-import PlaythroughPage from '../components/PlaythroughPage';
+import PlaythroughPage from '../pages/PlaythroughPage';
 
 type RouteConfig = {
   path: string;

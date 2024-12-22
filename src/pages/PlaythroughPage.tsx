@@ -3,9 +3,9 @@ import das1 from '../data/das1.json';
 import das2 from '../data/das2.json';
 import das3 from '../data/das3.json';
 import { Playthrough } from '../models/playthrough';
-import SectionContainer from './SectionContainer';
 import { useGame } from '../contexts/GameContext';
 import { DARK_SOULS, DARK_SOULS_II, DARK_SOULS_III } from '../constants';
+import SectionContainer from '../components/SectionContainer';
 
 const GetGameData = (game: string): Playthrough => {
   // I HATE SWITCH STATEMENTS

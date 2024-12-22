@@ -1,4 +1,4 @@
-import React, { createContext, useState, ReactNode, useContext } from "react";
+import React, { createContext, useState, ReactNode, useContext } from 'react';
 import { DARK_SOULS, DARK_SOULS_II, DARK_SOULS_III } from '../constants';
 
 type Game = typeof DARK_SOULS | typeof DARK_SOULS_II | typeof DARK_SOULS_III;
