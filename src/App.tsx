@@ -1,39 +1,23 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.scss';
-import { Container, Dropdown, DropdownButton, Navbar } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import GamePage from './components/GamePage';
 import Footer from './components/Footer';
+import NavigationBar from './components/NavigationBar';
+import { ProfileProvider } from './contexts/ProfileContext';
+import { GameProvider } from './contexts/GameContext';
 
 const App = () => {
-  const games = [
-    'Dark Souls', 'Dark Souls II: SOTFS', 'Dark Souls III'
-  ];
-
-  const [currentGame, setCurrentGame] = useState<string>(games[0]);
-
-  const handleClick = async (e: any) => {
-    e.preventDefault();
-    const name: string = e.target.text;
-    setCurrentGame(name);
-  }
-
   return (
-    <>
-      <Navbar expand='lg' className='bg-body-tertiary'>
+    <ProfileProvider>
+      <GameProvider>
+        <NavigationBar />
         <Container>
-          <Navbar.Brand href='#'>Souls Cheat Sheets</Navbar.Brand>
-          <DropdownButton id='dropdown-basic-button' title={currentGame} className='justify-content-end'>
-          {games.map(game => (
-            <Dropdown.Item key={game} onClick={handleClick}>{game}</Dropdown.Item>
-          ))}
-        </DropdownButton>
+          <GamePage />
         </Container>
-      </Navbar>
-      <Container>
-        <GamePage game={currentGame} />
-      </Container>
-      <Footer />
-    </>
+        <Footer />
+      </GameProvider>
+    </ProfileProvider>
   );
 }
 
