@@ -23,7 +23,7 @@ const GetGameData = (game: string): Playthrough => {
   }
 }
 
-const GamePage = () => {
+const PlaythroughPage = () => {
   const { game } = useGame();
   const gameData = GetGameData(game);
 
@@ -36,4 +36,4 @@ const GamePage = () => {
   )
 }
 
-export default GamePage;
+export default PlaythroughPage;
