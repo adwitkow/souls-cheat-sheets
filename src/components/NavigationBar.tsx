@@ -1,4 +1,5 @@
 import React from 'react';
+import './NavigationBar.scss';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import GamePicker from './GamePicker';
 import { routesConfig } from '../config/routesConfig';
@@ -10,7 +11,7 @@ const NavigationBar = () => {
       <Container>
         <Navbar.Brand href='#'>Souls Cheat Sheets</Navbar.Brand>
         <Navbar.Collapse id='basic-navbar-nav'>
-          <Nav>
+          <Nav variant='pills'>
             {routesConfig.map(({path, name}) => (
               <Nav.Link as={NavLink} key={path} to={path}>
                 {name}
