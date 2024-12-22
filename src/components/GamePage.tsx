@@ -26,9 +26,9 @@ const GetGameData = (game: string): Playthrough => {
 const GamePage = () => {
   const { game } = useGame();
   const gameData = GetGameData(game);
-  
+
   return (
-    <div>
+    <div className='mt-3 mb-3'>
       {gameData.sections.map((section) => (
         <SectionContainer section={section} />
       ))}

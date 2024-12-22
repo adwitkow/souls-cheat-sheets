@@ -4,7 +4,7 @@ import GamePicker from './GamePicker';
 
 const NavigationBar = () => {
   return (
-    <Navbar expand='lg' className='bg-body-tertiary'>
+    <Navbar expand='lg' className='bg-body-tertiary border-bottom'>
       <Container>
         <Navbar.Brand href='#'>Souls Cheat Sheets</Navbar.Brand>
         <div className='justify-content-end'>
