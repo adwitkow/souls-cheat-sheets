@@ -47,28 +47,35 @@ export const ProfileProvider = ({ children }: { children: ReactNode }) => {
   console.log(localStorage);
 
   const addProfile = (profile: string) => {
-    if (!profiles.includes(profile)) {
-      const modifiedProfiles = [...profiles, profile];
-      setProfiles(modifiedProfiles);
+    setProfiles(prev => {
+      if (prev.includes(profile)) {
+        return prev;
+      }
+
       setActiveProfile(profile);
-    }
+      return [...prev, profile];
+    });
   }
 
   const deleteProfile = (profile: string) => {
-    const index = profiles.indexOf(profile);
-    if (index !== -1) {
-      let modifiedProfiles = profiles.filter((p) => p !== profile);
+    setProfiles(prev => {
+      const index = prev.indexOf(profile);
+      if (index === -1) {
+        return prev;
+      }
+
+      let modifiedProfiles = prev.filter(p => p !== profile);
       modifiedProfiles.splice(index, 1);
 
       if (modifiedProfiles.length === 0) {
         modifiedProfiles = [DEFAULT];
       }
 
-      const nextIndex = index > 0 ? index - 1 : 0;
+      const previousIndex = index > 0 ? index - 1 : 0;
+      setActiveProfile(modifiedProfiles[previousIndex]);
 
-      setProfiles(modifiedProfiles);
-      setActiveProfile(modifiedProfiles[nextIndex]);
-    }
+      return modifiedProfiles;
+    });
   }
 
   return (

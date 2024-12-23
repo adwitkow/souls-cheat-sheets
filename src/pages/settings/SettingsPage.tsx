@@ -16,12 +16,16 @@ const SettingsPage = () => {
     createNew: false,
   });
 
-  const handleSaveProfile = (content: string) => {
+  const disableEditProfile = () => {
+    setInput({ active: false, createNew: false });
+  }
+
+  const handleSaveProfile = (newProfile: string) => {
     if (input.createNew) {
-      addProfile(content);
+      addProfile(newProfile);
     } else {
-      // TODO: delete profile and its contents
-      // TODO: create a new profile and paste the contents
+      deleteProfile(activeProfile);
+      addProfile(newProfile); // Very temporary solution actually
     }
 
     disableEditProfile();
@@ -29,10 +33,6 @@ const SettingsPage = () => {
 
   const handleCancelProfile = () => {
     disableEditProfile();
-  }
-
-  const disableEditProfile = () => {
-    setInput({ active: false, createNew: false });
   }
 
   const handleNewProfile = () => {
@@ -51,10 +51,6 @@ const SettingsPage = () => {
 
   const handleDeleteProfile = () => {
     deleteProfile(activeProfile);
-    setInput({
-      active: false,
-      createNew: false,
-    })
   }
 
   return (
