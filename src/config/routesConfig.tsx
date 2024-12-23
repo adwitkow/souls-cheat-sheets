@@ -1,6 +1,6 @@
 import React from 'react';
-import PlaythroughPage from '../pages/PlaythroughPage';
-import SettingsPage from '../pages/SettingsPage';
+import PlaythroughPage from '../pages/playthrough/PlaythroughPage';
+import SettingsPage from '../pages/settings/SettingsPage';
 
 type RouteConfig = {
   path: string;

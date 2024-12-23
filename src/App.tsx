@@ -14,9 +14,9 @@ const App = () => {
       <ProfileProvider>
         <GameProvider>
           <NavigationBar />
-          <Container>
+          <Container className='mt-3 mb-3'>
             <Routes>
-              {routesConfig.map(({path, Component}) => (
+              {routesConfig.map(({ path, Component }) => (
                 <Route key={path} path={path} element={<Component />} />
               ))}
             </Routes>

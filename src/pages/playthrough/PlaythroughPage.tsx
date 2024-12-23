@@ -1,11 +1,11 @@
 import React from 'react';
-import das1 from '../data/das1.json';
-import das2 from '../data/das2.json';
-import das3 from '../data/das3.json';
-import { Playthrough } from '../models/playthrough';
-import { useGame } from '../contexts/GameContext';
-import { DARK_SOULS, DARK_SOULS_II, DARK_SOULS_III } from '../constants';
-import SectionContainer from '../components/SectionContainer';
+import das1 from '../../data/das1.json';
+import das2 from '../../data/das2.json';
+import das3 from '../../data/das3.json';
+import { Playthrough } from '../../models/playthrough';
+import { useGame } from '../../contexts/GameContext';
+import { DARK_SOULS, DARK_SOULS_II, DARK_SOULS_III } from '../../constants';
+import SectionContainer from '../../components/SectionContainer';
 
 const GetGameData = (game: string): Playthrough => {
   // I HATE SWITCH STATEMENTS
@@ -28,11 +28,11 @@ const PlaythroughPage = () => {
   const gameData = GetGameData(game);
 
   return (
-    <div className='mt-3 mb-3'>
+    <>
       {gameData.sections.map((section) => (
         <SectionContainer section={section} />
       ))}
-    </div>
+    </>
   )
 }
 
