@@ -12,7 +12,7 @@ const NavigationBar = () => {
         <Navbar.Brand href='#'>Souls Cheat Sheets</Navbar.Brand>
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav variant='pills'>
-            {routesConfig.map(({path, name}) => (
+            {routesConfig.map(({ path, name }) => (
               <Nav.Link as={NavLink} key={path} to={path}>
                 {name}
               </Nav.Link>

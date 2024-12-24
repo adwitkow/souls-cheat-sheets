@@ -21,7 +21,7 @@ const ProfileEditor = ({ onSave, onCancel, createNew }: ProfileEditorProps) => {
 
   const label = createNew
     ? 'New profile'
-    : `Editing \'${activeProfile}\'`;
+    : `Editing '${activeProfile}'`;
 
   return (
     <InputGroup>
