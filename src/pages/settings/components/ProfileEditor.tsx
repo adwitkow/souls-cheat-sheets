@@ -19,8 +19,13 @@ const ProfileEditor = ({ onSave, onCancel, createNew }: ProfileEditorProps) => {
     setContent(newContent);
   }
 
+  const label = createNew
+    ? 'New profile'
+    : `Editing \'${activeProfile}\'`;
+
   return (
     <InputGroup>
+      <InputGroup.Text>{label}</InputGroup.Text>
       <Form.Control
         placeholder='Profile name'
         onChange={handleContentChange}
