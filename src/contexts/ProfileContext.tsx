@@ -8,6 +8,7 @@ type ProfileContextType = {
   activeProfile: string;
   setActiveProfile: (profile: string) => void;
   addProfile: (profile: string) => void;
+  renameProfile: (oldName: string, newName: string) => void;
   deleteProfile: (profile: string) => void;
 };
 
@@ -28,6 +29,7 @@ const ProfileContext = createContext<ProfileContextType>({
   activeProfile: '',
   setActiveProfile: () => { },
   addProfile: () => { },
+  renameProfile: () => { },
   deleteProfile: () => { },
 });
 
@@ -44,8 +46,6 @@ export const ProfileProvider = ({ children }: { children: ReactNode }) => {
     storageUtils.saveProfiles(profiles);
   }, [profiles])
 
-  console.log(localStorage);
-
   const addProfile = (profile: string) => {
     setProfiles(prev => {
       if (prev.includes(profile)) {
@@ -57,6 +57,23 @@ export const ProfileProvider = ({ children }: { children: ReactNode }) => {
     });
   }
 
+  const renameProfile = (oldName: string, newName: string) => {
+    setProfiles(prev => {
+      const index = prev.indexOf(oldName);
+      if (index === -1) {
+        return prev;
+      }
+
+      let modifiedProfiles = prev.map(profile => {
+        return profile === oldName ? newName : profile;
+      })
+
+      setActiveProfile(newName);
+
+      return modifiedProfiles;
+    })
+  }
+
   const deleteProfile = (profile: string) => {
     setProfiles(prev => {
       const index = prev.indexOf(profile);
@@ -65,7 +82,6 @@ export const ProfileProvider = ({ children }: { children: ReactNode }) => {
       }
 
       let modifiedProfiles = prev.filter(p => p !== profile);
-      modifiedProfiles.splice(index, 1);
 
       if (modifiedProfiles.length === 0) {
         modifiedProfiles = [DEFAULT];
@@ -84,6 +100,7 @@ export const ProfileProvider = ({ children }: { children: ReactNode }) => {
       activeProfile,
       setActiveProfile,
       addProfile,
+      renameProfile,
       deleteProfile,
     }}>
       {children}

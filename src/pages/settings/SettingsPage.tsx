@@ -10,7 +10,7 @@ export interface InputState {
 }
 
 const SettingsPage = () => {
-  const { activeProfile, addProfile, deleteProfile } = useProfile();
+  const { activeProfile, addProfile, renameProfile, deleteProfile } = useProfile();
   const [input, setInput] = useState<InputState>({
     active: false,
     createNew: false,
@@ -24,8 +24,7 @@ const SettingsPage = () => {
     if (input.createNew) {
       addProfile(newProfile);
     } else {
-      deleteProfile(activeProfile);
-      addProfile(newProfile); // Very temporary solution actually
+      renameProfile(activeProfile, newProfile);
     }
 
     disableEditProfile();
