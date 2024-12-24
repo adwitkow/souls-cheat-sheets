@@ -22,11 +22,11 @@ const ProfileEditor = ({ onSave, onCancel, createNew }: ProfileEditorProps) => {
   return (
     <InputGroup>
       <Form.Control
-        placeholder="Profile name"
+        placeholder='Profile name'
         onChange={handleContentChange}
         value={content} />
       <Button onClick={() => onSave(content)}>Save</Button>
-      <Button onClick={onCancel}>Cancel</Button>
+      <Button onClick={onCancel} variant='secondary'>Cancel</Button>
     </InputGroup>
   )
 }
