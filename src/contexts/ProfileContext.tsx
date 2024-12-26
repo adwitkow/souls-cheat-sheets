@@ -10,6 +10,8 @@ type ProfileContextType = {
   addProfile: (profile: string) => void;
   renameProfile: (oldName: string, newName: string) => void;
   deleteProfile: (profile: string) => void;
+  saveCheckedSteps: (game: string, sectionKey: string, stepKeys: string[]) => void;
+  loadCheckedSteps: (game: string, sectionKey: string) => string[];
 };
 
 const initActiveProfile = (): string => {
@@ -31,6 +33,8 @@ const ProfileContext = createContext<ProfileContextType>({
   addProfile: () => { },
   renameProfile: () => { },
   deleteProfile: () => { },
+  saveCheckedSteps: () => { },
+  loadCheckedSteps: () => [],
 });
 
 export const ProfileProvider = ({ children }: { children: ReactNode }) => {
@@ -94,6 +98,26 @@ export const ProfileProvider = ({ children }: { children: ReactNode }) => {
     });
   }
 
+  const saveCheckedSteps = (game: string, sectionKey: string, stepKeys: string[]) => {
+    const identifier = {
+      profileName: activeProfile,
+      game: game,
+      sectionKey: sectionKey,
+    }
+
+    storageUtils.saveCheckedSteps(identifier, stepKeys);
+  }
+
+  const loadCheckedSteps = (game: string, sectionKey: string) => {
+    const identifier = {
+      profileName: activeProfile,
+      game: game,
+      sectionKey: sectionKey,
+    }
+
+    return storageUtils.loadCheckedSteps(identifier);
+  }
+
   return (
     <ProfileContext.Provider value={{
       profiles,
@@ -102,6 +126,8 @@ export const ProfileProvider = ({ children }: { children: ReactNode }) => {
       addProfile,
       renameProfile,
       deleteProfile,
+      saveCheckedSteps,
+      loadCheckedSteps,
     }}>
       {children}
     </ProfileContext.Provider>

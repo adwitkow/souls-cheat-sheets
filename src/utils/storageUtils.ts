@@ -5,7 +5,7 @@ const PROFILE_PREFIX = 'profile';
 interface SectionIdentifier {
   profileName: string;
   game: string;
-  sectionName: string;
+  sectionKey: string;
 }
 
 const getFullSectionKey = (section: SectionIdentifier) => {
@@ -13,7 +13,7 @@ const getFullSectionKey = (section: SectionIdentifier) => {
     PROFILE_PREFIX,
     section.profileName,
     section.game,
-    section.sectionName,
+    section.sectionKey,
   ]
 
   return allComponents.join('-');
@@ -27,12 +27,12 @@ const saveActiveProfile = (profileName: string) => {
   localStorage.setItem(ACTIVE_PROFILE_KEY, profileName);
 }
 
-const saveCheckedIds = (section: SectionIdentifier, checkedIds: string[]) => {
+const saveCheckedSteps = (section: SectionIdentifier, checkedIds: string[]) => {
   const key = getFullSectionKey(section);
   localStorage.setItem(key, JSON.stringify(checkedIds));
 }
 
-const loadCheckedIds = (section: SectionIdentifier): string[] => {
+const loadCheckedSteps = (section: SectionIdentifier): string[] => {
   const key = getFullSectionKey(section);
   const storedState = localStorage.getItem(key);
   return storedState ? JSON.parse(storedState) : [];
@@ -49,8 +49,8 @@ const saveProfiles = (profiles: string[]) => {
 const storageUtils = {
   saveActiveProfile,
   loadActiveProfile,
-  saveCheckedIds,
-  loadCheckedIds,
+  saveCheckedSteps,
+  loadCheckedSteps,
   loadProfiles,
   saveProfiles,
 }

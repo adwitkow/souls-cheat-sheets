@@ -4,9 +4,9 @@ import { useGame } from '../contexts/GameContext';
 import { GAMES } from '../constants';
 
 const GamePicker = () => {
-  const {game, setGame} = useGame();
+  const { game, setGame } = useGame();
 
-  const handleClick = async (e: any) => {
+  const handleClick = (e: any) => {
     e.preventDefault();
     const name: string = e.target.text;
     setGame(name);
