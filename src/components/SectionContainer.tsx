@@ -25,7 +25,7 @@ const SectionContainer = ({ section }: SectionContainerProps) => {
       .filter(key => checkedState[key]);
 
     saveCheckedSteps(game, section.name, checkedKeys);
-  }, [checkedState, saveCheckedSteps, section.name]);
+  }, [checkedState, saveCheckedSteps, section.name, game]);
 
   const handleChange = (id: string, checked: boolean, childIds: string[]) => {
     setCheckedState(prevState => {
