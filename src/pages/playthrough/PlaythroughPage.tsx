@@ -30,7 +30,11 @@ const PlaythroughPage = () => {
   return (
     <>
       {Object.entries(gameData.sections).map(([key, section]) => (
-        <SectionContainer sectionKey={key} section={section} />
+        <SectionContainer
+          key={key}
+          sectionKey={key}
+          section={section}
+        />
       ))}
     </>
   )

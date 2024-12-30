@@ -53,7 +53,6 @@ const StepCheckBox = ({ stepKey, stepContent, sectionId, checkedState, onChange 
   const createCheckBoxComponent = (content: string) => {
     return (
       <Form.Check
-        key={stepKey}
         id={id}
         type="checkbox"
         label={content}

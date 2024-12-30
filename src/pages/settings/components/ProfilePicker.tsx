@@ -28,6 +28,7 @@ const ProfilePicker = ({ onCreate, onEdit, onDelete }: ProfilePickerProps) => {
           title={activeProfile}>
           {profiles.map(profile => (
             <Dropdown.Item
+              key={profile}
               onClick={() => handleProfileChange(profile)}>
               {profile}
             </Dropdown.Item>

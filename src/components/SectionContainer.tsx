@@ -44,6 +44,7 @@ const SectionContainer = ({ sectionKey, section }: SectionContainerProps) => {
       <h1>{section.name}</h1>
       {Object.entries(section.steps).map(([key, content]) => (
         <StepCheckBox
+          key={key}
           stepKey={key}
           stepContent={content}
           sectionId={sectionKey}
