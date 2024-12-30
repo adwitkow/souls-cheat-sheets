@@ -5,14 +5,15 @@ import { useProfile } from '../contexts/ProfileContext';
 import { useGame } from '../contexts/GameContext';
 
 interface SectionContainerProps {
+  sectionKey: string;
   section: Section;
 }
 
-const SectionContainer = ({ section }: SectionContainerProps) => {
+const SectionContainer = ({ sectionKey, section }: SectionContainerProps) => {
   const { saveCheckedSteps, loadCheckedSteps } = useProfile();
   const { game } = useGame();
   const [checkedState, setCheckedState] = useState<{ [id: string]: boolean }>(() => {
-    const checkedIds = loadCheckedSteps(game, section.name);
+    const checkedIds = loadCheckedSteps(game, sectionKey);
 
     return checkedIds.reduce((dict, id: string) => {
       dict[id] = true;
@@ -24,8 +25,8 @@ const SectionContainer = ({ section }: SectionContainerProps) => {
     const checkedKeys = Object.keys(checkedState)
       .filter(key => checkedState[key]);
 
-    saveCheckedSteps(game, section.name, checkedKeys);
-  }, [checkedState, saveCheckedSteps, section.name, game]);
+    saveCheckedSteps(game, sectionKey, checkedKeys);
+  }, [checkedState, saveCheckedSteps, sectionKey, game]);
 
   const handleChange = (id: string, checked: boolean, childIds: string[]) => {
     setCheckedState(prevState => {
@@ -40,12 +41,12 @@ const SectionContainer = ({ section }: SectionContainerProps) => {
 
   return (
     <div>
-      <h1>{section.displayName}</h1>
-      {section.steps.map(step => (
+      <h1>{sectionKey}</h1>
+      {Object.entries(section.steps).map(([key, content]) => (
         <StepCheckBox
-          key={step.id}
-          step={step}
-          sectionId={section.name}
+          stepKey={key}
+          stepContent={content}
+          sectionId={sectionKey}
           checkedState={checkedState}
           onChange={handleChange}
         />

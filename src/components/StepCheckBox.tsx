@@ -1,31 +1,40 @@
 import React, { useEffect, useState } from 'react';
 import { Form } from 'react-bootstrap';
-import { Step } from '../models/step';
 
 interface StepCheckBoxProps {
-  step: Step;
+  stepKey: string;
+  stepContent: StepContent;
   sectionId: string;
   checkedState: { [id: string]: boolean };
   onChange: (id: string, checked: boolean, childIds: string[]) => void;
 }
 
-const StepCheckBox = ({ step, sectionId, checkedState, onChange }: StepCheckBoxProps) => {
-  const id = `${sectionId}-${step.id}`;
+const StepCheckBox = ({ stepKey, stepContent, sectionId, checkedState, onChange }: StepCheckBoxProps) => {
+  const id = `${sectionId}-${stepKey}`;
 
-  const getAllChildIds = (steps: Step[]): string[] => {
-    return steps.reduce((acc, childStep) => {
-      const childId = `${sectionId}-${childStep.id}`;
-      return [...acc, childId, ...getAllChildIds(childStep.steps)];
+  const collectIdsFromChildren = (steps: Record<string, StepContent>): string[] => {
+    const entries = Object.entries(steps);
+    return entries.reduce((acc, [key, stepContent]) => {
+      const childId = `${sectionId}-${key}`;
+      const descendants = resolveDescendantIds(stepContent);
+      return [...acc, childId, ...descendants];
     }, [] as string[]);
   };
-  const childIds = getAllChildIds(step.steps);
+
+  const resolveDescendantIds = (stepContent: StepContent) => {
+    return typeof stepContent === 'string'
+      ? []
+      : collectIdsFromChildren(stepContent.steps);
+  }
+
+  const descendantIds = resolveDescendantIds(stepContent);
 
   const [isChecked, setIsChecked] = useState(false);
   const [isIndeterminate, setIsIndeterminate] = useState(false);
 
   useEffect(() => {
-    if (childIds.length > 0) {
-      const childCheckedStates = childIds.map((childId) => checkedState[childId] || false);
+    if (descendantIds.length > 0) {
+      const childCheckedStates = descendantIds.map((childId) => checkedState[childId] || false);
       const allChecked = childCheckedStates.every((state) => state);
       const someChecked = childCheckedStates.some((state) => state);
 
@@ -35,18 +44,19 @@ const StepCheckBox = ({ step, sectionId, checkedState, onChange }: StepCheckBoxP
       setIsChecked(checkedState[id] || false);
       setIsIndeterminate(false);
     }
-  }, [checkedState, childIds, id]);
+  }, [checkedState, descendantIds, id]);
 
   const handleToggle = (checked: boolean) => {
-    onChange(id, checked, childIds);
+    onChange(id, checked, descendantIds);
   };
 
-  return (
-    <>
+  const createCheckBoxComponent = (content: string) => {
+    return (
       <Form.Check
+        key={stepKey}
         id={id}
         type="checkbox"
-        label={step.content}
+        label={content}
         checked={isChecked}
         onChange={(e) => handleToggle(e.target.checked)}
         ref={(el: HTMLInputElement) => {
@@ -55,21 +65,29 @@ const StepCheckBox = ({ step, sectionId, checkedState, onChange }: StepCheckBoxP
           }
         }}
       />
-      {step.steps.length > 0 && (
+    )
+  }
+
+  if (typeof stepContent === 'string') {
+    return createCheckBoxComponent(stepContent);
+  } else {
+    return (
+      <>
+        {createCheckBoxComponent(stepContent.content)}
         <div className="ms-4">
-          {step.steps.map((childStep) => (
+          {Object.entries(stepContent.steps).map(([key, childStep]) => (
             <StepCheckBox
-              key={childStep.id}
-              step={childStep}
+              stepKey={key}
+              stepContent={childStep}
               sectionId={sectionId}
               checkedState={checkedState}
               onChange={onChange}
             />
           ))}
         </div>
-      )}
-    </>
-  );
+      </>
+    );
+  }
 };
 
 export default StepCheckBox;

@@ -1,6 +1,8 @@
+import { Link } from './link';
 import { Section } from './section';
 
 export interface Playthrough {
   game: string;
-  sections: Section[];
+  sections: Record<string, Section>;
+  links: Record<string, Link>;
 }
