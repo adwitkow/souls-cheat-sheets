@@ -1,6 +1,5 @@
 const ACTIVE_PROFILE_KEY = 'active-profile';
 const PROFILES_KEY = 'profiles';
-const PROFILE_PREFIX = 'profile';
 
 interface SectionIdentifier {
   profileName: string;
@@ -9,14 +8,7 @@ interface SectionIdentifier {
 }
 
 const getFullSectionKey = (section: SectionIdentifier) => {
-  const allComponents = [
-    PROFILE_PREFIX,
-    section.profileName,
-    section.game,
-    section.sectionKey,
-  ]
-
-  return allComponents.join('-');
+  return Object.values(section).join('-');
 }
 
 const loadActiveProfile = (): string | null => {
