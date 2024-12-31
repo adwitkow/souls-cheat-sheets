@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Form } from 'react-bootstrap';
+import { useTextWithLinks } from '../hooks/useTextWithLinks';
 
 interface StepCheckBoxProps {
   stepKey: string;
@@ -10,6 +11,7 @@ interface StepCheckBoxProps {
 }
 
 const StepCheckBox = ({ stepKey, stepContent, sectionId, checkedState, onChange }: StepCheckBoxProps) => {
+  const textWithLinks = useTextWithLinks();
   const id = `${sectionId}-${stepKey}`;
 
   const collectIdsFromChildren = (steps: Record<string, StepContent>): string[] => {
@@ -51,11 +53,12 @@ const StepCheckBox = ({ stepKey, stepContent, sectionId, checkedState, onChange 
   };
 
   const createCheckBoxComponent = (content: string) => {
+    const label = textWithLinks(content);
     return (
       <Form.Check
         id={id}
         type="checkbox"
-        label={content}
+        label={label}
         checked={isChecked}
         onChange={(e) => handleToggle(e.target.checked)}
         ref={(el: HTMLInputElement) => {
