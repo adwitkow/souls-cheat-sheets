@@ -25,20 +25,14 @@ const GameContext = createContext<GameContextType>({
   setGame: () => { },
 });
 
+const gameFiles = {
+  [DARK_SOULS]: das1,
+  [DARK_SOULS_II]: das2,
+  [DARK_SOULS_III]: das3,
+}
+
 const GetGameData = (game: string): Playthrough => {
-  // I HATE SWITCH STATEMENTS
-  // GIVE ME A DICTIONARY THAT WORKS OUT OF THE BOX PLEASE
-  // FOR THE LOVE OF GOD
-  switch (game) {
-    case DARK_SOULS:
-      return das1;
-    case DARK_SOULS_II:
-      return das2;
-    case DARK_SOULS_III:
-      return das3;
-    default:
-      throw new Error(`Game ${game} does not have a defined data file.`);
-  }
+  return gameFiles[game];
 }
 
 export const GameProvider = ({ children }: { children: ReactNode }) => {
