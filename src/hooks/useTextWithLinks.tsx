@@ -1,8 +1,17 @@
 import { JSX } from 'react';
 import { useGame } from '../contexts/GameContext';
 import React from 'react';
+import { Badge } from 'react-bootstrap';
+import { COMMON, ENEMY, FRIEND, UNIQUE } from '../constants';
 
 const LINK_REGEX = /@(?<key>[a-zA-Z0-9-]+)(\[(?<name>[^\]]+)\])?/g;
+
+const colors: Record<string, string> = {
+  [FRIEND]: 'success',
+  [ENEMY]: 'danger',
+  [UNIQUE]: 'warning',
+  [COMMON]: 'light',
+}
 
 export const useTextWithLinks = () => {
   const { playthrough } = useGame();
@@ -22,23 +31,45 @@ export const useTextWithLinks = () => {
       }
 
       if (matchIndex > lastIndex) {
-        elements.push(<span>{input.slice(lastIndex, matchIndex)}</span>);
+        elements.push(<span key={lastIndex}>{input.slice(lastIndex, matchIndex)}</span>);
       }
-
-      console.log(key);
 
       const link = playthrough.links[key];
       const text = name ? name : link.defaultName;
 
-      elements.push(
-        <a href={link.wikiUrl}>{text}</a>
-      )
+      let element: JSX.Element;
+      if (link.type) {
+        const color = colors[link.type];
+        element = (
+          <Badge
+            key={matchIndex}
+            bg={color}
+            as='a'
+            href={link.wikiUrl}
+            target='_blank'
+            rel='noreferrer'>
+            {text}
+          </Badge>
+        )
+      } else {
+        element = (
+          <a
+            key={matchIndex}
+            href={link.wikiUrl}
+            target='_blank'
+            rel='noreferrer'>
+            {text}
+          </a>
+        )
+      }
+
+      elements.push(element)
 
       lastIndex = matchIndex + fullMatch.length;
     }
 
     if (lastIndex < input.length) {
-      elements.push(<span>{input.slice(lastIndex)}</span>);
+      elements.push(<span key={input.length}>{input.slice(lastIndex)}</span>);
     }
 
     return elements;
