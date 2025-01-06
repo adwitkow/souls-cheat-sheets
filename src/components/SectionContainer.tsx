@@ -26,7 +26,8 @@ const SectionContainer = ({ sectionKey, section }: SectionContainerProps) => {
       .filter(key => checkedState[key]);
 
     saveCheckedSteps(game, sectionKey, checkedKeys);
-  }, [checkedState, saveCheckedSteps, sectionKey, game]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [checkedState, saveCheckedSteps, sectionKey]);
 
   const handleChange = (id: string, checked: boolean, childIds: string[]) => {
     setCheckedState(prevState => {
@@ -47,7 +48,6 @@ const SectionContainer = ({ sectionKey, section }: SectionContainerProps) => {
           key={key}
           stepKey={key}
           stepContent={content}
-          sectionId={sectionKey}
           checkedState={checkedState}
           onChange={handleChange}
         />

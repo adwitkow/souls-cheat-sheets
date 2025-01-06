@@ -8,7 +8,7 @@ import { Playthrough } from '../models/playthrough';
 type Game = typeof DARK_SOULS | typeof DARK_SOULS_II | typeof DARK_SOULS_III;
 const DEFAULT_GAME = DARK_SOULS;
 const DEFAULT_PLAYTHROUGH: Playthrough = {
-  game: '',
+  name: '',
   sections: {},
   links: {}
 }

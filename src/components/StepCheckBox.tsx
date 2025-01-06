@@ -5,21 +5,18 @@ import { useTextWithLinks } from '../hooks/useTextWithLinks';
 interface StepCheckBoxProps {
   stepKey: string;
   stepContent: StepContent;
-  sectionId: string;
   checkedState: { [id: string]: boolean };
   onChange: (id: string, checked: boolean, childIds: string[]) => void;
 }
 
-const StepCheckBox = ({ stepKey, stepContent, sectionId, checkedState, onChange }: StepCheckBoxProps) => {
+const StepCheckBox = ({ stepKey, stepContent, checkedState, onChange }: StepCheckBoxProps) => {
   const textWithLinks = useTextWithLinks();
-  const id = `${sectionId}-${stepKey}`;
 
   const collectIdsFromChildren = (steps: Record<string, StepContent>): string[] => {
     const entries = Object.entries(steps);
     return entries.reduce((acc, [key, stepContent]) => {
-      const childId = `${sectionId}-${key}`;
       const descendants = resolveDescendantIds(stepContent);
-      return [...acc, childId, ...descendants];
+      return [...acc, key, ...descendants];
     }, [] as string[]);
   };
 
@@ -43,20 +40,24 @@ const StepCheckBox = ({ stepKey, stepContent, sectionId, checkedState, onChange 
       setIsChecked(allChecked);
       setIsIndeterminate(someChecked && !allChecked);
     } else {
-      setIsChecked(checkedState[id] || false);
+      setIsChecked(checkedState[stepKey] || false);
       setIsIndeterminate(false);
     }
-  }, [checkedState, descendantIds, id]);
+  }, [checkedState, descendantIds, stepKey]);
 
   const handleToggle = (checked: boolean) => {
-    onChange(id, checked, descendantIds);
+    onChange(stepKey, checked, descendantIds);
   };
 
-  const createCheckBoxComponent = (content: string) => {
-    const label = textWithLinks(content);
-    return (
+  const content = typeof stepContent === 'string'
+    ? stepContent
+    : stepContent.content;
+  const label = textWithLinks(content);
+
+  return (
+    <div key={stepKey}>
       <Form.Check
-        id={id}
+        id={stepKey}
         type="checkbox"
         label={label}
         checked={isChecked}
@@ -67,29 +68,21 @@ const StepCheckBox = ({ stepKey, stepContent, sectionId, checkedState, onChange 
           }
         }}
       />
-    )
-  }
-
-  if (typeof stepContent === 'string') {
-    return createCheckBoxComponent(stepContent);
-  } else {
-    return (
-      <>
-        {createCheckBoxComponent(stepContent.content)}
+      {typeof stepContent !== 'string' && (
         <div className="ms-4">
           {Object.entries(stepContent.steps).map(([key, childStep]) => (
             <StepCheckBox
+              key={key}
               stepKey={key}
               stepContent={childStep}
-              sectionId={sectionId}
               checkedState={checkedState}
               onChange={onChange}
             />
           ))}
         </div>
-      </>
-    );
-  }
+      )}
+    </div>
+  );
 };
 
 export default StepCheckBox;
