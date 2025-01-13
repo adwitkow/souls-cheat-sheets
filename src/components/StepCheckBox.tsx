@@ -1,84 +1,68 @@
 import React, { useEffect, useState } from 'react';
 import { Form } from 'react-bootstrap';
 import { useTextWithLinks } from '../hooks/useTextWithLinks';
+import StepTree from './StepTree';
 
 interface StepCheckBoxProps {
   stepKey: string;
-  stepContent: StepContent;
-  checkedState: { [id: string]: boolean };
-  onChange: (id: string, checked: boolean, childIds: string[]) => void;
+  content: StepContent;
+  descendants: Record<string, StepContent> | null;
+  checkedIds: string[];
+  onToggle: (id: string, checked: boolean) => void;
 }
 
-const StepCheckBox = ({ stepKey, stepContent, checkedState, onChange }: StepCheckBoxProps) => {
+const StepCheckBox = ({ stepKey, content, descendants, checkedIds, onToggle }: StepCheckBoxProps) => {
   const textWithLinks = useTextWithLinks();
 
-  const collectIdsFromChildren = (steps: Record<string, StepContent>): string[] => {
-    const entries = Object.entries(steps);
-    return entries.reduce((acc, [key, stepContent]) => {
-      const descendants = resolveDescendantIds(stepContent);
-      return [...acc, key, ...descendants];
-    }, [] as string[]);
-  };
-
-  const resolveDescendantIds = (stepContent: StepContent) => {
-    return typeof stepContent === 'string'
-      ? []
-      : collectIdsFromChildren(stepContent.steps);
-  }
-
-  const descendantIds = resolveDescendantIds(stepContent);
-
-  const [isChecked, setIsChecked] = useState(false);
+  const [isChecked, setIsChecked] = useState(checkedIds.includes(stepKey));
   const [isIndeterminate, setIsIndeterminate] = useState(false);
 
   useEffect(() => {
-    if (descendantIds.length > 0) {
-      const childCheckedStates = descendantIds.map((childId) => checkedState[childId] || false);
-      const allChecked = childCheckedStates.every((state) => state);
-      const someChecked = childCheckedStates.some((state) => state);
-
-      setIsChecked(allChecked);
-      setIsIndeterminate(someChecked && !allChecked);
-    } else {
-      setIsChecked(checkedState[stepKey] || false);
+    if (!descendants) {
       setIsIndeterminate(false);
+    } else {
+      // this has to be ran recursively
+      const childCheckedStates = Object.entries(descendants).map(([key, step]) => {
+        return checkedIds.includes(key);
+      });
+      const allChecked = childCheckedStates.every(state => state);
+      const someChecked = childCheckedStates.some(state => state);
+
+      setIsIndeterminate(someChecked && !allChecked);
     }
-  }, [checkedState, descendantIds, stepKey]);
+
+    setIsChecked(checkedIds.includes(stepKey));
+  }, [checkedIds, descendants, stepKey]);
 
   const handleToggle = (checked: boolean) => {
-    onChange(stepKey, checked, descendantIds);
+    onToggle(stepKey, checked);
   };
 
-  const content = typeof stepContent === 'string'
-    ? stepContent
-    : stepContent.content;
-  const label = textWithLinks(content);
+  const label = typeof content !== 'string'
+    ? textWithLinks(content.content)
+    : textWithLinks(content);
 
   return (
     <div key={stepKey}>
       <Form.Check
         id={stepKey}
-        type="checkbox"
+        type='checkbox'
         label={label}
         checked={isChecked}
-        onChange={(e) => handleToggle(e.target.checked)}
+        onChange={e => handleToggle(e.target.checked)}
         ref={(el: HTMLInputElement) => {
           if (el) {
             el.indeterminate = isIndeterminate;
           }
         }}
       />
-      {typeof stepContent !== 'string' && (
-        <div className="ms-4">
-          {Object.entries(stepContent.steps).map(([key, childStep]) => (
-            <StepCheckBox
-              key={key}
-              stepKey={key}
-              stepContent={childStep}
-              checkedState={checkedState}
-              onChange={onChange}
-            />
-          ))}
+      {descendants && (
+        <div className='ms-4'>
+          <StepTree
+            steps={descendants}
+            checkedIds={checkedIds}
+            onToggle={onToggle}
+          />
         </div>
       )}
     </div>
