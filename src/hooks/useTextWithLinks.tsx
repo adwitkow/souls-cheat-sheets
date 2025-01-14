@@ -1,17 +1,9 @@
 import { JSX } from 'react';
 import { useGame } from '../contexts/GameContext';
 import React from 'react';
-import { Badge } from 'react-bootstrap';
-import { COMMON, ENEMY, FRIEND, UNIQUE } from '../constants';
+import BadgeLink from '../components/BadgeLink';
 
 const LINK_REGEX = /@(?<key>[a-zA-Z0-9-]+)(\[(?<name>[^\]]+)\])?/g;
-
-const colors: Record<string, string> = {
-  [FRIEND]: 'success',
-  [ENEMY]: 'danger',
-  [UNIQUE]: 'warning',
-  [COMMON]: 'light',
-}
 
 export const useTextWithLinks = () => {
   const { playthrough } = useGame();
@@ -39,17 +31,13 @@ export const useTextWithLinks = () => {
 
       let element: JSX.Element;
       if (link.type) {
-        const color = colors[link.type];
         element = (
-          <Badge
+          <BadgeLink
             key={matchIndex}
-            bg={color}
-            as='a'
-            href={link.wikiUrl}
-            target='_blank'
-            rel='noreferrer'>
-            {text}
-          </Badge>
+            linkType={link.type}
+            url={link.wikiUrl}
+            content={text}
+          />
         )
       } else {
         element = (

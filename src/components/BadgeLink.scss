@@ -1,0 +1,27 @@
+$insetShadow: 0 0 5px #333 inset;
+$textColor: white;
+
+.badgelink {
+  box-shadow: $insetShadow;
+  color: $textColor;
+}
+
+.badgelink.bg-unique {
+  background: #FFA500;
+}
+
+.badgelink.bg-rare {
+  background: #D02090;
+}
+
+.badgelink.bg-enemy {
+  background: #EE0000;
+}
+
+.badgelink.bg-friend {
+  background: #33BB33;
+}
+
+.badgelink.bg-common {
+  background: #999;
+}
