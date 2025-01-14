@@ -38,6 +38,16 @@ const saveProfiles = (profiles: string[]) => {
   localStorage.setItem(PROFILES_KEY, JSON.stringify(profiles));
 }
 
+const deletePlaythroughs = (profile: string) => {
+  Object.keys(localStorage).forEach(key => {
+    // this is very naive and needs more validation,
+    // perhaps special characters should be forbidden?
+    if (key.startsWith(`${profile}-`)) {
+      localStorage.removeItem(key);
+    }
+  })
+}
+
 const storageUtils = {
   saveActiveProfile,
   loadActiveProfile,
@@ -45,6 +55,7 @@ const storageUtils = {
   loadCheckedSteps,
   loadProfiles,
   saveProfiles,
+  deletePlaythroughs,
 }
 
 export default storageUtils;

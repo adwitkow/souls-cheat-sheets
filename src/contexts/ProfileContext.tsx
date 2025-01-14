@@ -96,6 +96,7 @@ export const ProfileProvider = ({ children }: { children: ReactNode }) => {
 
       return modifiedProfiles;
     });
+    storageUtils.deletePlaythroughs(profile);
   }
 
   const saveCheckedSteps = (game: string, sectionKey: string, stepKeys: string[]) => {
