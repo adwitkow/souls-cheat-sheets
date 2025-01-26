@@ -122,217 +122,232 @@
       "name": "Undead Burg",
       "wikiUrl": "https://darksouls.wiki.fextralife.com/undead+burg",
       "steps": {
-        "q7193y4g": "Remember about the Dragon and the archer!",
-        "pd38ptpa": "Optionally kill the @undead-merchant to get the @uchigatana, @residence-key, @orange-guidance-soapstone and @humanity",
-        "ef6rayh5": {
+        "q7193y4g": "Roll through the conspicuous barrels in the first section to access the lower part",
+        "pd38ptpa": "Pick up the @large-soul-of-a-lost-undead on top of the small protrusion you landed on",
+        "acu89blo": "Walk into the building to the left and pick up @soul-of-a-lost-undead at the end of it",
+        "pjlr209y": "Proceed to the bridge before the ladder (remembering about the hollows waiting to ambush) and pick up @rubbish",
+        "b7t12f7x": "Climb up the ladder and go to the end of the wall to obtain @humanity",
+        "c9qdwjmj": "Drop back down and proceed through the fog wall",
+        "mzpe110p": "There is a @soul-of-a-lost-undead hidden under the stairs",
+        "wmutnnoy": "Remember about the Dragon and the archer!",
+        "ef6rayh5": "Open the door below the archer to get the @wooden-shield",
+        "e66aui1g": "Light the bonfire",
+        "6bedk47k": "Go back to the rooftop with 2 spear hollows and roll through the boxes to go downstairs inside the building",
+        "heepvnkz": "Optionally kill the @undead-merchant to get the @uchigatana, @residence-key, @orange-guidance-soapstone and @humanity",
+        "jz4h08qk": {
           "content": "Or keep him alive and buy the useful stuff from him",
           "steps": {
-            "acu89blo": "@orange-guidance-soapstone @ 100 souls",
-            "pjlr209y": "@residence-key @ 1,000 souls",
-            "b7t12f7x": "@bottomless-box @ 1,000 souls",
-            "c9qdwjmj": "@repairbox @ 3,000 souls",
-            "mzpe110p": "Some @standard-arrow[Standard Arrows] @ 10 souls each",
-            "wmutnnoy": "@lloyds-talisman[Lloyd's Talismans] for Mimics later on @ 500 souls each"
+            "v18rm5jy": "@orange-guidance-soapstone @ 100 souls",
+            "rua4504o": "@residence-key @ 1,000 souls",
+            "vnxmjlnj": "@bottomless-box @ 1,000 souls",
+            "hwk5t2k1": "@repairbox @ 3,000 souls",
+            "wgo2jj3b": "Some @standard-arrow[Standard Arrows] @ 10 souls each",
+            "1pv04coq": "@lloyds-talisman[Lloyd's Talismans] for Mimics later on @ 500 souls each"
           }
         },
-        "e66aui1g": "Pick up the souls, @throwing-knife[Throwing Knives], @light-crossbow and bolts, @rubbish, @humanity from around the first part of the burg",
-        "6bedk47k": "Open the door below the first archer to get the @wooden-shield",
-        "heepvnkz": "Light the bonfire",
-        "v18rm5jy": "Pick up the @black-firebomb[Black Firebombs] and @gold-pine-resin",
-        "rua4504o": "Remember about the second archer in the tower!",
-        "vnxmjlnj": "Kill the @the-black-knight[Black Knight] and get the @titanite-chunk and @blue-tearstone-ring",
-        "hwk5t2k1": "Watch out for the barrel!",
-        "wgo2jj3b": "Quickly kill the @crystal-lizard under the barrels while going up the tower to get the @twinkling-titanite",
-        "1pv04coq": "Go through the fog gate and go up the ladder to take out the two archers",
-        "jz4h08qk": "Kill the @taurus-demon boss, remembering to do a two-handed drop attack at the start",
-        "nykzunez": "Optionally do some @guide-to-co-operative-play[jolly co-op] to get some humanity and souls. You should be level 5-10 to get summoned",
-        "kiiylbfl": "Pick up the soul behind the crate in the tower",
-        "i3v37cax": {
+        "nykzunez": "Go further down, clear out the hollows and go up the ladder to pick up @throwing-knife[Throwing Knife x10]",
+        "kiiylbfl": "Jump to the building on the other side to find @light-crossbow and @standard-bolt[Standard Bolt x16]",
+        "uvu3zxpf": "Go back to the bonfire near the archer",
+        "i3v37cax": "Proceed through the bridge, making sure not to get firebombed",
+        "0dpu9ero": "Before going up the stairs, enter the building where @black-firebomb[Black Firebomb x5] can be found in a chest",
+        "k6qv40ei": "Climb up the ladder and kill the firebomb hollows to get @soul-of-a-lost-undead",
+        "utweoxu0": "Use @residence-key to enter the next building and grab @gold-pine-resin[Gold Pine Resin x3] from the chest",
+        "jer01k2h": "Remember about the second archer in the tower!",
+        "iu8hwulq": "Optionally, kill the @the-black-knight[Black Knight] down the stairs to get the @titanite-chunk and @blue-tearstone-ring",
+        "egs3g3ks": "Watch out for the barrel!",
+        "ynjnq5jd": "Quickly kill the @crystal-lizard under the barrels while going up the tower to get the @twinkling-titanite",
+        "tyl4w0wa": "Go through the fog gate and go up the ladder to take out the two archers",
+        "djnk16w9": "Kill the @taurus-demon boss, remembering to do a two-handed drop attack at the start",
+        "hgaie1up": "Optionally do some @guide-to-co-operative-play[jolly co-op] to get some humanity and souls. You should be level 5-10 to get summoned",
+        "49bobo0m": "Pick up the @large-soul-of-a-lost-undead behind the crate in the tower",
+        "tsz7qa01": {
           "content": "Talk to @solaire-of-astora[Solaire], answering Yes to his questions to get the @white-sign-soapstone. Praise the Sun!",
           "steps": {
-            "uvu3zxpf": "If you won't need to summon him later you can kill him to get his @sunlight-straight-sword, @iron-and-sun-set, @sunlight-shield and @sunlight-talisman"
+            "l5y7jq3n": "If you won't need to summon him later you can kill him to get his @sunlight-straight-sword, @iron-and-sun-set, @sunlight-shield and @sunlight-talisman"
           }
         },
-        "0dpu9ero": "Try not to get burned alive by the @the-bridge-wyvern[Hellkite Wyvern] as you cross to the middle of the bridge and head down the stairs",
-        "k6qv40ei": "Kick the ladder to open the shortcut back to the bonfire",
-        "utweoxu0": "Go below the bridge and use your bow to attack the wyvern's tail to get the @drake-sword",
-        "jer01k2h": "Go back up on the bridge and make a run for the far side when the wyvern lands",
-        "iu8hwulq": "Light the @warrior-of-sunlight bonfire, optionally join the covenant if you have enough faith, and then open the @undead-parish gate",
-        "egs3g3ks": "Pick up the souls and the @claymore on the bridge",
-        "ynjnq5jd": "Continue on to @undead-parish"
+        "1jgj5b81": "Try not to get burned alive by the @the-bridge-wyvern[Hellkite Wyvern] as you cross to the middle of the bridge and head down the stairs",
+        "e5axyi8z": "Kick the ladder to open the shortcut back to the bonfire",
+        "sa86iyz1": "Go below the bridge and use your bow to attack the wyvern's tail to get the @drake-sword",
+        "nwywbw94": "Go back up on the bridge and make a run for the far side when the wyvern lands",
+        "ijw1irrk": "Light the @warrior-of-sunlight bonfire, optionally join the covenant if you have enough faith, and then open the @undead-parish gate",
+        "773oqfzl": "Pick up the @soul-of-a-nameless-soldier and the @claymore on the bridge",
+        "taoqb4td": "Continue on to @undead-parish"
       }
     },
     "undead-parish": {
       "name": "Undead Parish",
       "wikiUrl": "https://darksouls.wiki.fextralife.com/undead+parish",
       "steps": {
-        "tyl4w0wa": "Kill the @the-black-knight[Black Knight] up in the tower to get the @titanite-chunk",
-        "djnk16w9": "Kill the @mecha-boar",
-        "hgaie1up": "Get the @mystery-key that you will soon need to free @knight-lautrec and grab the soul from the beam",
-        "49bobo0m": "Kill the @undead-knight to get the @knight-shield",
-        "l5y7jq3n": "Get the @basement-key to unlock the Hellkite Bridge door, pull the lever to open the gate and get the @halberd",
-        "tsz7qa01": "Rest at the bonfire above @blacksmith-andrei[Andre the Blacksmith]",
-        "773oqfzl": {
+        "to6iml0r": "Kill the @the-black-knight[Black Knight] up in the tower to get the @titanite-chunk",
+        "6goovgrb": "Pick up @alluring-skull[Alluring Skull x4] from behind the archers",
+        "sy9l4lkh": "Kill the @mecha-boar",
+        "7mcbis2o": "Go downstairs to get the @mystery-key that you will soon need to free @knight-lautrec and grab the @large-soul-of-a-lost-undead from the beam",
+        "0ti3ui7v": "Kill the @undead-knight to get the @knight-shield",
+        "gmsj0k0n": "Pick up the @halberd and get the @basement-key to unlock the Hellkite Bridge door",
+        "tn7n4iii": "Pull the lever to open the gate",
+        "dzlaizin": "Rest at the bonfire above @blacksmith-andre[Andre the Blacksmith]",
+        "6xwqezoc": {
           "content": "Learn the Hurrah gesture from Andre and buy useful stuff from him",
           "steps": {
-            "1jgj5b81": "@repairbox @ 2,000 souls",
-            "e5axyi8z": "@weapon-smithbox @ 2,000 souls",
-            "sa86iyz1": "@armor-smithbox @ 2,000 souls",
-            "nwywbw94": "@crest-of-artorias @ 20,000 souls",
-            "ijw1irrk": "Upgrade your weapons"
+            "oayb8xqj": "@repairbox @ 2,000 souls",
+            "0nes3bqw": "@weapon-smithbox @ 2,000 souls",
+            "vzr5vptr": "@armor-smithbox @ 2,000 souls",
+            "l9z577mr": "@crest-of-artorias @ 20,000 souls",
+            "de50vzo5": "Upgrade your weapons"
           }
         },
-        "taoqb4td": "Talk to @siegmeyer-of-catarina outside the gate to @sens-fortress",
-        "to6iml0r": "Kill the @the-berenike-knights[Berenike Knight] and get the @fire-keeper-soul[Firekeeper Soul]",
-        "6goovgrb": "Optionally make a return trip to @firelink-shrine and talk to @anastacia-of-astora to reinforce your @estus-flask",
-        "sy9l4lkh": "Kill the @the-channeler[Channeler] and all the zombies",
-        "7mcbis2o": "Pick up the soul, @humanity and free @knight-lautrec[Lautrec] from his cell",
-        "dzlaizin": {
+        "jyothn18": "Talk to @siegmeyer-of-catarina outside the gate to @sens-fortress",
+        "qgz88vm3": "Kill the @the-berenike-knights[Berenike Knight] and get the @fire-keeper-soul[Firekeeper Soul]",
+        "bwpygzb6": "Optionally make a return trip to @firelink-shrine and talk to @anastacia-of-astora to reinforce your @estus-flask",
+        "kw873dnv": "Kill the @the-channeler[Channeler] and all the zombies",
+        "vwwjs3kz": "Pick up the @large-soul-of-a-nameless-soldier, @humanity and free @knight-lautrec[Lautrec] from his cell",
+        "3enl8dli": {
           "content": "Kill the @bell-gargoyle[Bell Gargoyles]",
           "steps": {
-            "0ti3ui7v": "You can summon @solaire-of-astora[Solaire] just outside the fog gate",
-            "gmsj0k0n": "You can also summon @knight-lautrec[Lautrec] from the ledge after the first ladder to the fog gate if you rescued him and went to talk to him at @firelink-shrine",
-            "tn7n4iii": "Cut off the tail of the first gargoyle to get the @gargoyle-tail-axe"
+            "m6ko9p7l": "You can summon @solaire-of-astora[Solaire] just outside the fog gate",
+            "l2prk06t": "You can also summon @knight-lautrec[Lautrec] from the ledge after the first ladder to the fog gate if you rescued him and went to talk to him at @firelink-shrine",
+            "xsivp4fn": "Cut off the tail of the first gargoyle to get the @gargoyle-tail-axe"
           }
         },
-        "oayb8xqj": "Ring the bell",
-        "qgz88vm3": {
+        "m0ljpw64": "Ring the bell",
+        "q3tsab2c": {
           "content": "Talk to @oswald-of-carim, learn the Well! What Is It! gesture and buy useful stuff from him",
           "steps": {
-            "0nes3bqw": "@purging-stone[Purging Stones] @ 3,000 souls each for @depths[The Depths] later on",
-            "vzr5vptr": "@indictment @ 200 souls",
-            "l9z577mr": "@book-of-the-guilty @ 1,000 souls",
-            "de50vzo5": "@karmic-justice[Karmic Justice Miracle] @ 40,000 souls",
-            "6xwqezoc": "@bloodbite-ring @ 10,000 souls",
-            "jyothn18": "@poisonbite-ring @ 15,000 souls"
+            "ywvax6l5": "@purging-stone[Purging Stones] @ 3,000 souls each for @depths[The Depths] later on",
+            "0cv9uzjs": "@indictment @ 200 souls",
+            "06v5cwmi": "@book-of-the-guilty @ 1,000 souls",
+            "rheuowdb": "@karmic-justice[Karmic Justice Miracle] @ 40,000 souls",
+            "wn63ifz7": "@bloodbite-ring @ 10,000 souls",
+            "2su6rlxx": "@poisonbite-ring @ 15,000 souls"
           }
         },
-        "bwpygzb6": "Optionally do some @guide-to-co-operative-play[jolly co-op] to get some humanity and souls. You should be level 15-25 to get summoned",
-        "kw873dnv": "Head back to the Hellkite Bridge and unlock the basement door and head down to the @lower-undead-burg"
+        "jmsq11qe": "Optionally do some @guide-to-co-operative-play[jolly co-op] to get some humanity and souls. You should be level 15-25 to get summoned",
+        "9ung2qjv": "Head back to the Hellkite Bridge and unlock the basement door and head down to the @lower-undead-burg"
       }
     },
     "lower-undead-burg": {
       "name": "Lower Undead Burg",
       "wikiUrl": "https://darksouls.wiki.fextralife.com/lower+undead+burg",
       "steps": {
-        "vwwjs3kz": "Open the shortcut to the @undead-burg",
-        "m6ko9p7l": "Use the @residence-key to free @griggs-of-vinheim from the house and pick up the @sorcerer-set and @sorcerers-catalyst",
-        "l2prk06t": "Pick up the @twin-humanities, @mail-breaker, @thief-set, @target-shield and soul from around the burg",
-        "xsivp4fn": "Kill the @capra-demon to get the @key-to-depths",
-        "3enl8dli": "Optionally do some @guide-to-co-operative-play[jolly co-op] to get some humanity and souls. You should be level 20-30 to get summoned",
-        "rheuowdb": {
+        "hxctbq1f": "Open the shortcut to the @undead-burg",
+        "trdudvav": "Use the @residence-key to free @griggs-of-vinheim from the house and pick up the @sorcerer-set and @sorcerers-catalyst",
+        "v4t5wigb": "Pick up the @twin-humanities, @mail-breaker, @thief-set, @target-shield and soul from around the burg",
+        "bq668r59": "Kill the @capra-demon to get the @key-to-depths",
+        "u7km8ia2": "Optionally do some @guide-to-co-operative-play[jolly co-op] to get some humanity and souls. You should be level 20-30 to get summoned",
+        "41kjl6of": {
           "content": "Head down the stairs and up the left tower to the @undead-merchant-female[Female Undead Merchant] and buy useful stuff from her",
           "steps": {
-            "m0ljpw64": "@purple-moss-clump[Purple Moss Clumps] @ 500 souls each for @blighttown later on",
-            "ywvax6l5": "@blooming-purple-moss-clump[Blooming Purple Moss Clumps] @ 1,000 souls each for @blighttown later on",
-            "0cv9uzjs": "@transient-curse[Transient Curses] @ 4,000 souls each for @new-londo-ruins later on",
-            "06v5cwmi": "@homeward-bone[Homeward Bones] @ 800 souls each"
+            "vn7jx6ao": "@purple-moss-clump[Purple Moss Clumps] @ 500 souls each for @blighttown later on",
+            "u2v76n89": "@blooming-purple-moss-clump[Blooming Purple Moss Clumps] @ 1,000 souls each for @blighttown later on",
+            "rarvu4hc": "@transient-curse[Transient Curses] @ 4,000 souls each for @new-londo-ruins later on",
+            "wdafkxwm": "@homeward-bone[Homeward Bones] @ 800 souls each"
           }
         },
-        "wn63ifz7": "Open the shortcut back to @firelink-shrine",
-        "2su6rlxx": "Head down to the shrine and talk to @griggs-of-vinheim, answering Yes to his question and buy any sorceries you need from him",
-        "q3tsab2c": "Talk to the @crestfallen-warrior",
-        "jmsq11qe": "Talk to @knight-lautrec[Lautrec] to receive a @sunlight-medal",
-        "9ung2qjv": "Optionally kill @knight-lautrec[Lautrec] if you want to keep the @anastacia-of-astora[shrine Firekeeper] alive and don't need @favor-set[his armor] but want the @ring-of-favor-and-protection",
-        "hxctbq1f": "Head back up to the aqueduct, go down the tower and across to the other tower that leads to @depths[The Depths]"
+        "psmg57ch": "Open the shortcut back to @firelink-shrine",
+        "9l581oi1": "Head down to the shrine and talk to @griggs-of-vinheim, answering Yes to his question and buy any sorceries you need from him",
+        "g5xt65e7": "Talk to the @crestfallen-warrior",
+        "fjdfdzxu": "Talk to @knight-lautrec[Lautrec] to receive a @sunlight-medal",
+        "wmgbragy": "Optionally kill @knight-lautrec[Lautrec] if you want to keep the @anastacia-of-astora[shrine Firekeeper] alive and don't need @favor-set[his armor] but want the @ring-of-favor-and-protection",
+        "b3g81yvp": "Head back up to the aqueduct, go down the tower and across to the other tower that leads to @depths[The Depths]"
       }
     },
     "the-depths": {
       "name": "The Depths",
       "wikiUrl": "https://darksouls.wiki.fextralife.com/depths",
       "steps": {
-        "trdudvav": "Kill the first @butcher and get the @large-ember from the chest",
-        "v4t5wigb": "Free @laurentius-of-the-great-swamp by rolling in to the barrels and talk to him",
-        "bq668r59": "Kill the second @butcher",
-        "u7km8ia2": "Remember about the slime above the first soul!",
-        "vn7jx6ao": "Light the bonfire",
-        "u2v76n89": "Head back up to the butcher area, drop down the hole behind his table, get the @spider-shield, kill the @giant-rat, get the @sewer-chamber-key and soul",
-        "rarvu4hc": "On the upper level kill the @the-channeler[Channeler], and pick up the @large-titanite-shard and @greataxe",
-        "wdafkxwm": "Either slide, drop or walk down to the lower level and beward the @basilisk[Basilisks]!",
-        "41kjl6of": "On the lower level get the @ring-of-the-evil-eye and @humanity",
-        "psmg57ch": "Open up the shortcut back to the bonfire and if you're not already in human form go to the bonfire and reverse hollowing",
-        "9l581oi1": "Go back down and get @knight-kirk to invade and then kill him",
-        "g5xt65e7": "Head down to the boss fog gate, picking up the @heavy-crossbow and bolts on the way",
-        "opaw46dj": {
+        "sscqj4jt": "Kill the first @butcher and get the @large-ember from the chest",
+        "opaw46dj": "Free @laurentius-of-the-great-swamp by rolling in to the barrels and talk to him",
+        "xkloihjf": "Kill the second @butcher",
+        "y8sdzffr": "Remember about the slime above the first soul!",
+        "xxxuxhl2": "Light the bonfire",
+        "dwwcat4e": "Head back up to the butcher area, drop down the hole behind his table, get the @spider-shield, kill the @giant-rat, get the @sewer-chamber-key and soul",
+        "z6krmghl": "On the upper level kill the @the-channeler[Channeler], and pick up the @large-titanite-shard and @greataxe",
+        "j61lmg4i": "Either slide, drop or walk down to the lower level and beward the @basilisk[Basilisks]!",
+        "ks8gjtwq": "On the lower level get the @ring-of-the-evil-eye and @humanity",
+        "9tlvugfe": "Open up the shortcut back to the bonfire and if you're not already in human form go to the bonfire and reverse hollowing",
+        "don35xer": "Go back down and get @knight-kirk to invade and then kill him",
+        "qmk0p9q6": "Head down to the boss fog gate, picking up the @heavy-crossbow and bolts on the way",
+        "do2goxtp": {
           "content": "Kill the @gaping-dragon to get the @blighttown-key",
           "steps": {
-            "fjdfdzxu": "You can summon @solaire-of-astora[Solaire] just above the fog gate",
-            "wmgbragy": "You can also summon @knight-lautrec[Lautrec] using the summon sign on the other side of the pillar from Solaire",
-            "b3g81yvp": "Cut off the tail of the dragon to get the @dragon-kings-great-axe[Dragon King Great Axe]",
-            "sscqj4jt": "Pick up the @warrior-set when you've killed it"
+            "2o2rvx4f": "You can summon @solaire-of-astora[Solaire] just above the fog gate",
+            "j3s34w0c": "You can also summon @knight-lautrec[Lautrec] using the summon sign on the other side of the pillar from Solaire",
+            "1xh72amw": "Cut off the tail of the dragon to get the @dragon-kings-great-axe[Dragon King Great Axe]",
+            "nr07j6a9": "Pick up the @warrior-set when you've killed it"
           }
         },
-        "xkloihjf": "Optionally do some @guide-to-co-operative-play[jolly co-op] to get some humanity and souls. You should be level 25-35 to get summoned",
-        "y8sdzffr": "Talk to @domhnall-of-zena, learn the Joy gesture and buy any armor, arrows etc. that you need",
-        "xxxuxhl2": "Make sure you have some @purple-moss-clump[Purple Moss Clumps] and @blooming-purple-moss-clump[Blooming Purple Moss Clumps], if not run back to the @undead-merchant-female[Female Undead Merchant] and buy some",
-        "dwwcat4e": "Open the door to @blighttown and head down the ladder"
+        "titbfkw3": "Optionally do some @guide-to-co-operative-play[jolly co-op] to get some humanity and souls. You should be level 25-35 to get summoned",
+        "vh821se2": "Talk to @domhnall-of-zena, learn the Joy gesture and buy any armor, arrows etc. that you need",
+        "bfdd775n": "Make sure you have some @purple-moss-clump[Purple Moss Clumps] and @blooming-purple-moss-clump[Blooming Purple Moss Clumps], if not run back to the @undead-merchant-female[Female Undead Merchant] and buy some",
+        "3s0p4uye": "Open the door to @blighttown and head down the ladder"
       }
     },
     "blighttown": {
       "name": "Blighttown",
       "wikiUrl": "https://darksouls.wiki.fextralife.com/blighttown",
       "steps": {
-        "z6krmghl": "Take it slowly. Be wary of @blowdart-sniper[Blowdart Snipers]!",
-        "j61lmg4i": "Make a running jump to get the @iaito, aim for the post",
-        "ks8gjtwq": "Light the first bonfire",
-        "9tlvugfe": "Go down below where the Iaito was to get the @blooming-purple-moss-clump[Blooming Purple Moss Clumps] and walk over the swaying bridge to get the @humanity and then go back up to the bonfire",
-        "don35xer": "Continue on passed the bonfire and remember about the collapsing floor trap beside the soul!",
-        "qmk0p9q6": "Go up to get the @shadow-set",
-        "2o2rvx4f": "Move on to the next section remembering about the @blowdart-sniper perched on a high ledge",
-        "j3s34w0c": "Go down the longest ladder in this section and get rid of the @blowdart-sniper and grab the @eagle-shield",
-        "1xh72amw": "Go back up to snipe the @parasitic-wall-hugger with your bow and go down to get the @power-within pyromancy spell",
-        "nr07j6a9": "Head through the gap in the wall and down the ladder to the fog gate",
-        "do2goxtp": "Double back and fall down to grab the @whip",
-        "titbfkw3": "Fall down again and continue down the walkways towards the second bonfire, remembering about the @blowdart-sniper along the way",
-        "vh821se2": "Get the @wanderer-set and the @falchion from beside the sniper",
-        "bfdd775n": "Put on the @rusted-iron-ring before you get to the bottom and make a run for the bonfire",
-        "3s0p4uye": "Light the second bonfire and get the @dragon-scale from the chest in the bonfire tunnel",
-        "e2otrlrd": "Run around the swamp to get the @pyromancer-set, @poison-mist pyromancy spell, the @large-titanite-shard[Large Titanite Shards], @server and souls",
-        "56mb8ihu": "Take a quick detour up the branch towards @the-great-hollow to get the @plank-shield on the corpse and the @twin-humanities behind the illusory wall",
-        "kafitpsw": "Kill the boulder throwing @infested-barbarian[Infested Barbarians] to get the @great-club",
-        "mgiwug9a": "Optionally farm the @giant-leech[Giant Leeches] for @large-titanite-shard[Large Titanite Shards] and @green-titanite-shard[Green Titanite Shards]",
-        "t3x9duk0": "Go up on the wheel, go up two ladders and then run around the ledge to kill the @blowdart-sniper[Blowdart Snipers]",
-        "yaiav4ou": "Slide down the ladder, kill the @flaming-attack-dog[Dogs] and pick up the @fire-keeper-soul",
-        "kgf4ppuy": "Return to the bonfire and if you're not human then reverse hollowing and kill @maneater-mildred when she invades to get the @butcher-knife and some @humanity",
-        "7lreuhq0": {
+        "e2otrlrd": "Take it slowly. Be wary of @blowdart-sniper[Blowdart Snipers]!",
+        "56mb8ihu": "Make a running jump to get the @iaito, aim for the post",
+        "kafitpsw": "Light the first bonfire",
+        "mgiwug9a": "Go down below where the Iaito was to get the @blooming-purple-moss-clump[Blooming Purple Moss Clumps] and walk over the swaying bridge to get the @humanity and then go back up to the bonfire",
+        "t3x9duk0": "Continue on passed the bonfire and remember about the collapsing floor trap beside the soul!",
+        "yaiav4ou": "Go up to get the @shadow-set",
+        "kgf4ppuy": "Move on to the next section remembering about the @blowdart-sniper perched on a high ledge",
+        "j2hlc4ty": "Go down the longest ladder in this section and get rid of the @blowdart-sniper and grab the @eagle-shield",
+        "7lreuhq0": "Go back up to snipe the @parasitic-wall-hugger with your bow and go down to get the @power-within pyromancy spell",
+        "zpusgras": "Head through the gap in the wall and down the ladder to the fog gate",
+        "1xlobfve": "Double back and fall down to grab the @whip",
+        "i9zln8x4": "Fall down again and continue down the walkways towards the second bonfire, remembering about the @blowdart-sniper along the way",
+        "rudjmjad": "Get the @wanderer-set and the @falchion from beside the sniper",
+        "zpea4cr2": "Put on the @rusted-iron-ring before you get to the bottom and make a run for the bonfire",
+        "1yuosfx1": "Light the second bonfire and get the @dragon-scale from the chest in the bonfire tunnel",
+        "0m5vsfm0": "Run around the swamp to get the @pyromancer-set, @poison-mist pyromancy spell, the @large-titanite-shard[Large Titanite Shards], @server and souls",
+        "1zbwo1fr": "Take a quick detour up the branch towards @the-great-hollow to get the @plank-shield on the corpse and the @twin-humanities behind the illusory wall",
+        "xiyvbujg": "Kill the boulder throwing @infested-barbarian[Infested Barbarians] to get the @great-club",
+        "r7uyoilm": "Optionally farm the @giant-leech[Giant Leeches] for @large-titanite-shard[Large Titanite Shards] and @green-titanite-shard[Green Titanite Shards]",
+        "7lt9opvu": "Go up on the wheel, go up two ladders and then run around the ledge to kill the @blowdart-sniper[Blowdart Snipers]",
+        "cniea5oa": "Slide down the ladder, kill the @flaming-attack-dog[Dogs] and pick up the @fire-keeper-soul",
+        "sc1jqb0f": "Return to the bonfire and if you're not human then reverse hollowing and kill @maneater-mildred when she invades to get the @butcher-knife and some @humanity",
+        "oyzchgdh": {
           "content": "Kill @chaos-witch-quelaag",
           "steps": {
-            "j2hlc4ty": "You can summon @maneater-mildred from beside the fog gate if you killed her"
+            "dzduuxlt": "You can summon @maneater-mildred from beside the fog gate if you killed her"
           }
         },
-        "zpusgras": "Ring the second bell",
-        "zpea4cr2": {
+        "xetxlffw": "Ring the second bell",
+        "9uwlrc47": {
           "content": "Go down and hit the illusory wall and talk to @eingyi, answering Yes to his question so he moves to the side. Reload your game if you answered No and try again",
           "steps": {
-            "1xlobfve": "If you want to buy the @poison-mist or @toxic-mist pyromancy spells then you need to get infested with an @egg-head first",
-            "i9zln8x4": "If your intelligence is 11 or above he will give you a @pyromancy-flame",
-            "rudjmjad": "He will upgrade your @pyromancy-flame"
+            "tugmqc65": "If you want to buy the @poison-mist or @toxic-mist pyromancy spells then you need to get infested with an @egg-head first",
+            "vn6yla9o": "If your intelligence is 11 or above he will give you a @pyromancy-flame",
+            "bz0mfl2m": "He will upgrade your @pyromancy-flame"
           }
         },
-        "0m5vsfm0": {
+        "13q3jo6x": {
           "content": "Talk to @the-ancient-spider-queen and optionally join the @chaos-servant covenant",
           "steps": {
-            "1yuosfx1": "If you joined the convenant then feed her 30 @humanity to open up the shortcut to @lost-izalith"
+            "tra9r9cm": "If you joined the convenant then feed her 30 @humanity to open up the shortcut to @lost-izalith"
           }
         },
-        "1zbwo1fr": "Reinforce your @estus-flask",
-        "xiyvbujg": "Light this bonfire and then return to the previous bonfire",
-        "r7uyoilm": "Optionally do some @guide-to-co-operative-play[jolly co-op] to get some humanity and souls. You should be level 25-40 to get summoned",
-        "7lt9opvu": "Talk to @quelana-of-izalith if she is there to upgrade your @pyromancy-flame or buy some Pyromancy spells",
-        "cniea5oa": "Go up on the wheel again and at the top of first ladder cross @[That Fucking Branch] to get the @crimson-set, @tin-banishment-catalyst and @remedy sorcery",
-        "sc1jqb0f": "Keep going up to the top and get the @key-to-new-londo-ruins",
-        "dzduuxlt": "Go out to the @valley-of-drakes and kill the @undead-dragon with your bow or spells",
-        "oyzchgdh": "Return to @firelink-shrine",
-        "xetxlffw": "If you didn't kill @knight-lautrec[Lautrec] earlier pick up the @dingy-set and @black-eye-orb from where @anastacia-of-astora was sitting",
-        "fewvo3qh": {
+        "fewvo3qh": "Reinforce your @estus-flask",
+        "23n6qvns": "Light this bonfire and then return to the previous bonfire",
+        "t8f3997b": "Optionally do some @guide-to-co-operative-play[jolly co-op] to get some humanity and souls. You should be level 25-40 to get summoned",
+        "woul48cu": "Talk to @quelana-of-izalith if she is there to upgrade your @pyromancy-flame or buy some Pyromancy spells",
+        "x9gnqit0": "Go up on the wheel again and at the top of first ladder cross @[That Fucking Branch] to get the @crimson-set, @tin-banishment-catalyst and @remedy sorcery",
+        "b3hywg5g": "Keep going up to the top and get the @key-to-new-londo-ruins",
+        "p8jljcxf": "Go out to the @valley-of-drakes and kill the @undead-dragon with your bow or spells",
+        "hu89iem3": "Return to @firelink-shrine",
+        "02iroacl": "If you didn't kill @knight-lautrec[Lautrec] earlier pick up the @dingy-set and @black-eye-orb from where @anastacia-of-astora was sitting",
+        "qxfn3fc5": {
           "content": "Talk to the various people now at the shrine",
           "steps": {
-            "tugmqc65": "@crestfallen-warrior",
-            "vn6yla9o": "@griggs-of-vinheim to learn sorceries if your intelligence is 10 or over",
-            "bz0mfl2m": "@laurentius-of-the-great-swamp to get a @pyromancy-flame if you need one and to upgrade it",
-            "9uwlrc47": "@petrus-of-thorolund to buy any miracles you need",
-            "tra9r9cm": "@reah-of-thorolund, @vince-of-thorolund and @nico-of-thorolund",
-            "13q3jo6x": "@kingseeker-frampt if you want to trade some titanite or items"
+            "op2g2jpq": "@crestfallen-warrior",
+            "sn56z1lv": "@griggs-of-vinheim to learn sorceries if your intelligence is 10 or over",
+            "lbg6jtr6": "@laurentius-of-the-great-swamp to get a @pyromancy-flame if you need one and to upgrade it",
+            "qo747o2p": "@petrus-of-thorolund to buy any miracles you need",
+            "6764kqm7": "@reah-of-thorolund, @vince-of-thorolund and @nico-of-thorolund",
+            "fsq4iqd8": "@kingseeker-frampt if you want to trade some titanite or items"
           }
         }
       }
@@ -341,702 +356,702 @@
       "name": "Darkroot Basin",
       "wikiUrl": "https://darksouls.wiki.fextralife.com/darkroot+basin",
       "steps": {
-        "23n6qvns": "Head to the @undead-parish and rest at the bonfire above Andre",
-        "t8f3997b": "Give the @large-ember to @blacksmith-andrei[Andre the Blacksmith] and upgrade your weapons",
-        "woul48cu": "Kill the @titanite-demon to get a @demon-titanite",
-        "x9gnqit0": "Head in to @darkroot-garden, rest at the bonfire behind the illusory wall and open the door using the @crest-of-artorias but do not go through it",
-        "b3hywg5g": "Go down to @darkroot-basin",
-        "p8jljcxf": "Head up to the tower and kill @havel-the-rock to get @havels-ring",
-        "hu89iem3": "Make sure you are wearing the @rusted-iron-ring",
-        "02iroacl": "Kill the @crystal-golem[Crystal Golems] and then the @hydra to get the @dragon-scale and @dusk-crown-ring",
-        "op2g2jpq": "Pick up the @knight-set",
-        "sn56z1lv": "Kill the @golden-crystal-golem, reloading your game if it's not there",
-        "lbg6jtr6": "Talk to @dusk-of-oolacile, answering Yes to her question",
-        "qo747o2p": "Go back to where the Hydra fight happened and summon @dusk-of-oolacile, learn her Proper Bow gesture and buy any sorceries you need or the catalyst",
-        "6764kqm7": "Go back to where you killed the @golden-crystal-golem and pick up the @antiquated-set",
-        "fsq4iqd8": "Climb up the ladder beside the waterfall and then climb the second ladder to the bridge",
-        "qxfn3fc5": "Head across the bridge in to @darkroot-garden"
+        "75znlusd": "Head to the @undead-parish and rest at the bonfire above Andre",
+        "vqa15rl4": "Give the @large-ember to @blacksmith-andrei[Andre the Blacksmith] and upgrade your weapons",
+        "yi10cxya": "Kill the @titanite-demon to get a @demon-titanite",
+        "k8nkjow0": "Head in to @darkroot-garden, rest at the bonfire behind the illusory wall and open the door using the @crest-of-artorias but do not go through it",
+        "4b6o19wu": "Go down to @darkroot-basin",
+        "9ni2pld9": "Head up to the tower and kill @havel-the-rock to get @havels-ring",
+        "lkzuom2k": "Make sure you are wearing the @rusted-iron-ring",
+        "gycmhi4g": "Kill the @crystal-golem[Crystal Golems] and then the @hydra to get the @dragon-scale and @dusk-crown-ring",
+        "3j74u6dz": "Pick up the @knight-set",
+        "wg1zo5u8": "Kill the @golden-crystal-golem, reloading your game if it's not there",
+        "5o99zbls": "Talk to @dusk-of-oolacile, answering Yes to her question",
+        "iwhc6jn1": "Go back to where the Hydra fight happened and summon @dusk-of-oolacile, learn her Proper Bow gesture and buy any sorceries you need or the catalyst",
+        "sb8foioo": "Go back to where you killed the @golden-crystal-golem and pick up the @antiquated-set",
+        "h98huc5k": "Climb up the ladder beside the waterfall and then climb the second ladder to the bridge",
+        "edq3i5r2": "Head across the bridge in to @darkroot-garden"
       }
     },
     "darkroot-garden": {
       "name": "Darkroot Garden",
       "wikiUrl": "https://darksouls.wiki.fextralife.com/darkroot+garden",
       "steps": {
-        "75znlusd": "Kill the three @giant-cat[Giant Cats]",
-        "vqa15rl4": "Draw out the @mushroom-people and get the @enchanted-ember from the chest",
-        "yi10cxya": "Head deeper in to the forest to the broken tower beside the bridge and get the @stone-knight-set from the chest behind the tower",
-        "k8nkjow0": "Go across the bridge and talk to @alvina-of-the-darkroot-wood and optionally join the @forest-hunter covenant to get the @cat-covenant-ring",
-        "4b6o19wu": "If you joined the covenant talk to @shiva-of-the-east so that you can buy stuff from him later",
-        "gycmhi4g": {
+        "8ov8za2m": "Kill the three @giant-cat[Giant Cats]",
+        "3ahm7pux": "Draw out the @mushroom-people and get the @enchanted-ember from the chest",
+        "9u1zdd7g": "Head deeper in to the forest to the broken tower beside the bridge and get the @stone-knight-set from the chest behind the tower",
+        "06823usx": "Go across the bridge and talk to @alvina-of-the-darkroot-wood and optionally join the @forest-hunter covenant to get the @cat-covenant-ring",
+        "ughawqzg": "If you joined the covenant talk to @shiva-of-the-east so that you can buy stuff from him later",
+        "qoh2c9sj": {
           "content": "If you didn't join the covenant",
           "steps": {
-            "9ni2pld9": "Kill @pharis to get the @black-bow-of-pharis and @pharis-hat",
-            "lkzuom2k": "Clear out the rest of the enemies in this section of the forest"
+            "hwou4tny": "Kill @pharis to get the @black-bow-of-pharis and @pharis-hat",
+            "t33yd1y4": "Clear out the rest of the enemies in this section of the forest"
           }
         },
-        "3j74u6dz": "Go to the lower section of the forest and kill all the @ents and pick up the @eastern-set",
-        "wg1zo5u8": "Return to the bonfire through the door you opened earlier with the @crest-of-artorias",
-        "5o99zbls": "Go through the gap in the wall to the right of the door and head down, remembering that when you pick up the soul on the right it will spawn three @ents",
-        "iwhc6jn1": "After the fog gate hit the tree on the right to open up a passage to a secret area",
-        "sb8foioo": "Kill the @great-stone-knight in the main area first, then the one in the tower and pick up the @wolf-ring",
-        "h98huc5k": "Head back out of the secret area and kill the other @great-stone-knight[Great Stone Knights] and @ents that spawn",
-        "edq3i5r2": "Pick up the @elite-knight-set",
-        "8ov8za2m": "Pick up the @partizan from the alcove on the left wall",
-        "06823usx": {
+        "rt10htat": "Go to the lower section of the forest and kill all the @ents and pick up the @eastern-set",
+        "5vsqznlh": "Return to the bonfire through the door you opened earlier with the @crest-of-artorias",
+        "sji904u3": "Go through the gap in the wall to the right of the door and head down, remembering that when you pick up the soul on the right it will spawn three @ents",
+        "rnuhi6dh": "After the fog gate hit the tree on the right to open up a passage to a secret area",
+        "dfdl1wra": "Kill the @great-stone-knight in the main area first, then the one in the tower and pick up the @wolf-ring",
+        "2j3riied": "Head back out of the secret area and kill the other @great-stone-knight[Great Stone Knights] and @ents that spawn",
+        "c9j31ssx": "Pick up the @elite-knight-set",
+        "97j493k8": "Pick up the @partizan from the alcove on the left wall",
+        "ireixkqu": {
           "content": "Kill the @moonlight-butterfly",
           "steps": {
-            "3ahm7pux": "You can summon @witch-beatrice at the bottom of the tower leading to the boss",
-            "9u1zdd7g": "After the fight head up the tower to get the @watchtower-basement-key, @divine-ember and @homeward-bone"
+            "sknukap5": "You can summon @witch-beatrice at the bottom of the tower leading to the boss",
+            "2ihracuj": "After the fight head up the tower to get the @watchtower-basement-key, @divine-ember and @homeward-bone"
           }
         },
-        "ughawqzg": "Return to the bonfire",
-        "hwou4tny": "Go back through the forest and kill @great-grey-wolf-sif to get the @covenant-of-artorias and remember to pick up the @hornet-ring",
-        "t33yd1y4": "Optionally do some @guide-to-co-operative-play[jolly co-op] to get some humanity and souls. You should be level 15-25 for the Butterfly and 20-50 for Sif, though summons for both are rare",
-        "qoh2c9sj": "Return to @blacksmith-andrei[Andre] and give him the @divine-ember and upgrade your weapon if needed",
-        "rt10htat": "Return to @firelink-shrine",
-        "5vsqznlh": "@reah-of-thorolund[Reah] and her companions should be gone. If @petrus-of-thorolund[Petrus] is there talk to him and then kill him now if you don't want him to kill Reah later. If he's not then come back later",
-        "sji904u3": "Make a quick run down to @new-londo-ruins, give the @enchanted-ember to @blacksmith-rickert-of-vinheim and upgrade your weapons if needed",
-        "97j493k8": {
+        "wpl3nwa9": "Return to the bonfire",
+        "85984u2c": "Go back through the forest and kill @great-grey-wolf-sif to get the @covenant-of-artorias and remember to pick up the @hornet-ring",
+        "unaslbw7": "Optionally do some @guide-to-co-operative-play[jolly co-op] to get some humanity and souls. You should be level 15-25 for the Butterfly and 20-50 for Sif, though summons for both are rare",
+        "n9vsybkh": "Return to @blacksmith-andrei[Andre] and give him the @divine-ember and upgrade your weapon if needed",
+        "4374zvsf": "Return to @firelink-shrine",
+        "hhsfcwpx": "@reah-of-thorolund[Reah] and her companions should be gone. If @petrus-of-thorolund[Petrus] is there talk to him and then kill him now if you don't want him to kill Reah later. If he's not then come back later",
+        "ycyjj8iv": "Make a quick run down to @new-londo-ruins, give the @enchanted-ember to @blacksmith-rickert-of-vinheim and upgrade your weapons if needed",
+        "umclfdez": {
           "content": "If you're a member of the @forest-hunter covenant and talked to @shiva-of-the-east[Shiva] earlier then optionally do a quick run to @blighttown to talk to him",
           "steps": {
-            "rnuhi6dh": "Learn the Look Skyward gesture",
-            "dfdl1wra": "Buy weapons or the @east-wood-grain-ring from him",
-            "2j3riied": "If you've bought all you need then you can now kill him and his bodyguard to get their gear but you will be kicked out of the covenant",
-            "c9j31ssx": "If you fail to kill him then they will return to the forest where you first met them and you can kill them there"
+            "2oqobsl7": "Learn the Look Skyward gesture",
+            "u2dbx7m8": "Buy weapons or the @east-wood-grain-ring from him",
+            "55kdsq40": "If you've bought all you need then you can now kill him and his bodyguard to get their gear but you will be kicked out of the covenant",
+            "u83vnb76": "If you fail to kill him then they will return to the forest where you first met them and you can kill them there"
           }
         },
-        "sknukap5": "Head back to the @undead-parish and rest at the bonfire above Andre"
+        "6vvksna0": "Head back to the @undead-parish and rest at the bonfire above Andre"
       }
     },
     "sens-fortress": {
       "name": "Sen's Fortress",
       "wikiUrl": "https://darksouls.wiki.fextralife.com/sen%27s+fortress",
       "steps": {
-        "2ihracuj": "Cross the bridge to @sens-fortress",
-        "ireixkqu": "Cross the first swinging blade walkway, remembering about the @serpent-mage trying to knock you off",
-        "wpl3nwa9": "Take out the @serpent-mage with your bow before crossing the second walkway and remember about the arrow trap at the end",
-        "85984u2c": "Get the @large-titanite-shard[Large Titanite Shards] from the chest",
-        "unaslbw7": "Cross the next walkway and remember about the boulder and the @man-serpent[Serpent Soldier] at the end",
-        "n9vsybkh": "Run halfway to the fog gate, wait for a boulder and then run to the top and get the @ring-of-steel-protection from the chest",
-        "4374zvsf": "Go back to the fog gate and remember about the reverse arrow trap in the next room",
-        "hhsfcwpx": "Wait for a boulder and then run up and jump off to the left just before the broken pillar on to a wooden platform",
-        "ycyjj8iv": "Pick up the @black-sorcerer-set and @hush sorcery",
-        "2oqobsl7": "Run up to the boulder switch, turn it so that it breaks the wall, then turn it so that it starts filling the hole",
-        "u2dbx7m8": "Pick up the @shotel and talk to @siegmeyer-of-catarina",
-        "55kdsq40": "Free @big-hat-logan",
-        "u83vnb76": "Return to the boulder switch and point it outside",
-        "umclfdez": "Run down to the hole the boulder fills, get the @covetous-gold-serpent-ring and use a @lloyds-talisman on the mimic chest to get the @lightning-spear",
-        "6vvksna0": "Use the elevator to get back to the boulder switch room and continue through the corridor, remembering about the multi arrow trap",
-        "0zooxfcl": "Cross the next swinging blade walkway, kill the @man-serpent[Serpent Soldiers] and get the @large-titanite-shard[Large Titanite Shards]",
-        "tz3dyzts": "Cross the last swinging blade walkway, remembering about the @serpent-mage at the start and the arrow traps at the end",
-        "4hql5b31": "Go through the fog gate and wait for a gap in the fire and light the first bonfire",
-        "1vg75tig": "Kill the fire bomb giant",
-        "9bbfjnr0": {
+        "0zooxfcl": "Cross the bridge to @sens-fortress",
+        "tz3dyzts": "Cross the first swinging blade walkway, remembering about the @serpent-mage trying to knock you off",
+        "4hql5b31": "Take out the @serpent-mage with your bow before crossing the second walkway and remember about the arrow trap at the end",
+        "1vg75tig": "Get the @large-titanite-shard[Large Titanite Shards] from the chest",
+        "7d5xxtip": "Cross the next walkway and remember about the boulder and the @man-serpent[Serpent Soldier] at the end",
+        "j01pkbah": "Run halfway to the fog gate, wait for a boulder and then run to the top and get the @ring-of-steel-protection from the chest",
+        "bdqk7z4y": "Go back to the fog gate and remember about the reverse arrow trap in the next room",
+        "6wxc8fqa": "Wait for a boulder and then run up and jump off to the left just before the broken pillar on to a wooden platform",
+        "rxfv465l": "Pick up the @black-sorcerer-set and @hush sorcery",
+        "9bbfjnr0": "Run up to the boulder switch, turn it so that it breaks the wall, then turn it so that it starts filling the hole",
+        "u962d7jh": "Pick up the @shotel and talk to @siegmeyer-of-catarina",
+        "ig1a5gqe": "Free @big-hat-logan",
+        "j18w5omf": "Return to the boulder switch and point it outside",
+        "hel6yzos": "Run down to the hole the boulder fills, get the @covetous-gold-serpent-ring and use a @lloyds-talisman on the mimic chest to get the @lightning-spear",
+        "e7r8iy6t": "Use the elevator to get back to the boulder switch room and continue through the corridor, remembering about the multi arrow trap",
+        "o8mxf4p3": "Cross the next swinging blade walkway, kill the @man-serpent[Serpent Soldiers] and get the @large-titanite-shard[Large Titanite Shards]",
+        "u75sp44g": "Cross the last swinging blade walkway, remembering about the @serpent-mage at the start and the arrow traps at the end",
+        "w1u8vmtt": "Go through the fog gate and wait for a gap in the fire and light the first bonfire",
+        "1i58ys5v": "Kill the fire bomb giant",
+        "1hjda2z5": {
           "content": "Jump across the gap in the walkway and buy useful stuff from the @crestfallen-merchant",
           "steps": {
-            "7d5xxtip": "@titanite-shard[Titanite Shards] @ 1,000 souls each",
-            "j01pkbah": "@large-titanite-shard[Large Titanite Shards] @ 4,000 souls each",
-            "bdqk7z4y": "@green-titanite-shard @ 5,000 souls each",
-            "6wxc8fqa": "@thunder-stoneplate-ring @ 15,000 souls",
-            "rxfv465l": "@spell-stoneplate-ring @ 15,00 souls"
+            "4oi7cz9n": "@titanite-shard[Titanite Shards] @ 1,000 souls each",
+            "zsm036dk": "@large-titanite-shard[Large Titanite Shards] @ 4,000 souls each",
+            "cllre78b": "@green-titanite-shard @ 5,000 souls each",
+            "o3568qeb": "@thunder-stoneplate-ring @ 15,000 souls",
+            "bkxav7e7": "@spell-stoneplate-ring @ 15,00 souls"
           }
         },
-        "u962d7jh": "Go down the stairs below the merchant and get the @cage-key",
-        "ig1a5gqe": "Get the @large-titanite-shard[Large Titanite Shards], @sniper-crossbow,  bolts and @flame-stoneplate-ring from around the fortress",
-        "j18w5omf": "Kill @ricard-the-archer to get his @ricards-rapier[Rapier] and get the @divine-blessing and @rare-ring-of-sacrifice in the tower above him",
-        "hel6yzos": "Open the cage shortcut using the @cage-key and quickly run in and out of the cage to send it down",
-        "o8mxf4p3": {
+        "fv6ngoq7": "Go down the stairs below the merchant and get the @cage-key",
+        "qhsi3doi": "Get the @large-titanite-shard[Large Titanite Shards], @sniper-crossbow,  bolts and @flame-stoneplate-ring from around the fortress",
+        "okysjcyf": "Kill @ricard-the-archer to get his @ricards-rapier[Rapier] and get the @divine-blessing and @rare-ring-of-sacrifice in the tower above him",
+        "hnz6x4av": "Open the cage shortcut using the @cage-key and quickly run in and out of the cage to send it down",
+        "30uoo5ey": {
           "content": "Kill the @iron-golem to open up the portal to @anor-londo",
           "steps": {
-            "e7r8iy6t": "You can summon @iron-knight-tarkus in the tower across from the fog gate"
+            "da1mu05x": "You can summon @iron-knight-tarkus in the tower across from the fog gate"
           }
         },
-        "u75sp44g": "Optionally do some @guide-to-co-operative-play[jolly co-op] to get some humanity and souls. You should be level 40-50 to get summoned",
-        "w1u8vmtt": "Put on the @rusted-iron-ring, go down in the cage elevator and drop down on to the ledge with the serpents and kill them",
-        "1i58ys5v": "Kill the two @titanite-demon[Titanite Demons] in the first area to get @demon-titanite[Demon Titanites] and the @scythe",
-        "4oi7cz9n": "Kill the other two @titanite-demon[Titanite Demons] to get more @demon-titanite[Demon Titanites]",
-        "zsm036dk": "Climb the ladder out of the pit, hit the illusory wall, climb the second ladder and kill the giant that opened the gate to get a @titanite-chunk",
-        "cllre78b": "Return to the wooden platform you jump on to during the boulder run and drop down the other side to get the @slumbering-dragoncrest-ring",
-        "o3568qeb": "Return to the bonfire and go up and use the portal to @anor-londo"
+        "2by0dhwd": "Optionally do some @guide-to-co-operative-play[jolly co-op] to get some humanity and souls. You should be level 40-50 to get summoned",
+        "70g2yujv": "Put on the @rusted-iron-ring, go down in the cage elevator and drop down on to the ledge with the serpents and kill them",
+        "g6e2mbxx": "Kill the two @titanite-demon[Titanite Demons] in the first area to get @demon-titanite[Demon Titanites] and the @scythe",
+        "obysrk0l": "Kill the other two @titanite-demon[Titanite Demons] to get more @demon-titanite[Demon Titanites]",
+        "jbevgkr6": "Climb the ladder out of the pit, hit the illusory wall, climb the second ladder and kill the giant that opened the gate to get a @titanite-chunk",
+        "oxp3uc9j": "Return to the wooden platform you jump on to during the boulder run and drop down the other side to get the @slumbering-dragoncrest-ring",
+        "q8ir0mm0": "Return to the bonfire and go up and use the portal to @anor-londo"
       }
     },
     "anor-londo": {
       "name": "Anor Londo",
       "wikiUrl": "https://darksouls.wiki.fextralife.com/anor+londo",
       "steps": {
-        "bkxav7e7": "Run passed the @sentinel[Sentinels], light the bonfire, talk to @darkmoon-knightess and reinforce your @estus-flask if you need to",
-        "1hjda2z5": "Kill the two @sentinel[Sentinels] you ran passed and open the chest to get a @demon-titanite",
-        "fv6ngoq7": "Cross the courtyard and kill the other two, using a @lloyds-talisman on the right mimic chest to get the @halberd[Crystal Halberd] and opening the left chest to get a @twinkling-titanite",
-        "qhsi3doi": "Go down the elevator and kill the @gargoyle-lightning[Lightning Gargoyle]",
-        "okysjcyf": "Get the @demon-titanite from the chest below and walk up the beams in to the chapel",
-        "hnz6x4av": "Walk along the rafters and remember to hit the chain of the chandelier",
-        "da1mu05x": "Jump down onto the platform with the statues and roll through the pillars on the other side of the room. Kill the @painting-guardian and open the chest to get the @divine-blessing.",
-        "30uoo5ey": "Turn the bridge lever once in an anti-clockwise direction to lower the platform and kill the second @gargoyle-lightning[Lightning Gargoyle]",
-        "2by0dhwd": "Go up the giant staircase and kill the @sentinel[Sentinels] and @bat-wing-demon[Bat Wing Demons]",
-        "70g2yujv": "Go up the buttress and kill the right @silver-knight[Silver Knight Archer], remembering not to use your shield but dodge towards him instead until he starts meleeing",
-        "g6e2mbxx": "If you have the balls go and kill the second archer to get the @soul-of-a-hero",
-        "obysrk0l": "Drop down on to the platform after the first archer and enter the left door to light the bonfire. Congratulate yourself!",
-        "jbevgkr6": "Talk to @solaire-of-astora[Solaire]",
-        "oxp3uc9j": "Cross the hallway and get the @sunlight-medal[Sunlight Medals] from the chest",
-        "q8ir0mm0": "Go down the corridor and through the left door and hit the illusory wall",
-        "oblcsdvw": "Go down in to the basement and open the four chests that sit together to get @havels-set, @havels-greatshield and the @dragon-tooth",
-        "a4twpxp5": "Use a @lloyds-talisman on the single mimic chest to get the @club[Occult Club]",
-        "oinyv3dl": "Go up the stairs and use @lloyds-talisman[Lloyd's Talismans] on the two mimic chests to get the @silver-coin[Silver Coins] and the @gold-coin",
-        "boctbiv6": "Use ranged attacks to kill the @titanite-demon from above",
-        "znhf9pnl": "Kill the @silver-knight[Silver Knight Archer] at the end of the corridor",
-        "c23ztm42": "Coming from the dead archer go through the right door and up to the roof, remembering about the @silver-knight behind the door",
-        "tmdr9yeu": "Kill the archer on the right but then head down the stairs on the left to talk to @siegmeyer-of-catarina[Siegmeyer]",
-        "79adabv1": "Bait each of the four @silver-knight[Silver Knights] one at a time from the room up on to the roof to kill them",
-        "jw7bqk69": "Talk to @siegmeyer-of-catarina[Siegmeyer] again to get the @tiny-beings-ring",
-        "5bv2an2z": "Open the chest in the room to get the two @demon-titanite[Demon Titanites]",
-        "ukazfd7b": "Unlock the door, go back up the roof and go down the stairs where the archer was",
-        "jxh9ojla": "Go across the corridor and kill the two @silver-knight[Silver Knights], get the @silver-knight-set from the two chests and unlock the shortcut back to the bonfire",
-        "hbq6p2li": "Go back upstairs and keep going up to top of the large hall, go around the walkway and down to the @giant-blacksmith",
-        "qdw7cltu": "Get the @hawk-ring from the chest behind him",
-        "c11kxu0z": {
+        "oblcsdvw": "Run passed the @sentinel[Sentinels], light the bonfire, talk to @darkmoon-knightess and reinforce your @estus-flask if you need to",
+        "a4twpxp5": "Kill the two @sentinel[Sentinels] you ran passed and open the chest to get a @demon-titanite",
+        "oinyv3dl": "Cross the courtyard and kill the other two, using a @lloyds-talisman on the right mimic chest to get the @halberd[Crystal Halberd] and opening the left chest to get a @twinkling-titanite",
+        "boctbiv6": "Go down the elevator and kill the @gargoyle-lightning[Lightning Gargoyle]",
+        "znhf9pnl": "Get the @demon-titanite from the chest below and walk up the beams in to the chapel",
+        "c23ztm42": "Walk along the rafters and remember to hit the chain of the chandelier",
+        "tmdr9yeu": "Jump down onto the platform with the statues and roll through the pillars on the other side of the room. Kill the @painting-guardian and open the chest to get the @divine-blessing.",
+        "79adabv1": "Turn the bridge lever once in an anti-clockwise direction to lower the platform and kill the second @gargoyle-lightning[Lightning Gargoyle]",
+        "jw7bqk69": "Go up the giant staircase and kill the @sentinel[Sentinels] and @bat-wing-demon[Bat Wing Demons]",
+        "5bv2an2z": "Go up the buttress and kill the right @silver-knight[Silver Knight Archer], remembering not to use your shield but dodge towards him instead until he starts meleeing",
+        "ukazfd7b": "If you have the balls go and kill the second archer to get the @soul-of-a-hero",
+        "jxh9ojla": "Drop down on to the platform after the first archer and enter the left door to light the bonfire. Congratulate yourself!",
+        "hbq6p2li": "Talk to @solaire-of-astora[Solaire]",
+        "qdw7cltu": "Cross the hallway and get the @sunlight-medal[Sunlight Medals] from the chest",
+        "gltzb5wg": "Go down the corridor and through the left door and hit the illusory wall",
+        "z522c6vv": "Go down in to the basement and open the four chests that sit together to get @havels-set, @havels-greatshield and the @dragon-tooth",
+        "0uv876j1": "Use a @lloyds-talisman on the single mimic chest to get the @club[Occult Club]",
+        "81icqa87": "Go up the stairs and use @lloyds-talisman[Lloyd's Talismans] on the two mimic chests to get the @silver-coin[Silver Coins] and the @gold-coin",
+        "dx2c0v9l": "Use ranged attacks to kill the @titanite-demon from above",
+        "pkhtatft": "Kill the @silver-knight[Silver Knight Archer] at the end of the corridor",
+        "sbgr0uxk": "Coming from the dead archer go through the right door and up to the roof, remembering about the @silver-knight behind the door",
+        "c11kxu0z": "Kill the archer on the right but then head down the stairs on the left to talk to @siegmeyer-of-catarina[Siegmeyer]",
+        "64zpds4e": "Bait each of the four @silver-knight[Silver Knights] one at a time from the room up on to the roof to kill them",
+        "vjtwzz1p": "Talk to @siegmeyer-of-catarina[Siegmeyer] again to get the @tiny-beings-ring",
+        "vyto3rgs": "Open the chest in the room to get the two @demon-titanite[Demon Titanites]",
+        "ara94yy5": "Unlock the door, go back up the roof and go down the stairs where the archer was",
+        "tsxf30qa": "Go across the corridor and kill the two @silver-knight[Silver Knights], get the @silver-knight-set from the two chests and unlock the shortcut back to the bonfire",
+        "hc5rbavm": "Go back upstairs and keep going up to top of the large hall, go around the walkway and down to the @giant-blacksmith",
+        "9ly8al5p": "Get the @hawk-ring from the chest behind him",
+        "zpz34264": {
           "content": "Talk to him and buy useful stuff from him",
           "steps": {
-            "gltzb5wg": "@titanite-shard[Titanite Shards] @ 800 souls each",
-            "z522c6vv": "@large-titanite-shard[Large Titanite Shards] @ 3,800 souls each",
-            "0uv876j1": "@green-titanite-shard @ 4,800 souls each",
-            "81icqa87": "@twinkling-titanite @ 8,000 souls each",
-            "dx2c0v9l": "Create any @boss-soul-weapons you need",
-            "pkhtatft": "Create any lightning weapons you need",
-            "sbgr0uxk": "Upgrade your other weapons"
+            "ygpvr4k7": "@titanite-shard[Titanite Shards] @ 800 souls each",
+            "uydhcwv5": "@large-titanite-shard[Large Titanite Shards] @ 3,800 souls each",
+            "itg1wzr9": "@green-titanite-shard @ 4,800 souls each",
+            "6xasa04i": "@twinkling-titanite @ 8,000 souls each",
+            "whrxk4sm": "Create any @boss-soul-weapons you need",
+            "186n7okn": "Create any lightning weapons you need",
+            "03zree38": "Upgrade your other weapons"
           }
         },
-        "64zpds4e": "Open the gate leading back to the giant staircase and pick up the @titanite-chunk",
-        "vjtwzz1p": "Go back upstairs and drop out the broken window to get the @dragonslayer-greatbow",
-        "vyto3rgs": "Go back to the large hall and open the large main door",
-        "ara94yy5": "Return to the bonfire if you need to",
-        "uydhcwv5": {
+        "34u4e8uo": "Open the gate leading back to the giant staircase and pick up the @titanite-chunk",
+        "a4ax2dcr": "Go back upstairs and drop out the broken window to get the @dragonslayer-greatbow",
+        "nw1gandr": "Go back to the large hall and open the large main door",
+        "os84eys8": "Return to the bonfire if you need to",
+        "lbw0tax8": {
           "content": "Kill @ornstein-and-smough",
           "steps": {
-            "tsxf30qa": "You can summon @solaire-of-astora[Solaire] from the steps near the archer in the large hall",
-            "hc5rbavm": "The best place to summon other players for this fight is the second bonfire in the room after the archers",
-            "9ly8al5p": "If you want to get @smoughs-set from @domnhall-of-zena[Domhnhall of Zena] or want to make @smoughs-hammer then kill Ornstein first",
-            "ygpvr4k7": "If you want to get @ornsteins-set from @domnhall-of-zena[Domhnhall of Zena] or want the @leo-ring or want to make the @dragon-slayer-spear then kill Smough first"
+            "bcuc3pi2": "You can summon @solaire-of-astora[Solaire] from the steps near the archer in the large hall",
+            "ikqkefgv": "The best place to summon other players for this fight is the second bonfire in the room after the archers",
+            "nhqhb03q": "If you want to get @smoughs-set from @domnhall-of-zena[Domhnhall of Zena] or want to make @smoughs-hammer then kill Ornstein first",
+            "1dqw90jm": "If you want to get @ornsteins-set from @domnhall-of-zena[Domhnhall of Zena] or want the @leo-ring or want to make the @dragon-slayer-spear then kill Smough first"
           }
         },
-        "itg1wzr9": "Go up one the screw elevators and light the bonfire",
-        "6xasa04i": "Talk to @gwynevere[Princess Gwynevere], get the @lordvessel and optionally join the @princess-guard covenant",
-        "whrxk4sm": "Optionally do some @guide-to-co-operative-play[jolly co-op] to get some humanity and souls. You should be level 40-50 to get summoned",
-        "34u4e8uo": {
+        "n98z62nj": "Go up one the screw elevators and light the bonfire",
+        "mmr7ik7l": "Talk to @gwynevere[Princess Gwynevere], get the @lordvessel and optionally join the @princess-guard covenant",
+        "iel09v2s": "Optionally do some @guide-to-co-operative-play[jolly co-op] to get some humanity and souls. You should be level 40-50 to get summoned",
+        "ekrpz782": {
           "content": "If you didn't kill @knight-lautrec[Lautrec] earlier then return to the large hall and use the the @black-eye-orb to invade his world and kill him",
           "steps": {
-            "186n7okn": "You will get the @anastacia-of-astora[Ring of Favor and Protection], @anastacia-of-astora's soul, a @souvenir-of-reprisal and five @humanity",
-            "03zree38": "When you return to @firelink-shrine you can revive @anastacia-of-astora with her soul or you can choose to use it to reinforce your @estus-flask",
-            "zpz34264": "After killing him you can get the @favor-set from the balcony above where you fought @ornstein-and-smough"
+            "be9ctqbm": "You will get the @anastacia-of-astora[Ring of Favor and Protection], @anastacia-of-astora's soul, a @souvenir-of-reprisal and five @humanity",
+            "ts3b1dt8": "When you return to @firelink-shrine you can revive @anastacia-of-astora with her soul or you can choose to use it to reinforce your @estus-flask",
+            "zgkximea": "After killing him you can get the @favor-set from the balcony above where you fought @ornstein-and-smough"
           }
         },
-        "a4ax2dcr": "Now that we can fast travel, warp back to @firelink-shrine",
-        "nhqhb03q": {
+        "gqy23kz5": "Now that we can fast travel, warp back to @firelink-shrine",
+        "rold9oui": {
           "content": "Talk to the various people now at the shrine",
           "steps": {
-            "nw1gandr": "@griggs-of-vinheim and the recently freed @big-hat-logan",
-            "os84eys8": "Talk to @siegmeyer-of-catarina[Siegmeyer] and answer Yes to his question to get the @emit-force miracle",
-            "bcuc3pi2": "Do not speak to @kingseeker-frampt[Frampt] if you want to join the @darkwraith covenant later",
-            "ikqkefgv": "Talk to @domhnall-of-zena under the aqueduct to buy any of the boss armor you need"
+            "lenzq5tf": "@griggs-of-vinheim and the recently freed @big-hat-logan",
+            "umb2lfjy": "Talk to @siegmeyer-of-catarina[Siegmeyer] and answer Yes to his question to get the @emit-force miracle",
+            "988i8vxw": "Do not speak to @kingseeker-frampt[Frampt] if you want to join the @darkwraith covenant later",
+            "tb4lo0fo": "Talk to @domhnall-of-zena under the aqueduct to buy any of the boss armor you need"
           }
         },
-        "1dqw90jm": "Take a flight back to @northern-undead-asylum[Undead Asylum]"
+        "0l4m5gqb": "Take a flight back to @northern-undead-asylum[Undead Asylum]"
       }
     },
     "undead-asylum-revisited": {
       "name": "Undead Asylum Revisited",
       "wikiUrl": "https://darksouls.wiki.fextralife.com/northern+undead+asylum",
       "steps": {
-        "lbw0tax8": "Remember about the collapsing floor!",
-        "n98z62nj": "Kill the @stray-demon to get a @titanite-slab",
-        "mmr7ik7l": "Kill the @the-black-knight[Black Knight] near your starting cell to get a @red-titanite-chunk and pick up the @peculiar-doll",
-        "iel09v2s": "Kill the @the-black-knight[Black Knight] near where you picked up your first weapon to get another @red-titanite-chunk",
-        "be9ctqbm": "Kill the now hollow Elite Knight to get the @crest-shield",
-        "ts3b1dt8": "Warp back to @firelink-shrine"
+        "ga25mr7z": "Remember about the collapsing floor!",
+        "r0goai04": "Kill the @stray-demon to get a @titanite-slab",
+        "hwl63fzv": "Kill the @the-black-knight[Black Knight] near your starting cell to get a @red-titanite-chunk and pick up the @peculiar-doll",
+        "nzrw1k0m": "Kill the @the-black-knight[Black Knight] near where you picked up your first weapon to get another @red-titanite-chunk",
+        "v3fo7jb9": "Kill the now hollow Elite Knight to get the @crest-shield",
+        "rwwihfis": "Warp back to @firelink-shrine"
       }
     },
     "new-londo-ruins": {
       "name": "New Londo Ruins",
       "wikiUrl": "https://darksouls.wiki.fextralife.com/new+londo+ruins",
       "steps": {
-        "zgkximea": "Run up to the @undead-merchant-female[Female Undead Merchant] in the aqueduct and buy all the @transient-curse[Transient Curses] she has and equip them",
-        "ekrpz782": "Go down to @new-londo-ruins",
-        "gqy23kz5": "On your way to the wooden bridges get ready to be attacked by the @crestfallen-warrior",
-        "lenzq5tf": "Use one of your @transient-curse[Transient Curses] and keep them visible on your HUD so that you know when it expires",
-        "umb2lfjy": "Make your way through the first part of the ruins picking up the @parrying-dagger and killing the @banshee to get the two @transient-curse[Transient Curses]",
-        "988i8vxw": "Go through the fog gate",
-        "tb4lo0fo": "Kick the ladder to relase it and go down and kill the two @ghost[Ghosts] to stop them attacking you from below",
-        "rold9oui": "Approach the house and kill the @ghost[Ghosts] that come out of the water before entering house",
-        "0l4m5gqb": "Go up the ladder in the fireplace and talk to  @ingward to get the @key-to-the-seal and buy more @transient-curse[Transient Curses] if you need them",
-        "ga25mr7z": "Go downstairs and get the @cursebite-ring from the ledge",
-        "r0goai04": "Go out the other door and get @green-titanite-shard, @humanity and jump to the roof to get the @rare-ring-of-sacrifice",
-        "hwl63fzv": "Head to the tower, open the door with the @key-to-the-seal and push the lever clockwise to drain the water",
-        "nzrw1k0m": "Go upstairs in the tower and get the @composite-bow and large arrows",
-        "v3fo7jb9": "Pull the lever and go down the elevator to the @valley-of-drakes entrance",
-        "rwwihfis": "Kill the @drake[Drakes], get the @brigand-armor-set and @spider-shield, and go up the ladder to get the @red-tearstone-ring",
-        "vafj4tia": "Continue through the buildings and through the fog gate",
-        "khrx9k8g": "Clear out the @darkwraith-knight[Darkwraith Knights] and @mass-of-souls so you can get the @humanity and trigger the elevator shortcut to the beginning of the ruins",
-        "a33hdl67": "Go out the smaller side door and up to open the chest with the @very-large-ember[Very Large Ember]",
-        "ulpgtqni": "Go back down and out the larger door and pick up the souls and six @cracked-red-eye-orb[Cracked Red Eye Orbs]",
-        "q8b0frsb": "Hit the illusory wall and open the chest to get a @titanite-chunk",
-        "ved02o9h": "Clear out the @darkwraith-knight[Darkwraith Knights] and @mass-of-souls and get the @titanite-chunk from the chest",
-        "yqiolapj": "Put on the @covenant-of-artorias ring",
-        "3igaihbs": {
+        "vafj4tia": "Run up to the @undead-merchant-female[Female Undead Merchant] in the aqueduct and buy all the @transient-curse[Transient Curses] she has and equip them",
+        "khrx9k8g": "Go down to @new-londo-ruins",
+        "a33hdl67": "On your way to the wooden bridges get ready to be attacked by the @crestfallen-warrior",
+        "ulpgtqni": "Use one of your @transient-curse[Transient Curses] and keep them visible on your HUD so that you know when it expires",
+        "q8b0frsb": "Make your way through the first part of the ruins picking up the @parrying-dagger and killing the @banshee to get the two @transient-curse[Transient Curses]",
+        "ved02o9h": "Go through the fog gate",
+        "yqiolapj": "Kick the ladder to relase it and go down and kill the two @ghost[Ghosts] to stop them attacking you from below",
+        "ehytebr4": "Approach the house and kill the @ghost[Ghosts] that come out of the water before entering house",
+        "3igaihbs": "Go up the ladder in the fireplace and talk to  @ingward to get the @key-to-the-seal and buy more @transient-curse[Transient Curses] if you need them",
+        "l2w8iffg": "Go downstairs and get the @cursebite-ring from the ledge",
+        "lhsci96q": "Go out the other door and get @green-titanite-shard, @humanity and jump to the roof to get the @rare-ring-of-sacrifice",
+        "t1v7286t": "Head to the tower, open the door with the @key-to-the-seal and push the lever clockwise to drain the water",
+        "xj6th88q": "Go upstairs in the tower and get the @composite-bow and large arrows",
+        "pzctorb9": "Pull the lever and go down the elevator to the @valley-of-drakes entrance",
+        "crh7sov4": "Kill the @drake[Drakes], get the @brigand-armor-set and @spider-shield, and go up the ladder to get the @red-tearstone-ring",
+        "m0rqwdzm": "Continue through the buildings and through the fog gate",
+        "6ck8iv9n": "Clear out the @darkwraith-knight[Darkwraith Knights] and @mass-of-souls so you can get the @humanity and trigger the elevator shortcut to the beginning of the ruins",
+        "jbxs6ncc": "Go out the smaller side door and up to open the chest with the @very-large-ember[Very Large Ember]",
+        "0w4l18aj": "Go back down and out the larger door and pick up the souls and six @cracked-red-eye-orb[Cracked Red Eye Orbs]",
+        "xchqrr4l": "Hit the illusory wall and open the chest to get a @titanite-chunk",
+        "9zxlgc0r": "Clear out the @darkwraith-knight[Darkwraith Knights] and @mass-of-souls and get the @titanite-chunk from the chest",
+        "s4yq0c79": "Put on the @covenant-of-artorias ring",
+        "bbkfos51": {
           "content": "Kill the @four-kings",
           "steps": {
-            "ehytebr4": "You can summon @witch-beatrice from behind the pillar if you previously summoned her for the @moonlight-butterfly fight"
+            "yp09iov7": "You can summon @witch-beatrice from behind the pillar if you previously summoned her for the @moonlight-butterfly fight"
           }
         },
-        "l2w8iffg": "Optionally do some @guide-to-co-operative-play[jolly co-op] to get some humanity and souls. You should be level 60-75 to get summoned",
-        "lhsci96q": "Warp to @undead-parish and give the @very-large-ember to @blacksmith-andrei[Andre] and upgrade your weapons",
-        "t1v7286t": "Warp to @firelink-shrine and go down to the @valley-of-drakes to get the @witch-set and @beatrices-catalyst",
-        "xj6th88q": "Make sure you have at least three @purple-moss-clump[Purple Moss Clumps] and warp to the @daughter-of-chaos bonfire",
-        "pzctorb9": "Go talk to @siegmeyer-of-catarina[Siegmeyer] in the @blighttown swamp and give him the @purple-moss-clump[Purple Moss Clumps] to get the @pierce-shield",
-        "crh7sov4": "Go up the branch and hit the illusory wall behind the chest and go in to @the-great-hollow"
+        "hltgz05y": "Optionally do some @guide-to-co-operative-play[jolly co-op] to get some humanity and souls. You should be level 60-75 to get summoned",
+        "6n27ktsu": "Warp to @undead-parish and give the @very-large-ember to @blacksmith-andrei[Andre] and upgrade your weapons",
+        "fi2b14cv": "Warp to @firelink-shrine and go down to the @valley-of-drakes to get the @witch-set and @beatrices-catalyst",
+        "e0je1ud9": "Make sure you have at least three @purple-moss-clump[Purple Moss Clumps] and warp to the @daughter-of-chaos bonfire",
+        "87jot0j7": "Go talk to @siegmeyer-of-catarina[Siegmeyer] in the @blighttown swamp and give him the @purple-moss-clump[Purple Moss Clumps] to get the @pierce-shield",
+        "tbd5vywr": "Go up the branch and hit the illusory wall behind the chest and go in to @the-great-hollow"
       }
     },
     "the-great-hollow": {
       "name": "The Great Hollow",
       "wikiUrl": "https://darksouls.wiki.fextralife.com/the+great+hollow",
       "steps": {
-        "m0rqwdzm": "Note: It's very hard to give good directions for this section due to the maze of branches and random spawning patterns of the Crystal Lizards",
-        "6ck8iv9n": "Light and rest at the bonfire after you go down the first ladder",
-        "jbxs6ncc": "Make your way down the branches looking out for @crystal-lizard[Crystal Lizards] and @basilisk[Basilisks]",
-        "0w4l18aj": "Near the top you can roll down in to the main tree trunk in the center of the area to pick up the @cloranthy-ring",
-        "xchqrr4l": "Roll and drop to various branches to get the titanites",
-        "9zxlgc0r": "After you kill the first three @basilisk[Basilisks] there is a soul hidden to the left as you exit the cave they were in",
-        "s4yq0c79": "Slide down the two ladders to the first canopy and kill the two @basilisk[Basilisks] there",
-        "yp09iov7": "Slide down the ladder in the center to the next canopy and be ready to kill four more and then pick up the soul",
-        "bbkfos51": "Continue down the branches and then on to the mushrooms, exiting the fog gate at the bottom to get to @ash-lake"
+        "t0af049n": "Note: It's very hard to give good directions for this section due to the maze of branches and random spawning patterns of the Crystal Lizards",
+        "j7c9r16l": "Light and rest at the bonfire after you go down the first ladder",
+        "k38nkdao": "Make your way down the branches looking out for @crystal-lizard[Crystal Lizards] and @basilisk[Basilisks]",
+        "94rz0h9q": "Near the top you can roll down in to the main tree trunk in the center of the area to pick up the @cloranthy-ring",
+        "d1ubt7ie": "Roll and drop to various branches to get the titanites",
+        "76fvyjq2": "After you kill the first three @basilisk[Basilisks] there is a soul hidden to the left as you exit the cave they were in",
+        "f2v2zihq": "Slide down the two ladders to the first canopy and kill the two @basilisk[Basilisks] there",
+        "zwg6mjwc": "Slide down the ladder in the center to the next canopy and be ready to kill four more and then pick up the soul",
+        "8w50g51m": "Continue down the branches and then on to the mushrooms, exiting the fog gate at the bottom to get to @ash-lake"
       }
     },
     "ash-lake": {
       "name": "Ash Lake",
       "wikiUrl": "https://darksouls.wiki.fextralife.com/ash+lake",
       "steps": {
-        "hltgz05y": "Light and rest at the bonfire",
-        "6n27ktsu": "Kill the @black-hydra to get two @dragon-scale[Dragon Scales] and then get one more from the corpse to the left",
-        "fi2b14cv": "Walk along the sand and get the @dragon-scale from the small dead tree",
-        "e0je1ud9": "Get the @dragon-scale from the corpse on left by the water after the small dead tree",
-        "87jot0j7": "Go up the branch on the outside of the first huge tree, drop off to the right on to the hidden platform and head in to the tree to get the @great-magic-barrier miracle",
-        "tbd5vywr": "Continue along the sand to the next tree, light the bonfire and optionally join the @path-of-the-dragon covenant",
-        "t0af049n": "Cut off the tail of the dragon to get the @dragon-greatsword",
-        "j7c9r16l": "Make sure you have some @blooming-purple-moss-clump[Blooming Purple Moss Clumps] in case you get toxic from the @engorged-zombie[Engorged Zombies]",
-        "k38nkdao": "Warp to @anor-londo"
+        "u4po7o0z": "Light and rest at the bonfire",
+        "ozu8vh05": "Kill the @black-hydra to get two @dragon-scale[Dragon Scales] and then get one more from the corpse to the left",
+        "uem70m1y": "Walk along the sand and get the @dragon-scale from the small dead tree",
+        "jdxbo0wj": "Get the @dragon-scale from the corpse on left by the water after the small dead tree",
+        "aih522sk": "Go up the branch on the outside of the first huge tree, drop off to the right on to the hidden platform and head in to the tree to get the @great-magic-barrier miracle",
+        "6rsxyxq1": "Continue along the sand to the next tree, light the bonfire and optionally join the @path-of-the-dragon covenant",
+        "6agct4wi": "Cut off the tail of the dragon to get the @dragon-greatsword",
+        "c1e41ykx": "Make sure you have some @blooming-purple-moss-clump[Blooming Purple Moss Clumps] in case you get toxic from the @engorged-zombie[Engorged Zombies]",
+        "dl7n94c1": "Warp to @anor-londo"
       }
     },
     "painted-world-of-ariamis": {
       "name": "Painted World of Ariamis",
       "wikiUrl": "https://darksouls.wiki.fextralife.com/painted+world+of+ariamis",
       "steps": {
-        "94rz0h9q": "Go down the elevator and turn the platform lever anti-clockwise and enter the chapel",
-        "d1ubt7ie": "Pick up the @great-magic-weapon sorcery, @black-iron-set, @greatsword and @black-iron-greatshield",
-        "76fvyjq2": "Examine the painting to warp to the @painted-world-of-ariamis",
-        "f2v2zihq": "Light and rest at the bonfire",
-        "zwg6mjwc": "Remember to use range attacks on the @engorged-zombie[Engorged Zombies] so you don't get toxic",
-        "8w50g51m": "Go up the stairs and on to the roof of the first building and use your bow to pull the two @crow-demon[Crow Demons] from the other tower to you so they don't ambush you later",
-        "u4po7o0z": "Drop down to get the @dried-finger and then go the bottom floor of the building to get the soul",
-        "ozu8vh05": "Clear out the next building, remembering about the two @zombie[Zombies] hanging from the ledge, and hit the rope holding the zombie to drop it down",
-        "uem70m1y": "Go upstairs, jump across the gap and get the soul and the @egg-vermifuge, slide down the ladder and get the @painting-guardian-set",
-        "jdxbo0wj": "Lure the @crow-demon[Crow Demons] out of the tower one by one",
-        "aih522sk": "Go to the top of the spiral staircase to get the @red-sign-soapstone and on the way back down drop to the ledge to get the soul",
-        "6rsxyxq1": "Kill the @undead-dragon and then pick up the soul, @dragon-scale and the @bloodshield from the bridge",
-        "6agct4wi": "Go back to the tower, through the fog gate and open the shortcut back to the bonfire",
-        "c1e41ykx": "Go down to the basement and kill the six @wheel-skeleton[Wheel Skeletons], making sure to pull one at a time with your bow",
-        "dl7n94c1": "Grab the two souls and turn the lever to open the gate that leads to the boss",
-        "vbbj4e9w": "Hit the illusory wall and explore the tunnels, kill the three @wheel-skeleton[Wheel Skeletons], get the @annex-key and kill the @engorged-zombie to get the @fire-surge pyromancy",
-        "x5fotu0g": "Leave the tunnels using the well ladder, go up the stairs to get the @ring-of-sacrifice and grab the @humanity from the zombie you dropped earlier",
-        "w92axysi": "Open the Annex door and head up the stairs",
-        "g4unzd2b": "Head up on to the roof of the building to the left, kill the two @crow-demon[Crow Demons], watch for an ambush by two more and get the @vow-of-silence miracle",
-        "7oqr2mo8": "Take the stairs in to the round tower and pick up the @black-set",
-        "2sg6s6dt": "Go to the lower section and get the @dark-ember",
-        "u10acbd6": "Break the wooden fence to get @velkas-rapier, drop down in to the building and get the @gold-coin",
-        "t2c9tw6t": "Return to the bonfire and reverse hollowing",
-        "deqfdinj": "Go the open area with all the spikes, wait for @king-jeremiah to invade and kill him to get the @notched-whip",
-        "v3ifrw0j": "Pick up the souls in the area and the @acid-surge pyromancy hidden behind the wall",
-        "0b28m296": "Go through the gate you opened earlier, walk across the bridge, watching out for the zombies and kill the @the-tower-knight[Tower Knight] to get the @large-titanite-shard",
-        "lt8ajoof": "Reload your game before you enter the fog gate, go through and pick up the @xanthous-set that should now have appeared",
-        "nqoi28o6": {
+        "vbbj4e9w": "Go down the elevator and turn the platform lever anti-clockwise and enter the chapel",
+        "x5fotu0g": "Pick up the @great-magic-weapon sorcery, @black-iron-set, @greatsword and @black-iron-greatshield",
+        "w92axysi": "Examine the painting to warp to the @painted-world-of-ariamis",
+        "g4unzd2b": "Light and rest at the bonfire",
+        "7oqr2mo8": "Remember to use range attacks on the @engorged-zombie[Engorged Zombies] so you don't get toxic",
+        "2sg6s6dt": "Go up the stairs and on to the roof of the first building and use your bow to pull the two @crow-demon[Crow Demons] from the other tower to you so they don't ambush you later",
+        "u10acbd6": "Drop down to get the @dried-finger and then go the bottom floor of the building to get the soul",
+        "t2c9tw6t": "Clear out the next building, remembering about the two @zombie[Zombies] hanging from the ledge, and hit the rope holding the zombie to drop it down",
+        "deqfdinj": "Go upstairs, jump across the gap and get the soul and the @egg-vermifuge, slide down the ladder and get the @painting-guardian-set",
+        "v3ifrw0j": "Lure the @crow-demon[Crow Demons] out of the tower one by one",
+        "0b28m296": "Go to the top of the spiral staircase to get the @red-sign-soapstone and on the way back down drop to the ledge to get the soul",
+        "lt8ajoof": "Kill the @undead-dragon and then pick up the soul, @dragon-scale and the @bloodshield from the bridge",
+        "wx3nq8pl": "Go back to the tower, through the fog gate and open the shortcut back to the bonfire",
+        "nqoi28o6": "Go down to the basement and kill the six @wheel-skeleton[Wheel Skeletons], making sure to pull one at a time with your bow",
+        "c3js37hk": "Grab the two souls and turn the lever to open the gate that leads to the boss",
+        "et4ukn9h": "Hit the illusory wall and explore the tunnels, kill the three @wheel-skeleton[Wheel Skeletons], get the @annex-key and kill the @engorged-zombie to get the @fire-surge pyromancy",
+        "oct43m31": "Leave the tunnels using the well ladder, go up the stairs to get the @ring-of-sacrifice and grab the @humanity from the zombie you dropped earlier",
+        "vqv5n1dm": "Open the Annex door and head up the stairs",
+        "eb7qe6my": "Head up on to the roof of the building to the left, kill the two @crow-demon[Crow Demons], watch for an ambush by two more and get the @vow-of-silence miracle",
+        "qsj6e5b9": "Take the stairs in to the round tower and pick up the @black-set",
+        "rh3zpud0": "Go to the lower section and get the @dark-ember",
+        "9r7nml7n": "Break the wooden fence to get @velkas-rapier, drop down in to the building and get the @gold-coin",
+        "prpjptcs": "Return to the bonfire and reverse hollowing",
+        "04old6x0": "Go the open area with all the spikes, wait for @king-jeremiah to invade and kill him to get the @notched-whip",
+        "pvog7n7u": "Pick up the souls in the area and the @acid-surge pyromancy hidden behind the wall",
+        "7hqw88me": "Go through the gate you opened earlier, walk across the bridge, watching out for the zombies and kill the @the-tower-knight[Tower Knight] to get the @large-titanite-shard",
+        "u5qwq1u8": "Reload your game before you enter the fog gate, go through and pick up the @xanthous-set that should now have appeared",
+        "4h7071qc": {
           "content": "Kill @crossbreed-priscilla",
           "steps": {
-            "wx3nq8pl": "Cut off her tail to get @priscillas-dagger"
+            "ek9uf2xd": "Cut off her tail to get @priscillas-dagger"
           }
         },
-        "c3js37hk": "Optionally do some @guide-to-co-operative-play[jolly co-op] to get some humanity and souls. You should be level 55-60 to get summoned",
-        "et4ukn9h": "Jump off the ledge to warp back to @anor-londo",
-        "oct43m31": "Leave the chapel and turn the platform lever clockwise to return it to its normal position and go to the first @anor-londo bonfire",
-        "vqv5n1dm": "Warp to @undead-parish and give the @dark-ember to @blacksmith-andrei[Andre] and upgrade your weapons",
-        "eb7qe6my": "Warp back to @anor-londo and head to @the-dukes-archives"
+        "t5mhcqt1": "Optionally do some @guide-to-co-operative-play[jolly co-op] to get some humanity and souls. You should be level 55-60 to get summoned",
+        "sk0hpaky": "Jump off the ledge to warp back to @anor-londo",
+        "bqbxonoe": "Leave the chapel and turn the platform lever clockwise to return it to its normal position and go to the first @anor-londo bonfire",
+        "un21bvh3": "Warp to @undead-parish and give the @dark-ember to @blacksmith-andrei[Andre] and upgrade your weapons",
+        "pocuom5y": "Warp back to @anor-londo and head to @the-dukes-archives"
       }
     },
     "the-dukes-archives": {
       "name": "The Duke's Archives",
       "wikiUrl": "https://darksouls.wiki.fextralife.com/the+duke%27s+archives",
       "steps": {
-        "qsj6e5b9": "Kill the two @mecha-boar[Mecha Boars] and rest at the bonfire",
-        "rh3zpud0": "Go up the first elevator and kill the @crystal-golem to get the @broken-pendant (DLC Only)",
-        "9r7nml7n": "Clear out the crystal skeletons and the @the-channeler[Channeler] and get the soul",
-        "prpjptcs": "Take the left hand side stairs and get the @twinkling-titanite from the chest",
-        "04old6x0": "Go around to the other side and get the @twinkling-titanite from the balcony and the crystal @knight-shield from the mimic",
-        "pvog7n7u": "Take the elevator up to the next level, draw out and kill the crytalline hollow, and quickly kill the @crystal-lizard on the stairs to get two @twinkling-titanite[Twinkling Titanites]",
-        "7hqw88me": "Put on a @rare-ring-of-sacrifice, go through the fog gate and let @seath-the-scaleless kill you",
-        "u5qwq1u8": "Rest at the cell bonfire and kill the @man-serpent to get the @archive-tower-cell-key",
-        "ek9uf2xd": "Let yourself out of the cell, try to kill the two @man-serpent[Man Serpents] that run passed then kill the four @pisaca[Pisacas] that are chasing them",
-        "4h7071qc": "Head up the stairs and up the ladder, walk along the ledge to the left and drop down to the cell to get the @maiden-set and the @white-seance-ring",
-        "t5mhcqt1": "Open the third cell, drop down to get the @archive-prison-extra-key and use it to open the second cell and get the soul",
-        "sk0hpaky": "Kill the rest of the @pisaca[Pisacas] at the bottom, get the @soothing-sunlight and @bountiful-sunlight miracles, and talk to @big-hat-logan",
-        "bqbxonoe": "Go up the ladder, kill the two @man-serpent[Man Serpents], turn off the alarm and get the @archive-tower-giant-door-key from the chest",
-        "un21bvh3": "Head back up to your cell and open the other door, drop down to get the soul and then drop down a couple of levels back to the alarm",
-        "pocuom5y": "Head all the way back up and open the door at the top of the ladder",
-        "0hb5cpx3": "Head up and kill the @the-channeler[Channeler] up on the ledge and the second one around the corner",
-        "7jzqz2xg": "Head to the left, spin the staircase around, go down to get the @twinkling-titanite from the chest and then head back up the stairs again",
-        "qhxyx207": "Make sure you have full health and drop down to the second spinning staircase",
-        "c62b7zjy": "Go up the stairs and get the @strong-magic-shield sorcery",
-        "um6glscf": "Spin the stairs, go down and kill the archer on the ledge, slide down the ladder and pull the lever to open the bookcase shortcut",
-        "z84150dw": "Go in to the larger of the two rooms and get the @symbol-of-avarice and the enchanted @falchion from the mimic in the far right part of the room",
-        "16dhzha8": "Open the other chests, remembering about the one behind the bookcase, to get the @channeler-set, @archive-tower-giant-cell-key and the @crystal-ember",
-        "qe3fww6h": "Go to the smaller room and get the @blue-titanite-chunk from the chest",
-        "ab6n6q58": "Go out through the bookcase shortcut and rest at the bonfire",
-        "er8z79bm": "Clear out the two rooms of the library, including the archer on the bookcase and the @the-channeler[Channelers]",
-        "2gkbvb8n": "Spin the staircase and jump off the lower steps while it's rotating to land on the top of the bookshelf and get the @avelyn crossbow from the chest",
-        "l80gz6sd": "Go back through the bookcase shortcut, pull the lever in the larger room to lower the stairs, get the @prism-stone[Prism Stones] from the chest and go through the fog gate",
-        "bw1440zk": "Kill the @golden-crystal-golem and talk to @sieglinde-of-catarina, answering Yes to her question",
-        "afciikar": "Kill the other @crystal-golem[Crystal Golems] and pick up the @crystalline-set and the @blue-titanite-chunk",
-        "dqmqm4w8": "Head down in to the @crystal-cave"
+        "0hb5cpx3": "Kill the two @mecha-boar[Mecha Boars] and rest at the bonfire",
+        "7jzqz2xg": "Go up the first elevator and kill the @crystal-golem to get the @broken-pendant (DLC Only)",
+        "qhxyx207": "Clear out the crystal skeletons and the @the-channeler[Channeler] and get the soul",
+        "c62b7zjy": "Take the left hand side stairs and get the @twinkling-titanite from the chest",
+        "um6glscf": "Go around to the other side and get the @twinkling-titanite from the balcony and the crystal @knight-shield from the mimic",
+        "z84150dw": "Take the elevator up to the next level, draw out and kill the crytalline hollow, and quickly kill the @crystal-lizard on the stairs to get two @twinkling-titanite[Twinkling Titanites]",
+        "16dhzha8": "Put on a @rare-ring-of-sacrifice, go through the fog gate and let @seath-the-scaleless kill you",
+        "qe3fww6h": "Rest at the cell bonfire and kill the @man-serpent to get the @archive-tower-cell-key",
+        "ab6n6q58": "Let yourself out of the cell, try to kill the two @man-serpent[Man Serpents] that run passed then kill the four @pisaca[Pisacas] that are chasing them",
+        "er8z79bm": "Head up the stairs and up the ladder, walk along the ledge to the left and drop down to the cell to get the @maiden-set and the @white-seance-ring",
+        "2gkbvb8n": "Open the third cell, drop down to get the @archive-prison-extra-key and use it to open the second cell and get the soul",
+        "l80gz6sd": "Kill the rest of the @pisaca[Pisacas] at the bottom, get the @soothing-sunlight and @bountiful-sunlight miracles, and talk to @big-hat-logan",
+        "bw1440zk": "Go up the ladder, kill the two @man-serpent[Man Serpents], turn off the alarm and get the @archive-tower-giant-door-key from the chest",
+        "afciikar": "Head back up to your cell and open the other door, drop down to get the soul and then drop down a couple of levels back to the alarm",
+        "dqmqm4w8": "Head all the way back up and open the door at the top of the ladder",
+        "ctb80yjh": "Head up and kill the @the-channeler[Channeler] up on the ledge and the second one around the corner",
+        "95ykigsc": "Head to the left, spin the staircase around, go down to get the @twinkling-titanite from the chest and then head back up the stairs again",
+        "q9aq90ea": "Make sure you have full health and drop down to the second spinning staircase",
+        "7idiub1h": "Go up the stairs and get the @strong-magic-shield sorcery",
+        "a21kz1tm": "Spin the stairs, go down and kill the archer on the ledge, slide down the ladder and pull the lever to open the bookcase shortcut",
+        "54jnwzj6": "Go in to the larger of the two rooms and get the @symbol-of-avarice and the enchanted @falchion from the mimic in the far right part of the room",
+        "8kam3f8m": "Open the other chests, remembering about the one behind the bookcase, to get the @channeler-set, @archive-tower-giant-cell-key and the @crystal-ember",
+        "oabsvbx7": "Go to the smaller room and get the @blue-titanite-chunk from the chest",
+        "dqkpphmy": "Go out through the bookcase shortcut and rest at the bonfire",
+        "qyuer0nh": "Clear out the two rooms of the library, including the archer on the bookcase and the @the-channeler[Channelers]",
+        "8gjjaon4": "Spin the staircase and jump off the lower steps while it's rotating to land on the top of the bookshelf and get the @avelyn crossbow from the chest",
+        "4o6y0b14": "Go back through the bookcase shortcut, pull the lever in the larger room to lower the stairs, get the @prism-stone[Prism Stones] from the chest and go through the fog gate",
+        "gljgp4r1": "Kill the @golden-crystal-golem and talk to @sieglinde-of-catarina, answering Yes to her question",
+        "8l6fu35y": "Kill the other @crystal-golem[Crystal Golems] and pick up the @crystalline-set and the @blue-titanite-chunk",
+        "w3to1o6z": "Head down in to the @crystal-cave"
       }
     },
     "crystal-cave": {
       "name": "Crystal Cave",
       "wikiUrl": "https://darksouls.wiki.fextralife.com/crystal+cave",
       "steps": {
-        "ctb80yjh": "Take the first invisible path and get the @humanity",
-        "95ykigsc": "Take the next invisible path, kill the @crystal-golem, drop off to the left and double back in to the small tunnel behind you and kill the three @crystal-lizard[Crystal Lizards]",
-        "q9aq90ea": "Turn around again and take the invisible path down to get the @blue-titanite-slab",
-        "7idiub1h": "Head back up and kill the @golden-crystal-golem and get the @blue-titanite-chunk",
-        "a21kz1tm": "Go down the last invisible path and get the soul in front of the @moonlight-butterfly but be careful because it will probably attack you",
-        "54jnwzj6": "Put on the @covetous-gold-serpent-ring and kill the @man-eater-shell[Man-Eater Shells] to get some @purging-stone[Purging Stones] and @twinkling-titanite",
-        "dqkpphmy": {
+        "cpuaky8o": "Take the first invisible path and get the @humanity",
+        "708fqh2e": "Take the next invisible path, kill the @crystal-golem, drop off to the left and double back in to the small tunnel behind you and kill the three @crystal-lizard[Crystal Lizards]",
+        "yrkzsija": "Turn around again and take the invisible path down to get the @blue-titanite-slab",
+        "tib6smc1": "Head back up and kill the @golden-crystal-golem and get the @blue-titanite-chunk",
+        "pud9jrqj": "Go down the last invisible path and get the soul in front of the @moonlight-butterfly but be careful because it will probably attack you",
+        "mri45zhp": "Put on the @covetous-gold-serpent-ring and kill the @man-eater-shell[Man-Eater Shells] to get some @purging-stone[Purging Stones] and @twinkling-titanite",
+        "yg06e24h": {
           "content": "Kill @seath-the-scaleless",
           "steps": {
-            "8kam3f8m": "You have to break the crystal before you can do damage to him",
-            "oabsvbx7": "Cut off his tail to get the @moonlight-greatsword"
+            "bozkdhh4": "You have to break the crystal before you can do damage to him",
+            "fuqcxc6u": "Cut off his tail to get the @moonlight-greatsword"
           }
         },
-        "qyuer0nh": "Optionally do some @guide-to-co-operative-play[jolly co-op] to get some humanity and souls. You should be level 60-75+ to get summoned",
-        "8l6fu35y": {
+        "abmaape3": "Optionally do some @guide-to-co-operative-play[jolly co-op] to get some humanity and souls. You should be level 60-75+ to get summoned",
+        "usjc4g30": {
           "content": "Return to the bonfire, go through the bookcase shortcut and in to the small room to talk to @big-hat-logan and buy any sorceries you need",
           "steps": {
-            "8gjjaon4": "If you want @big-hats-set then you will need to buy all of his sorceries to get him to leave and go hollow",
-            "4o6y0b14": "If you only need the @white-dragon-breath sorcery, his @big-hats-set[Big Hat] and @tin-crystallization-catalyst you can kill him now",
-            "gljgp4r1": "When he has left, go to the room where you first encountered @seath-the-scaleless, kill him and then return to this room to get @big-hats-set from the new chest"
+            "aw5dw2yi": "If you want @big-hats-set then you will need to buy all of his sorceries to get him to leave and go hollow",
+            "nj4yaowk": "If you only need the @white-dragon-breath sorcery, his @big-hats-set[Big Hat] and @tin-crystallization-catalyst you can kill him now",
+            "vxgz9kli": "When he has left, go to the room where you first encountered @seath-the-scaleless, kill him and then return to this room to get @big-hats-set from the new chest"
           }
         },
-        "w3to1o6z": "Go back up the ladder, spin the stairs, go down them and out on to the balcony, and go back in to the prison area",
-        "cpuaky8o": "Go down to the bottom and use the @archive-tower-giant-cell-key to open the gate and get the @fire-keeper-soul[Firekeeper Soul]",
-        "708fqh2e": "Return to the archives, go down one floor to the second floor, go to the first archive room and use the lever to call the elevator",
-        "yrkzsija": "Go to the room where you first encountered @seath-the-scaleless and get the @large-magic-ember from the chest and the soul from the balcony",
-        "tib6smc1": "Return to the bonfire, warp to @firelink-shrine, talk to @sieglinde-of-catarina[Sieglinde], answering Yes to her question, and go down to reinforce your @estus-flask",
-        "pud9jrqj": "Go down to @new-londo-ruins, give the @large-magic-ember to @blacksmith-rickert-of-vinheim[Rickert] and upgrade your weapons if needed",
-        "mri45zhp": "Warp to the Chamber of the Princess bonfire, give the @crystal-ember to the @giant-blacksmith and upgrade your weapons if needed",
-        "bozkdhh4": "Warp to the @daughter-of-chaos bonfire, go down to the @demon-ruins, rest at the first bonfire"
+        "qxcag375": "Go back up the ladder, spin the stairs, go down them and out on to the balcony, and go back in to the prison area",
+        "sst48ghw": "Go down to the bottom and use the @archive-tower-giant-cell-key to open the gate and get the @fire-keeper-soul[Firekeeper Soul]",
+        "pbpnjo30": "Return to the archives, go down one floor to the second floor, go to the first archive room and use the lever to call the elevator",
+        "lxsesvng": "Go to the room where you first encountered @seath-the-scaleless and get the @large-magic-ember from the chest and the soul from the balcony",
+        "qdimlvd1": "Return to the bonfire, warp to @firelink-shrine, talk to @sieglinde-of-catarina[Sieglinde], answering Yes to her question, and go down to reinforce your @estus-flask",
+        "zkhr1qjn": "Go down to @new-londo-ruins, give the @large-magic-ember to @blacksmith-rickert-of-vinheim[Rickert] and upgrade your weapons if needed",
+        "kxx21qqb": "Warp to the Chamber of the Princess bonfire, give the @crystal-ember to the @giant-blacksmith and upgrade your weapons if needed",
+        "3mztk2n6": "Warp to the @daughter-of-chaos bonfire, go down to the @demon-ruins, rest at the first bonfire"
       }
     },
     "demon-ruins": {
       "name": "Demon Ruins",
       "wikiUrl": "https://darksouls.wiki.fextralife.com/demon+ruins",
       "steps": {
-        "yg06e24h": {
+        "7xx8hm84": {
           "content": "Kill the @ceaseless-discharge[Ceasless Discharge]",
           "steps": {
-            "fuqcxc6u": "Get the @gold-hemmed-black-set to start the fight"
+            "emo474k3": "Get the @gold-hemmed-black-set to start the fight"
           }
         },
-        "abmaape3": "Make sure you are human and continue down in to the ruins",
-        "aw5dw2yi": "Wait for @knight-kirk to invade and then kill him to get the @spiked-shield and @barbed-straight-sword",
-        "nj4yaowk": "Roll down to the first platform, kill the @burrowing-rockworm guarding the bonfire and rest there",
-        "vxgz9kli": "Go down the stairs and go left along the ledge to get the @large-flame-ember from the chest, remembering about the @burrowing-rockworm traps",
-        "qxcag375": {
+        "nf458up9": "Make sure you are human and continue down in to the ruins",
+        "xgt96ur6": "Wait for @knight-kirk to invade and then kill him to get the @spiked-shield and @barbed-straight-sword",
+        "6lmpcoqp": "Roll down to the first platform, kill the @burrowing-rockworm guarding the bonfire and rest there",
+        "m34e3s4r": "Go down the stairs and go left along the ledge to get the @large-flame-ember from the chest, remembering about the @burrowing-rockworm traps",
+        "7oh1lk7n": {
           "content": "Go back to the fog gate and if you are level two in the @chaos-servant covenant then go down to the right and open the shortcut to @lost-izalith",
           "steps": {
-            "usjc4g30": "If you want to save @solaire-of-astora[Solaire] then kill all the bugs to get the @sunlight-maggot and use this shortcut to talk to him"
+            "n5ff8s7u": "If you want to save @solaire-of-astora[Solaire] then kill all the bugs to get the @sunlight-maggot and use this shortcut to talk to him"
           }
         },
-        "lxsesvng": {
+        "lcwbpm8o": {
           "content": "Go through the fog gate and kill the @demon-firesage",
           "steps": {
-            "sst48ghw": "He will drop the @demons-catalyst",
-            "pbpnjo30": "Don't forget the @soul-of-a-brave-warrior up the stairs behind the @stone-demon[Stone Demons]"
+            "f0c5at28": "He will drop the @demons-catalyst",
+            "yosezkgf": "Don't forget the @soul-of-a-brave-warrior up the stairs behind the @stone-demon[Stone Demons]"
           }
         },
-        "qdimlvd1": "Optionally do some @guide-to-co-operative-play[jolly co-op] to get some humanity and souls. You should be level 55-60+ to get summoned",
-        "zkhr1qjn": "Go upstairs to open the shortcut back to @quelaags-domain",
-        "kxx21qqb": "Go back the way you came and go down and rest at the bonfire",
-        "7xx8hm84": {
+        "n1rxhyeb": "Optionally do some @guide-to-co-operative-play[jolly co-op] to get some humanity and souls. You should be level 55-60+ to get summoned",
+        "6r8cp8r4": "Go upstairs to open the shortcut back to @quelaags-domain",
+        "cgqu935w": "Go back the way you came and go down and rest at the bonfire",
+        "jrihmdzn": {
           "content": "Kill the @centipede-demon",
           "steps": {
-            "3mztk2n6": "Cut off his tail and then kill the tail to get @orange-charred-ring, though he will drop the ring anyway when killed",
-            "emo474k3": "Don't forget the @green-titanite-shard in the open area around to the right"
+            "hcpjy683": "Cut off his tail and then kill the tail to get @orange-charred-ring, though he will drop the ring anyway when killed",
+            "2xsibe1a": "Don't forget the @green-titanite-shard in the open area around to the right"
           }
         },
-        "nf458up9": "Put on the @orange-charred-ring",
-        "xgt96ur6": "Optionally do some @guide-to-co-operative-play[jolly co-op] to get some humanity and souls. You should be level 60+ to get summoned",
-        "6lmpcoqp": "Leave boss area by the tunnel, rest at the bonfire and talk to @solaire-of-astora[Solaire] if he's there",
-        "m34e3s4r": "Continue in to @lost-izalith"
+        "v28i5nou": "Put on the @orange-charred-ring",
+        "65pej4na": "Optionally do some @guide-to-co-operative-play[jolly co-op] to get some humanity and souls. You should be level 60+ to get summoned",
+        "tek2qi27": "Leave boss area by the tunnel, rest at the bonfire and talk to @solaire-of-astora[Solaire] if he's there",
+        "oqksuxkd": "Continue in to @lost-izalith"
       }
     },
     "lost-izalith": {
       "name": "Lost Izalith",
       "wikiUrl": "https://darksouls.wiki.fextralife.com/lost+izalith",
       "steps": {
-        "n5ff8s7u": "Make your way to the first building, picking up the two souls along the way, and open the chest inside to get another soul",
-        "7oh1lk7n": "Run up the branch of the next building and get the @twin-humanities",
-        "f0c5at28": "Drop down to the base of the building and hit the illusory wall of the building, rest at the bonfire and make sure you are human",
-        "yosezkgf": "Continue on in to the ruins and grab the soul hidden to the left just before you go up the stairs",
-        "lcwbpm8o": "Go up the stairs, kill the @chaos-eater, kill the Daughter of Chaos to get the @izalith-catalyst, and wait for @knight-kirk to invade and then kill him",
-        "n1rxhyeb": "Kill the second @chaos-eater and open the chest to get the @chaos-fire-whip pyromancy",
-        "6r8cp8r4": "Go down the branch and kill all the @stone-demon[Stone Demons]",
-        "cgqu935w": "Kill the @titanite-demon to get a @demon-titanite and if you didn't open the shortcut earlier then open it now and kill the bugs to get the @sunlight-maggot",
-        "hcpjy683": "Trigger the collapsing floor by walking to the left of the alcove",
-        "2xsibe1a": "Put on the @rusted-iron-ring, walk down the branch, do not talk to @siegmeyer-of-catarina[Siegmeyer] yet but instead kill all but one of the @chaos-eater[Chaos Eaters] using ranged attacks",
-        "jrihmdzn": "Now talk to @siegmeyer-of-catarina[Siegmeyer] and follow him when he jumps in to the pit and make sure he doesn't lose more than half his health while killing the remaining @chaos-eater[Chaos Eaters]",
-        "v28i5nou": "Grab the soul and @green-titanite-shard[Green Titanite Shards] and then talk to him again",
-        "65pej4na": "Make your way through the tunnels, getting the @red-titanite-slab from the chest and then the @red-titanite-chunk after going up the stairs",
-        "tek2qi27": "Make your way back up the branches and back up to the boss fog gate",
-        "ncy67z7o": {
+        "ncy67z7o": "Make your way to the first building, picking up the two souls along the way, and open the chest inside to get another soul",
+        "i7lgyx1o": "Run up the branch of the next building and get the @twin-humanities",
+        "diyh366m": "Drop down to the base of the building and hit the illusory wall of the building, rest at the bonfire and make sure you are human",
+        "9a3pc69j": "Continue on in to the ruins and grab the soul hidden to the left just before you go up the stairs",
+        "ul1ggrc3": "Go up the stairs, kill the @chaos-eater, kill the Daughter of Chaos to get the @izalith-catalyst, and wait for @knight-kirk to invade and then kill him",
+        "h6ts6wi1": "Kill the second @chaos-eater and open the chest to get the @chaos-fire-whip pyromancy",
+        "y6om8ckq": "Go down the branch and kill all the @stone-demon[Stone Demons]",
+        "fm776slm": "Kill the @titanite-demon to get a @demon-titanite and if you didn't open the shortcut earlier then open it now and kill the bugs to get the @sunlight-maggot",
+        "8cvn6uiw": "Trigger the collapsing floor by walking to the left of the alcove",
+        "f5a6nopm": "Put on the @rusted-iron-ring, walk down the branch, do not talk to @siegmeyer-of-catarina[Siegmeyer] yet but instead kill all but one of the @chaos-eater[Chaos Eaters] using ranged attacks",
+        "1c0grwks": "Now talk to @siegmeyer-of-catarina[Siegmeyer] and follow him when he jumps in to the pit and make sure he doesn't lose more than half his health while killing the remaining @chaos-eater[Chaos Eaters]",
+        "bka4uf6y": "Grab the soul and @green-titanite-shard[Green Titanite Shards] and then talk to him again",
+        "uhu4b55e": "Make your way through the tunnels, getting the @red-titanite-slab from the chest and then the @red-titanite-chunk after going up the stairs",
+        "x2hdcnc1": "Make your way back up the branches and back up to the boss fog gate",
+        "2dlvtnca": {
           "content": "Kill the @the-bed-of-chaos[Bed of Chaos]",
           "steps": {
-            "oqksuxkd": "You need to destroy the right orb first, then the left orb and then drop down in the center to kill her"
+            "6uf41f4l": "You need to destroy the right orb first, then the left orb and then drop down in the center to kill her"
           }
         },
-        "i7lgyx1o": "Optionally do some @guide-to-co-operative-play[jolly co-op] to get some humanity and souls. You should be level 60-75+ to get summoned",
-        "diyh366m": "Warp back to the @daughter-of-chaos bonfire and get the @thorns-set",
-        "9a3pc69j": "Go back down to the @demon-ruins, kill the @taurus-demon[Taurus Demons], and get the @chaos-flame-ember and soul from the lava",
-        "ul1ggrc3": "Warp to @firelink-shrine and talk to @sieglinde-of-catarina",
-        "h6ts6wi1": "Warp to the Stone Dragon bonfire, walk along the sand to the @ash-lake bonfire and talk to @sieglinde-of-catarina[Sieglinde] to get a @titanite-slab",
-        "y6om8ckq": "Make sure you are using a @divine-ember[Divine weapon], warp back to @firelink-shrine and continue down in to @the-catacombs"
+        "8lmg4vl6": "Optionally do some @guide-to-co-operative-play[jolly co-op] to get some humanity and souls. You should be level 60-75+ to get summoned",
+        "gwtzphpx": "Warp back to the @daughter-of-chaos bonfire and get the @thorns-set",
+        "hj799c7p": "Go back down to the @demon-ruins, kill the @taurus-demon[Taurus Demons], and get the @chaos-flame-ember and soul from the lava",
+        "mic8tkuj": "Warp to @firelink-shrine and talk to @sieglinde-of-catarina",
+        "0ge1b66l": "Warp to the Stone Dragon bonfire, walk along the sand to the @ash-lake bonfire and talk to @sieglinde-of-catarina[Sieglinde] to get a @titanite-slab",
+        "jjxfwf5u": "Make sure you are using a @divine-ember[Divine weapon], warp back to @firelink-shrine and continue down in to @the-catacombs"
       }
     },
     "the-catacombs": {
       "name": "The Catacombs",
       "wikiUrl": "https://darksouls.wiki.fextralife.com/the+catacombs",
       "steps": {
-        "fm776slm": "Go down to the first bonfire, kill the @undead-mage and pull the first switch",
-        "8cvn6uiw": "Use a ranged attack to take out the next @undead-mage",
-        "f5a6nopm": "Clear out the room the @undead-mage was in and get the @lucerne from the side room",
-        "1c0grwks": "Continue clearing out this area, grabbing the soul from near the archer, head outside passed the statue spike traps, push the second switch and get the soul",
-        "bka4uf6y": "Cross the bridge and quickly kill the next @undead-mage",
-        "uhu4b55e": "Go in to the side room to the right, fall through the floor and try to get the two @crystal-lizard[Crystal Lizards] while avoiding the statue spike traps",
-        "x2hdcnc1": "Climb up the ladder and fall through the floor again to get back to the second switch",
-        "6uf41f4l": "Go back across the bridge and at the end of it drop down three times to the left, pick up the @great-scythe and push the third switch",
-        "2dlvtnca": "Head outside, push the fourth switch, roll through the illusory wall and rest at the bonfire",
-        "8lmg4vl6": "Go across the bridge and through the fog gate, hit the broken wall, drop down and clear out the room",
-        "gwtzphpx": "Continue up the steps, watch out for the giant skeleton that drops from the roof and get the @darkmoon-seance-ring from the coffin",
-        "hj799c7p": "Go out the broken wall, continue up the steps, kill the @undead-mage and climb up the ladder",
-        "mic8tkuj": "Get the @tranquil-walk-of-peace miracle and fall through the floor to near the start of the level",
-        "0ge1b66l": "Continue all the way back across the bridges to the building with all of the coffins",
-        "jjxfwf5u": "Nestle in the coffin on the left just before the @titanite-demon to go to the @tomb-of-giants[Tomb of the Giants] and optionally join the @gravelord-servant covenant",
-        "xynjqca6": "Use the coffin to get back, go down the corridor and through the broken wall, drop down through the floor and kill the @black-knight to get the @white-titanite-chunk",
-        "o74wsnm6": "Use ranged attacks to kill all the @wheel-skeleton[Wheel Skeletons] and before dropping down",
-        "bj8jcxwl": "Go through the tunnel near where you dropped down and kill the @undead-mage to get the @skull-lantern",
-        "nw00o13g": "Climb up the two ladders and back to entrance of the building with all the coffins, go outside and drop off to the ledge where you can summon @paladin-leeroy",
-        "mrk56k3x": "Drop off to the next ledge to get the @cleric-set and @mace",
-        "eyjbcra1": {
+        "xynjqca6": "Go down to the first bonfire, kill the @undead-mage and pull the first switch",
+        "o74wsnm6": "Use a ranged attack to take out the next @undead-mage",
+        "bj8jcxwl": "Clear out the room the @undead-mage was in and get the @lucerne from the side room",
+        "nw00o13g": "Continue clearing out this area, grabbing the soul from near the archer, head outside passed the statue spike traps, push the second switch and get the soul",
+        "mrk56k3x": "Cross the bridge and quickly kill the next @undead-mage",
+        "gindck26": "Go in to the side room to the right, fall through the floor and try to get the two @crystal-lizard[Crystal Lizards] while avoiding the statue spike traps",
+        "61dmgwr9": "Climb up the ladder and fall through the floor again to get back to the second switch",
+        "cc63mjrw": "Go back across the bridge and at the end of it drop down three times to the left, pick up the @great-scythe and push the third switch",
+        "eyjbcra1": "Head outside, push the fourth switch, roll through the illusory wall and rest at the bonfire",
+        "plc4ksjc": "Go across the bridge and through the fog gate, hit the broken wall, drop down and clear out the room",
+        "334xyq9z": "Continue up the steps, watch out for the giant skeleton that drops from the roof and get the @darkmoon-seance-ring from the coffin",
+        "9k33oak6": "Go out the broken wall, continue up the steps, kill the @undead-mage and climb up the ladder",
+        "009ob03p": "Get the @tranquil-walk-of-peace miracle and fall through the floor to near the start of the level",
+        "1m75txyt": "Continue all the way back across the bridges to the building with all of the coffins",
+        "349tp48y": "Nestle in the coffin on the left just before the @titanite-demon to go to the @tomb-of-giants[Tomb of the Giants] and optionally join the @gravelord-servant covenant",
+        "ytc2xgmp": "Use the coffin to get back, go down the corridor and through the broken wall, drop down through the floor and kill the @black-knight to get the @white-titanite-chunk",
+        "bgdut5bc": "Use ranged attacks to kill all the @wheel-skeleton[Wheel Skeletons] and before dropping down",
+        "ao5lsefl": "Go through the tunnel near where you dropped down and kill the @undead-mage to get the @skull-lantern",
+        "vjata0q6": "Climb up the two ladders and back to entrance of the building with all the coffins, go outside and drop off to the ledge where you can summon @paladin-leeroy",
+        "2lzryb1v": "Drop off to the next ledge to get the @cleric-set and @mace",
+        "zh1hfto8": {
           "content": "Kill @pinwheel",
           "steps": {
-            "gindck26": "As described above you can summon @paladin-leeroy from the ledge above the area with the @wheel-skeleton[Wheel Skeletons]",
-            "61dmgwr9": "You will get the @rite-of-kindling when you kill him",
-            "cc63mjrw": "He will drop one of @mask-of-the-father, @mask-of-the-mother or @mask-of-the-child"
+            "9s3ntea8": "As described above you can summon @paladin-leeroy from the ledge above the area with the @wheel-skeleton[Wheel Skeletons]",
+            "36tb9wfu": "You will get the @rite-of-kindling when you kill him",
+            "o0gof3ok": "He will drop one of @mask-of-the-father, @mask-of-the-mother or @mask-of-the-child"
           }
         },
-        "plc4ksjc": "Optionally do some @guide-to-co-operative-play[jolly co-op] to get some humanity and souls. You should be level 20-40 or 55-65 to get summoned",
-        "334xyq9z": "Go up the ladder and continue on the @tomb-of-giants[Tomb of the Giants]"
+        "wkm9k22q": "Optionally do some @guide-to-co-operative-play[jolly co-op] to get some humanity and souls. You should be level 20-40 or 55-65 to get summoned",
+        "ic0dhp7g": "Go up the ladder and continue on the @tomb-of-giants[Tomb of the Giants]"
       }
     },
     "tomb-of-the-giants": {
       "name": "Tomb of the Giants",
       "wikiUrl": "https://darksouls.wiki.fextralife.com/tomb+of+giants",
       "steps": {
-        "9k33oak6": "If you got the @sunlight-maggot then wear it otherwise put the @skull-lantern in your left hand",
-        "009ob03p": "Slide down the coffins, climb down the ladder and rest at the bonfire",
-        "1m75txyt": "Go back up the ladder, along the ledge to the right, drop down the hole, kill all the giant skeletons and get the @large-divine-ember",
-        "349tp48y": "Climb back out, hit the illusory wall along the ledge, climb down the ladder, kill the bone towers and @reah-of-thorolund[Reah's] bodyguards but do not talk to her",
-        "ytc2xgmp": "Get the @white-titanite-chunk, @skull-lantern, souls and head back up the ladder",
-        "bgdut5bc": "Talk to @patches-the-hyena, answering No to his question and let him kick you down in to the pit",
-        "ao5lsefl": "Talk to @reah-of-thorolund[Reah] to get the @replenishment miracle",
-        "vjata0q6": "Go back up and talk to @patches-the-hyena[Patches] again, answering No to his question to get @twin-humanities",
-        "2lzryb1v": "Continue passed him and through the fog gate and kill the @the-black-knight[Black Knight] that comes running at you",
-        "9s3ntea8": "Kill the archer, grab the soul, jump down, get ready for an ambush by bone towers and grab the @covetous-silver-serpent-ring",
-        "36tb9wfu": "Jump across and kill the giant skeleton and then continue up, hugging the left wall to get the @effigy-shield",
-        "o0gof3ok": "Go back down to where you killed the last giant skeleton and hug the left wall around to the next bonfire and reverse hollowing",
-        "zh1hfto8": "Go down the path, grab the @white-titanite-chunk, go down the ladder, wait for @paladin-leeroy to invade and kill him to get @sanctus and @grant",
-        "wkm9k22q": "Quickly kill the @crystal-lizard in the tunnel",
-        "ic0dhp7g": "Continue through the tunnel and down the ledge, clear out the Pinwheels and grab the soul and @white-titanite-slab",
-        "etxmm32j": {
+        "ffd84npg": "If you got the @sunlight-maggot then wear it otherwise put the @skull-lantern in your left hand",
+        "etxmm32j": "Slide down the coffins, climb down the ladder and rest at the bonfire",
+        "suoyjfjv": "Go back up the ladder, along the ledge to the right, drop down the hole, kill all the giant skeletons and get the @large-divine-ember",
+        "7zgdckcj": "Climb back out, hit the illusory wall along the ledge, climb down the ladder, kill the bone towers and @reah-of-thorolund[Reah's] bodyguards but do not talk to her",
+        "kvbaqpej": "Get the @white-titanite-chunk, @skull-lantern, souls and head back up the ladder",
+        "4g51eqep": "Talk to @patches-the-hyena, answering No to his question and let him kick you down in to the pit",
+        "krvxbi69": "Talk to @reah-of-thorolund[Reah] to get the @replenishment miracle",
+        "6raegmd3": "Go back up and talk to @patches-the-hyena[Patches] again, answering No to his question to get @twin-humanities",
+        "qob1112d": "Continue passed him and through the fog gate and kill the @the-black-knight[Black Knight] that comes running at you",
+        "pe4dkrrr": "Kill the archer, grab the soul, jump down, get ready for an ambush by bone towers and grab the @covetous-silver-serpent-ring",
+        "v02uzphc": "Jump across and kill the giant skeleton and then continue up, hugging the left wall to get the @effigy-shield",
+        "yce9oacs": "Go back down to where you killed the last giant skeleton and hug the left wall around to the next bonfire and reverse hollowing",
+        "ccl0onys": "Go down the path, grab the @white-titanite-chunk, go down the ladder, wait for @paladin-leeroy to invade and kill him to get @sanctus and @grant",
+        "zrh7o3zo": "Quickly kill the @crystal-lizard in the tunnel",
+        "assqttda": "Continue through the tunnel and down the ledge, clear out the Pinwheels and grab the soul and @white-titanite-slab",
+        "blbif0di": {
           "content": "Kill @nito[Gravelord Nito]",
           "steps": {
-            "ffd84npg": "After the fight pick up the @paladin-set, though you may need to reload your game to get it to appear"
+            "g9czx2yp": "After the fight pick up the @paladin-set, though you may need to reload your game to get it to appear"
           }
         },
-        "suoyjfjv": "Rest at the bonfire, warp to @firelink-shrine"
+        "ck5hiky5": "Rest at the bonfire, warp to @firelink-shrine"
       }
     },
     "miscellaneous-tasks": {
       "name": "Miscellaneous Tasks",
       "steps": {
-        "7zgdckcj": "Drop down the hole, offer the Lord Souls, warp back to the shrine and talk to @anastacia-of-astora to fully kindle the shrine bonfire",
-        "v02uzphc": {
+        "mz85rw8s": "Drop down the hole, offer the Lord Souls, warp back to the shrine and talk to @anastacia-of-astora to fully kindle the shrine bonfire",
+        "ryqhjz4c": {
           "content": "Talk to @patches-the-hyena[Patches], learn his Prostration gesture and buy anything you need from him",
           "steps": {
-            "kvbaqpej": "@heal miracle @ 5,00 souls",
-            "4g51eqep": "@great-heal-excerpt miracle @ 10,000 souls",
-            "krvxbi69": "@mask-of-the-father @ 8,000 souls",
-            "6raegmd3": "@mask-of-the-mother @ 8,000 souls",
-            "qob1112d": "@mask-of-the-child @ 8,000 souls",
-            "pe4dkrrr": "You can also buy other various items and weapons"
+            "8lupl846": "@heal miracle @ 5,00 souls",
+            "315c1rij": "@great-heal-excerpt miracle @ 10,000 souls",
+            "pknjx515": "@mask-of-the-father @ 8,000 souls",
+            "kgm7428p": "@mask-of-the-mother @ 8,000 souls",
+            "nsk4gx6d": "@mask-of-the-child @ 8,000 souls",
+            "p8orpwe5": "You can also buy other various items and weapons"
           }
         },
-        "g9czx2yp": {
+        "xhkqs1rs": {
           "content": "Take a flight back to @northern-undead-asylum[Undead Asylum] and trade items with @snuggly",
           "steps": {
-            "yce9oacs": "@sunlight-maggot will give @old-witchs-ring",
-            "ccl0onys": "@sack will give @demons-great-hammer",
-            "zrh7o3zo": "@skull-lantern will give @ring-of-fog",
-            "assqttda": "You can also get various other titanites and miscellaneous items"
+            "tzeew6ca": "@sunlight-maggot will give @old-witchs-ring",
+            "3pyjgod1": "@sack will give @demons-great-hammer",
+            "nj3zrkpy": "@skull-lantern will give @ring-of-fog",
+            "cqqfm0gx": "You can also get various other titanites and miscellaneous items"
           }
         },
-        "blbif0di": "Go to @undead-parish and talk to @reah-of-thorolund[Reah], learn her Prayer gesture and buy any miracles you need",
-        "ck5hiky5": "Go to @blacksmith-andrei[Andre] and give him the @large-divine-ember and upgrade your weapon if needed",
-        "mz85rw8s": "Go back in to the @the-catacombs, drop off the first bridge on to the second, drop down the ledges, go down the spiral staircase and drop down to @blacksmith-vamos",
-        "8lupl846": "Give him the @large-flame-ember and @chaos-flame-ember and upgrade your weapon if needed",
-        "315c1rij": "Return to a bonfire and warp to @anor-londo",
-        "pknjx515": "Put on the @darkmoon-seance-ring, go down the elevator and turn the platform lever anti-clockwise and rest at the bonfire",
-        "kgm7428p": "Pick up the @ring-of-the-suns-firstborn and optonally join the @blade-of-the-dark-moon covenant",
-        "tzeew6ca": {
+        "6nx975yc": "Go to @undead-parish and talk to @reah-of-thorolund[Reah], learn her Prayer gesture and buy any miracles you need",
+        "vy396fvj": "Go to @blacksmith-andrei[Andre] and give him the @large-divine-ember and upgrade your weapon if needed",
+        "jqcfq7yc": "Go back in to the @the-catacombs, drop off the first bridge on to the second, drop down the ledges, go down the spiral staircase and drop down to @blacksmith-vamos",
+        "jav9dwjv": "Give him the @large-flame-ember and @chaos-flame-ember and upgrade your weapon if needed",
+        "2k2dwp0g": "Return to a bonfire and warp to @anor-londo",
+        "2nux7g1r": "Put on the @darkmoon-seance-ring, go down the elevator and turn the platform lever anti-clockwise and rest at the bonfire",
+        "wbhcylc9": "Pick up the @ring-of-the-suns-firstborn and optonally join the @blade-of-the-dark-moon covenant",
+        "jdmbpg6q": {
           "content": "If you don't want to join the covenant then go through the fog gate and kill @dark-sun-gwyndolin",
           "steps": {
-            "nsk4gx6d": "Get the @sunlight-blade miracle and @brass-set from the chests after killing her",
-            "p8orpwe5": "You can now buy the @gwyndolin-moonlight-set from @domhnall-of-zena",
-            "ryqhjz4c": "@darkmoon-knightess will now attack you if you return to the first @anor-londo bonfire and will drop a @fire-keeper-soul[Firekeeper Soul]"
+            "zv06jz98": "Get the @sunlight-blade miracle and @brass-set from the chests after killing her",
+            "pihwmrw4": "You can now buy the @gwyndolin-moonlight-set from @domhnall-of-zena",
+            "z6ncnafc": "@darkmoon-knightess will now attack you if you return to the first @anor-londo bonfire and will drop a @fire-keeper-soul[Firekeeper Soul]"
           }
         },
-        "3pyjgod1": "Remember to go back return the platform to the up position before leaving here",
-        "nj3zrkpy": "Optionally go and attack @gwynevere to turn @anor-londo dark and get invaded by members of the @blade-of-the-dark-moon covenant",
-        "cqqfm0gx": "If you don't have the DLC go down to #new-game-plus"
+        "h3oaz47c": "Remember to go back return the platform to the up position before leaving here",
+        "oviz9fee": "Optionally go and attack @gwynevere to turn @anor-londo dark and get invaded by members of the @blade-of-the-dark-moon covenant",
+        "omn28awy": "If you don't have the DLC go down to #new-game-plus"
       }
     },
     "sanctuary-garden": {
       "name": "Sanctuary Garden",
       "wikiUrl": "https://darksouls.wiki.fextralife.com/sanctuary+garden",
       "steps": {
-        "xhkqs1rs": "Go down to @darkroot-basin and examine the portal found near where you fought the @golden-crystal-golem",
-        "vy396fvj": {
+        "qxxfm7si": "Go down to @darkroot-basin and examine the portal found near where you fought the @golden-crystal-golem",
+        "8kx12qde": {
           "content": "Rest at the bonfire and continue through the fog gate and kill the @sanctuary-guardian",
           "steps": {
-            "6nx975yc": "Cut off the tail to get the @guardian-tail"
+            "l0otdve5": "Cut off the tail to get the @guardian-tail"
           }
         },
-        "jqcfq7yc": "Continue up the path to @oolacile-sanctuary, rest at the bonfire and talk to @elizabeth, answering Yes to her question",
-        "jav9dwjv": "Get the @humanity from the corpse, head down to @royal-woods and clear out the Ents and the Stone Guardians from the first section",
-        "2k2dwp0g": "Get the @guardian-set[Guardian Gauntlets] from the tower on the right side, the @blue-titanite-slab from the chest in the center and the @guardian-set[Guardian Leggings] from the left side",
-        "2nux7g1r": "Cross the bridge on the left, try not to get squashed by @black-dragon-kalameet[Kalameet], quickly kill the @crystal-lizard and watch out for the Stone Guardian that appears",
-        "wbhcylc9": "Jump down and across the gap on the left and kill the Ents and the Stone Guardian",
-        "zv06jz98": "Get the @guardian-set[Guardian Helm] from the ledge, and the @guardian-set[Guardian Armor] and @goughs-great-arrow[Gough's Great Arrows] from near where the Stone Guardian was",
-        "pihwmrw4": "Get the @elizabeths-mushroom from the hidden alcove",
-        "z6ncnafc": "Jump back across the gap and clear out the Ents on the left and get the @gold-coin",
-        "jdmbpg6q": "Kill the two Stone Giants near the tower and quickly kill the @crystal-lizard",
-        "h3oaz47c": "Get the soul from behind the tower, go down on the elevator and then at the bottom grab the soul from around the corner",
-        "oviz9fee": "Go across the bridge and talk to @marvelous-chester, answering Yes to his question, and buy anything you need from him and use the elevator to open up the shortcut",
-        "omn28awy": "Go through the fog gate and kill @artorias-the-abysswalker",
-        "qxxfm7si": "Reload your game and kill @lords-blade-ciaran who should now have appeared to get the @lords-blade-set, the @dark-silver-tracer and the @gold-tracer",
-        "l0otdve5": "Leave by the other door and in to @oolacile-township and rest at the bonfire",
-        "8kx12qde": "Go back in to @royal-woods and head down the path beside the elevator in to the valley and at the botton get the soul on the left",
-        "8iwc3dsg": "Continue along the valley, down the ladder, quickly kill the @crystal-lizard, piss off @black-dragon-kalameet enough that he attacks you once and return to the bonfire"
+        "8iwc3dsg": "Continue up the path to @oolacile-sanctuary, rest at the bonfire and talk to @elizabeth, answering Yes to her question",
+        "hzuch10q": "Get the @humanity from the corpse, head down to @royal-woods and clear out the Ents and the Stone Guardians from the first section",
+        "dani0vb3": "Get the @guardian-set[Guardian Gauntlets] from the tower on the right side, the @blue-titanite-slab from the chest in the center and the @guardian-set[Guardian Leggings] from the left side",
+        "ir4xm46a": "Cross the bridge on the left, try not to get squashed by @black-dragon-kalameet[Kalameet], quickly kill the @crystal-lizard and watch out for the Stone Guardian that appears",
+        "tsgekpoi": "Jump down and across the gap on the left and kill the Ents and the Stone Guardian",
+        "iimnbcxh": "Get the @guardian-set[Guardian Helm] from the ledge, and the @guardian-set[Guardian Armor] and @goughs-great-arrow[Gough's Great Arrows] from near where the Stone Guardian was",
+        "uhx1c4nn": "Get the @elizabeths-mushroom from the hidden alcove",
+        "g34lj43m": "Jump back across the gap and clear out the Ents on the left and get the @gold-coin",
+        "3tsyuvfy": "Kill the two Stone Giants near the tower and quickly kill the @crystal-lizard",
+        "vf9sjx2f": "Get the soul from behind the tower, go down on the elevator and then at the bottom grab the soul from around the corner",
+        "4wcfhe7y": "Go across the bridge and talk to @marvelous-chester, answering Yes to his question, and buy anything you need from him and use the elevator to open up the shortcut",
+        "f37rud8o": "Go through the fog gate and kill @artorias-the-abysswalker",
+        "o9uru9w9": "Reload your game and kill @lords-blade-ciaran who should now have appeared to get the @lords-blade-set, the @dark-silver-tracer and the @gold-tracer",
+        "c9g744es": "Leave by the other door and in to @oolacile-township and rest at the bonfire",
+        "bzrw2yfy": "Go back in to @royal-woods and head down the path beside the elevator in to the valley and at the botton get the soul on the left",
+        "w3s1xxds": "Continue along the valley, down the ladder, quickly kill the @crystal-lizard, piss off @black-dragon-kalameet enough that he attacks you once and return to the bonfire"
       }
     },
     "oolacile-township": {
       "name": "Oolacile Township",
       "wikiUrl": "https://darksouls.wiki.fextralife.com/oolacile+township",
       "steps": {
-        "hzuch10q": "Make sure you have either a @skull-lantern, @sunlight-maggot or the @cast-light sorcery",
-        "dani0vb3": "Continue down the steps and stick to the right, grabbing the souls along the way, go around the back of the building and roll down to the next ledge",
-        "ir4xm46a": "Use your light source on the illusory wall on the building to the left and get the @silver-pendant from the chest",
-        "tsgekpoi": "Kill everything in the other building and get the @dark-orb sorcery from the chest and the @carvings[I'm Sorry carving] from the Bloathead Mage on the outside ledge",
-        "iimnbcxh": "Go back to the main path, cross the wooden bridge, get invaded by @marvelous-chester",
-        "uhx1c4nn": "Continue crossing the wooden bridge, and get the @carvings[Very Good! carving] from the mimic and take out the Bloathead Mage down below with ranged attacks",
-        "g34lj43m": "Go halfway down the stairs, walk across to the rooftop, and kill the @crystal-lizard. You may have to reload the game to make the Crystal Lizard appear.",
-        "3tsyuvfy": "Continue down and across the walkway, very carefully clear out the ground floor of the building and get the @rubbish, @dark-fog sorcery and soul",
-        "vf9sjx2f": "Go upstairs, use your light source on the illusory wall and get the @red-titanite-chunk from the chest",
-        "4wcfhe7y": "Head back across the rafters, roll down to the balcony and get the @crest-key from the mimic",
-        "f37rud8o": "Drop on to the roof from the next room and go up and across the roof to get a @twin-humanities",
-        "o9uru9w9": "Drop off the roof, go across to open up the elevator shortcut and rest at the bonfire",
-        "c9g744es": "Go back towards the colosseum, go up the stairs to the right and unlock the door using the @crest-key",
-        "bzrw2yfy": "Talk to @hawkeye-gough twice, answering Yes to both his questions, so that he grounds @black-dragon-kalameet[Kalameet], and buy the @carvings[Hello and Thank You carvings]",
-        "ypp5vmvz": {
+        "gvejdku4": "Make sure you have either a @skull-lantern, @sunlight-maggot or the @cast-light sorcery",
+        "adch8a3k": "Continue down the steps and stick to the right, grabbing the souls along the way, go around the back of the building and roll down to the next ledge",
+        "ypp5vmvz": "Use your light source on the illusory wall on the building to the left and get the @silver-pendant from the chest",
+        "4550q5lo": "Kill everything in the other building and get the @dark-orb sorcery from the chest and the @carvings[I'm Sorry carving] from the Bloathead Mage on the outside ledge",
+        "5y1i05p0": "Go back to the main path, cross the wooden bridge, get invaded by @marvelous-chester",
+        "exwyv70v": "Continue crossing the wooden bridge, and get the @carvings[Very Good! carving] from the mimic and take out the Bloathead Mage down below with ranged attacks",
+        "9iciii64": "Go halfway down the stairs, walk across to the rooftop, and kill the @crystal-lizard. You may have to reload the game to make the Crystal Lizard appear.",
+        "aooip4ne": "Continue down and across the walkway, very carefully clear out the ground floor of the building and get the @rubbish, @dark-fog sorcery and soul",
+        "1yljivu3": "Go upstairs, use your light source on the illusory wall and get the @red-titanite-chunk from the chest",
+        "az08z7d7": "Head back across the rafters, roll down to the balcony and get the @crest-key from the mimic",
+        "ej1i3cgx": "Drop on to the roof from the next room and go up and across the roof to get a @twin-humanities",
+        "17ilqglk": "Drop off the roof, go across to open up the elevator shortcut and rest at the bonfire",
+        "kr77vrno": "Go back towards the colosseum, go up the stairs to the right and unlock the door using the @crest-key",
+        "xiitr8ed": "Talk to @hawkeye-gough twice, answering Yes to both his questions, so that he grounds @black-dragon-kalameet[Kalameet], and buy the @carvings[Hello and Thank You carvings]",
+        "6mvu4wf3": {
           "content": "Go back in to @royal-woods and down to the valley and kill @black-dragon-kalameet[Kalameet]",
           "steps": {
-            "w3s1xxds": "Cut off his tail to get the @obsidian-greatsword",
-            "gvejdku4": "When you kill him he will drop the @calamity-ring",
-            "adch8a3k": "When he's dead pick up the souls, the @titanite-slab from the chest underneath the waterfall and the @goughs-great-arrow[Gough's Great Arrows] from the end of the valley"
+            "lregcely": "Cut off his tail to get the @obsidian-greatsword",
+            "syslmin3": "When you kill him he will drop the @calamity-ring",
+            "nqyh9gmx": "When he's dead pick up the souls, the @titanite-slab from the chest underneath the waterfall and the @goughs-great-arrow[Gough's Great Arrows] from the end of the valley"
           }
         },
-        "4550q5lo": "Return to the colosseum and go back up to talk to @hawkeye-gough to get @goughs-greatbow",
-        "5y1i05p0": "Go back down the elevator shortcut, carefully clear out the Bloatheads and then kill the Chained Prisoner to get the Helm and Leggings from the @chain-set",
-        "exwyv70v": "Call the elevator, kill the Bloathead that arrives with it and rest at the bonfire"
+        "2fa8cehf": "Return to the colosseum and go back up to talk to @hawkeye-gough to get @goughs-greatbow",
+        "gio69bcp": "Go back down the elevator shortcut, carefully clear out the Bloatheads and then kill the Chained Prisoner to get the Helm and Leggings from the @chain-set",
+        "4pfbk6df": "Call the elevator, kill the Bloathead that arrives with it and rest at the bonfire"
       }
     },
     "chasm-of-the-abyss": {
       "name": "Chasm of the Abyss",
       "wikiUrl": "https://darksouls.wiki.fextralife.com/chasm+of+the+abyss",
       "steps": {
-        "9iciii64": "Make sure you have your light source equipped, go down the path, quickly kill the @crystal-lizard, kill all the Bloatheads and get the @dark-bead sorcery",
-        "aooip4ne": "Continue down, walk on to the illusory floor on the left, follow the apparition and use the elevator to open a shortcut back to @royal-woods",
-        "1yljivu3": "Go back down, hit the illusory wall, save @great-grey-wolf-sif[Puppy Sif] from the Humanity Spirits and pick up the @cleansing-greatshield",
-        "az08z7d7": "Go back out and down to the left, kill all the Humanity Spirits and get the @black-flame pyromancy",
-        "ej1i3cgx": "Head back up, kill the Bloathead Mage and get the @twin-humanities",
-        "17ilqglk": "Kill the big group of Humanity Spirits and drop down to get the @carvings[Help Me! carving]",
-        "kr77vrno": "Drop down again, walk back up, go down the stone pillar, get the @white-titanite-slab and put on the @silver-pendant",
-        "lregcely": {
+        "frkzt045": "Make sure you have your light source equipped, go down the path, quickly kill the @crystal-lizard, kill all the Bloatheads and get the @dark-bead sorcery",
+        "sysgio1i": "Continue down, walk on to the illusory floor on the left, follow the apparition and use the elevator to open a shortcut back to @royal-woods",
+        "isb11px4": "Go back down, hit the illusory wall, save @great-grey-wolf-sif[Puppy Sif] from the Humanity Spirits and pick up the @cleansing-greatshield",
+        "kf0pres5": "Go back out and down to the left, kill all the Humanity Spirits and get the @black-flame pyromancy",
+        "c43v4rwq": "Head back up, kill the Bloathead Mage and get the @twin-humanities",
+        "ntoks6gp": "Kill the big group of Humanity Spirits and drop down to get the @carvings[Help Me! carving]",
+        "x6225ln0": "Drop down again, walk back up, go down the stone pillar, get the @white-titanite-slab and put on the @silver-pendant",
+        "gwdnvgo0": {
           "content": "Kill @manus-father-of-the-abyss",
           "steps": {
-            "xiitr8ed": "You can summon @great-grey-wolf-sif[Sif], if you saved him, using the summon sign inside the boss area"
+            "3ppnapno": "You can summon @great-grey-wolf-sif[Sif], if you saved him, using the summon sign inside the boss area"
           }
         },
-        "syslmin3": "Rest at the bonfire, warp to @oolacile-sanctuary and talk to @elizabeth to get three @elizabeths-mushroom[Elizabeth's Mushrooms]",
-        "nqyh9gmx": "Warp back to @firelink-shrine"
+        "6uoianmo": "Rest at the bonfire, warp to @oolacile-sanctuary and talk to @elizabeth to get three @elizabeths-mushroom[Elizabeth's Mushrooms]",
+        "9k1vl0a1": "Warp back to @firelink-shrine"
       }
     },
     "new-game-plus-preparation": {
       "name": "New Game Plus Preparation",
       "wikiUrl": "https://darksouls.wiki.fextralife.com/new+game+plus",
       "steps": {
-        "6mvu4wf3": "Farm some @humanity if needed and kindle all the @bonfire[Bonfires]",
-        "2fa8cehf": "If you missed any @ore[Titanites] or @crystal-lizard[Crystal Lizards] go and get them",
-        "gio69bcp": "Visit the vendors and buy any items, miracles, sorceries and pyromancies that you will need",
-        "4pfbk6df": "@upgrades[Upgrade] any weapons you will need",
-        "frkzt045": "Get any items you need from @snuggly",
-        "sysgio1i": "Buy any consumables you need from the various vendors, like arrows",
-        "isb11px4": "Buy any armor sets you need from @domhnall-of-zena",
-        "kf0pres5": "Kill @the-ancient-spider-queen and @darkmoon-knightess to get their @fire-keeper-soul[Firekeeper Soul] and talk to @anastacia-of-astora[Anastacia] to reinforce your @estus-flask",
-        "c43v4rwq": "Kill all the @merchants[Blacksmiths] to get their items",
-        "ntoks6gp": "Kill all the other @merchants to get their drops",
-        "x6225ln0": "Return to @firelink-shrine"
+        "rd1ociq7": "Farm some @humanity if needed and kindle all the @bonfire[Bonfires]",
+        "fad5234r": "If you missed any @ore[Titanites] or @crystal-lizard[Crystal Lizards] go and get them",
+        "rc5l6fzp": "Visit the vendors and buy any items, miracles, sorceries and pyromancies that you will need",
+        "daozy2cp": "@upgrades[Upgrade] any weapons you will need",
+        "wm6roaxx": "Get any items you need from @snuggly",
+        "eqcajqvg": "Buy any consumables you need from the various vendors, like arrows",
+        "pjdi4z4l": "Buy any armor sets you need from @domhnall-of-zena",
+        "olkb40jm": "Kill @the-ancient-spider-queen and @darkmoon-knightess to get their @fire-keeper-soul[Firekeeper Soul] and talk to @anastacia-of-astora[Anastacia] to reinforce your @estus-flask",
+        "7xiq6ndr": "Kill all the @merchants[Blacksmiths] to get their items",
+        "oigqdygx": "Kill all the other @merchants to get their drops",
+        "phkoz4v7": "Return to @firelink-shrine"
       }
     },
     "kiln-of-the-first-flame": {
       "name": "Kiln of the First Flame",
       "wikiUrl": "https://darksouls.wiki.fextralife.com/kiln+of+the+first+flame",
       "steps": {
-        "3ppnapno": "Drop down the hole and if you haven't already then offer the Lord Souls",
-        "gwdnvgo0": "Farm the @black-knight[Black Knights] for chunks",
-        "6uoianmo": "Grab the @black-knight-set from the beam",
-        "9k1vl0a1": "Optionally do some @guide-to-co-operative-play[jolly co-op] to get some humanity and souls. You should be level 65-80+ to get summoned",
-        "rc5l6fzp": {
+        "rucczw2n": "Drop down the hole and if you haven't already then offer the Lord Souls",
+        "hzdvhfjc": "Farm the @black-knight[Black Knights] for chunks",
+        "gv4wsni0": "Grab the @black-knight-set from the beam",
+        "fxwwq4xd": "Optionally do some @guide-to-co-operative-play[jolly co-op] to get some humanity and souls. You should be level 65-80+ to get summoned",
+        "8iid98od": {
           "content": "Kill @gwyn-lord-of-cinder",
           "steps": {
-            "rd1ociq7": "After killing him you can use the bonfire to get the good ending and the To Link The Fire achievement",
-            "fad5234r": "Or you can leave the area to get the evil ending and the Dark Lord achievement"
+            "cl9lka22": "After killing him you can use the bonfire to get the good ending and the To Link The Fire achievement",
+            "p2jnuupk": "Or you can leave the area to get the evil ending and the Dark Lord achievement"
           }
         },
-        "daozy2cp": "Congratz on completing one of the best RPGs ever made. Now go #undead-asylum[do it again]!"
+        "mm7b9f7m": "Congratz on completing one of the best RPGs ever made. Now go #undead-asylum[do it again]!"
       }
     }
   },
@@ -1044,6 +1059,10 @@
     "acid-surge": {
       "defaultName": "Acid Surge",
       "wikiUrl": "https://darksouls.wiki.fextralife.com/acid+surge"
+    },
+    "alluring-skull": {
+      "defaultName": "Alluring Skull",
+      "wikiUrl": "https://darksouls.wiki.fextralife.com/alluring+skull"
     },
     "alvina-of-the-darkroot-wood": {
       "defaultName": "Alvina of the Darkroot Wood",
@@ -1192,6 +1211,10 @@
     "black-sorcerer-set": {
       "defaultName": "Black Sorcerer Set",
       "wikiUrl": "https://darksouls.wiki.fextralife.com/black+sorcerer+set"
+    },
+    "blacksmith-andre": {
+      "defaultName": "Blacksmith Andre",
+      "wikiUrl": "https://darksouls.wiki.fextralife.com/blacksmith+andre"
     },
     "blacksmith-andrei": {
       "defaultName": "Blacksmith Andrei",
@@ -2005,6 +2028,10 @@
       "defaultName": "Large Soul of a Lost Undead",
       "wikiUrl": "https://darksouls.wiki.fextralife.com/large+soul+of+a+lost+undead"
     },
+    "large-soul-of-a-nameless-soldier": {
+      "defaultName": "Large Soul of a Nameless Soldier",
+      "wikiUrl": "https://darksouls.wiki.fextralife.com/large+soul+of+a+nameless+soldier"
+    },
     "large-titanite-shard": {
       "defaultName": "Large Titanite Shard",
       "wikiUrl": "https://darksouls.wiki.fextralife.com/large+titanite+shard"
@@ -2568,6 +2595,10 @@
     "standard-arrow": {
       "defaultName": "Standard Arrow",
       "wikiUrl": "https://darksouls.wiki.fextralife.com/standard+arrow"
+    },
+    "standard-bolt": {
+      "defaultName": "Standard Bolt",
+      "wikiUrl": "https://darksouls.wiki.fextralife.com/standard+bolt"
     },
     "stone-demon": {
       "defaultName": "Stone Demon",
