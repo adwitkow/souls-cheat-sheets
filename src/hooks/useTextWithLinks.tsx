@@ -27,6 +27,11 @@ export const useTextWithLinks = () => {
       }
 
       const link = playthrough.links[key];
+
+      if (!link) {
+        throw new Error(`Key '${key}' is missing from the link dictionary.`);
+      }
+
       const text = name ? name : link.defaultName;
 
       let element: JSX.Element;
