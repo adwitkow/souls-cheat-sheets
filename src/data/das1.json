@@ -357,24 +357,39 @@
       "name": "Blighttown",
       "wikiUrl": "https://darksouls.wiki.fextralife.com/blighttown",
       "steps": {
-        "x9gnqit0": "Take it slowly. Be wary of @blowdart-sniper[Blowdart Snipers]!",
+        "x9gnqit0": "After killing the first encountered @blowdart-sniper, climb down the ladder to loot @soul-of-a-proud-knight",
         "b3hywg5g": "Make a running jump to get the @iaito, aim for the post",
         "p8jljcxf": "Light the first bonfire",
         "hu89iem3": "Go down below where the Iaito was to get the @blooming-purple-moss-clump[Blooming Purple Moss Clumps] and walk over the swaying bridge to get the @humanity and then go back up to the bonfire",
-        "02iroacl": "Continue on passed the bonfire and remember about the collapsing floor trap beside the soul!",
-        "op2g2jpq": "Go up to get the @shadow-set",
-        "sn56z1lv": "Move on to the next section remembering about the @blowdart-sniper perched on a high ledge",
-        "lbg6jtr6": "Go down the longest ladder in this section and get rid of the @blowdart-sniper and grab the @eagle-shield",
-        "qo747o2p": "Go back up to snipe the @parasitic-wall-hugger with your bow and go down to get the @power-within pyromancy spell",
+        "02iroacl": "Continue on past the bonfire and remember about the collapsing floor trap beside the soul!",
+        "op2g2jpq": "Go up to get the @shadow-set, picking up a @large-soul-of-a-nameless-soldier along the way",
+        "00000024": "Drop down to a platform under your feet to find a @soul-of-a-proud-knight",
+        "00000025": "At the edge of the next platform you can find another @soul-of-a-proud-knight",
+        "sn56z1lv": "Move on to the next section remembering about the @blowdart-sniper[Blowdart Snipers]",
+        "00000026": "@soul-of-a-proud-knight at a middle level",
+        "00000027": "@eagle-shield at the lowest level, on a segment of a concrete pillar",
+        "00000028": "@large-soul-of-a-nameless-soldier on a ramp at the bottom right before the big boi TODO",
+        "qo747o2p": "Kill the @parasitic-wall-hugger to obrain the @power-within pyromancy spell",
         "6764kqm7": "Head through the gap in the wall and down the ladder to the fog gate",
         "fsq4iqd8": "Double back and fall down to grab the @whip",
         "qxfn3fc5": "Fall down again and continue down the walkways towards the second bonfire, remembering about the @blowdart-sniper along the way",
         "75znlusd": "Get the @wanderer-set and the @falchion from beside the sniper",
         "vqa15rl4": "Put on the @rusted-iron-ring before you get to the bottom and make a run for the bonfire",
         "yi10cxya": "Light the second bonfire and get the @dragon-scale from the chest in the bonfire tunnel",
-        "k8nkjow0": "Run around the swamp to get the @pyromancer-set, @poison-mist pyromancy spell, the @large-titanite-shard[Large Titanite Shards], @server and souls",
+        "k8nkjow0": {
+          "content": "Pick up the items scattered around the swamp area",
+          "steps": {
+            "00000029": "@large-soul-of-a-proud-knight you passed when running towards the bonfire",
+            "00000035": "@large-soul-of-a-proud-knight behind a pillar that's to the right after leaving the bonfire chamber",
+            "00000036": "@large-titanite-shard next to the next pillar, passing the giant wheel elevator",
+            "00000034": "@great-club on the other side of the swamp",
+            "00000030": "Pyromancy: @poison-mist and @pyromancer-set in the next nook",
+            "00000037": "@large-soul-of-a-proud-knight on the other side of the same nook",
+            "00000032": "@large-titanite-shard and @server in the area infested with leeches behind @the-great-hollow",
+            "00000038": "@green-titanite-shard under the branch leading to @the-great-hollow"
+          }
+        },
         "4b6o19wu": "Take a quick detour up the branch towards @the-great-hollow to get the @plank-shield on the corpse and the @twin-humanities behind the illusory wall",
-        "9ni2pld9": "Kill the boulder throwing @infested-barbarian[Infested Barbarians] to get the @great-club",
         "lkzuom2k": "Optionally farm the @giant-leech[Giant Leeches] for @large-titanite-shard[Large Titanite Shards] and @green-titanite-shard[Green Titanite Shards]",
         "gycmhi4g": "Go up on the wheel, go up two ladders and then run around the ledge to kill the @blowdart-sniper[Blowdart Snipers]",
         "3j74u6dz": "Slide down the ladder, kill the @flaming-attack-dog[Dogs] and pick up the @fire-keeper-soul",
@@ -442,7 +457,7 @@
         "umclfdez": "Talk to @dusk-of-oolacile, answering Yes to her question",
         "6vvksna0": "Go back to where the Hydra fight happened and summon @dusk-of-oolacile, learn her Proper Bow gesture and buy any sorceries you need or the catalyst TODO",
         "0zooxfcl": "Go back to where you killed the @golden-crystal-golem and pick up the @antiquated-set",
-        "tz3dyzts": "Climb up the ladder beside the waterfall and then climb the second ladder to the bridge",
+        "tz3dyzts": "Climb up the ladder beside the waterfall, loot the @soul-of-a-brave-warrior and then climb the second ladder to the bridge",
         "4hql5b31": "Head across the bridge in to @darkroot-garden"
       }
     },
@@ -479,11 +494,16 @@
           }
         },
         "o3568qeb": "Return to the bonfire",
-        "bkxav7e7": "Go back through the forest and kill @great-grey-wolf-sif to get the @covenant-of-artorias and remember to pick up the @hornet-ring",
+        "bkxav7e7": {
+          "content": "Go back through the forest and kill @great-grey-wolf-sif to get the @covenant-of-artorias",
+          "steps": {
+            "00000039": "Remember to pick up the @hornet-ring"
+          }
+        },
         "1hjda2z5": "Optionally do some @guide-to-co-operative-play[jolly co-op] to get some humanity and souls. You should be level 15-25 for the Butterfly and 20-50 for Sif, though summons for both are rare",
         "fv6ngoq7": "Return to @blacksmith-andrei[Andre] and give him the @divine-ember and upgrade your weapon if needed",
         "qhsi3doi": "Return to @firelink-shrine",
-        "okysjcyf": "@reah-of-thorolund[Reah] and her companions should be gone. If @petrus-of-thorolund[Petrus] is there talk to him and then kill him now if you don't want him to kill Reah later. If he's not then come back later",
+        "okysjcyf": "@reah-of-thorolund[Reah] and her companions should be gone. If @petrus-of-thorolund[Petrus] is there, talk to him and kill him now if you don't want him to kill Reah later. If he's not then come back later",
         "hnz6x4av": "Make a quick run down to @new-londo-ruins, give the @enchanted-ember to @blacksmith-rickert-of-vinheim and upgrade your weapons if needed",
         "g6e2mbxx": {
           "content": "If you're a member of the @forest-hunter covenant and talked to @shiva-of-the-east[Shiva] earlier then optionally do a quick run to @blighttown to talk to him",
@@ -502,6 +522,7 @@
       "wikiUrl": "https://darksouls.wiki.fextralife.com/sen%27s+fortress",
       "steps": {
         "jbevgkr6": "Cross the bridge to @sens-fortress",
+        "00000040": "Pick up the @soul-of-a-brave-warrior hidden behind pots on the right",
         "oxp3uc9j": "Cross the first swinging blade walkway, remembering about the @serpent-mage trying to knock you off",
         "q8ir0mm0": "Take out the @serpent-mage with your bow before crossing the second walkway and remember about the arrow trap at the end",
         "oblcsdvw": "Get the @large-titanite-shard[Large Titanite Shards] from the chest",
@@ -2141,6 +2162,10 @@
     "large-soul-of-a-nameless-soldier": {
       "defaultName": "Large Soul of a Nameless Soldier",
       "wikiUrl": "https://darksouls.wiki.fextralife.com/large+soul+of+a+nameless+soldier"
+    },
+    "large-soul-of-a-proud-knight": {
+      "defaultName": "Large Soul of a Proud Knight",
+      "wikiUrl": "https://darksouls.wiki.fextralife.com/large+soul+of+a+proud+knight"
     },
     "large-titanite-shard": {
       "defaultName": "Large Titanite Shard",
